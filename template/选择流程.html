@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>选择流程</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/appstyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/jscrollpane.css">
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/Mutual.js"></script>
+    <script type="text/javascript" src="../js/jquery.jscrollpane.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
+    <script type="text/javascript">
+        function Jscroll(){
+            $('.jscroll').jScrollPane({
+                'mouseWheelSpeed':100,
+                "showArrows":false
+            });
+        }
+        $(function(){
+            Jscroll();
+            $('.select').hover(function(){
+                $(this).addClass('current');
+            },function(){
+                $(this).removeClass('current');
+            });
+        });
+    </script>
+</head>
+<body>
+<!--header begin-->
+<div class="header">
+    <div class="headerInner clearfix">
+        <span class="inlineblock company_logo"></span>
+        <span class="inlineblock company_name font16 marl10 color-3">梅花与明道</span>
+        <a href="#" class="back_md marl20 color-8">返回明道</a>
+        <!--右侧头像和发起按钮 begin-->
+        <div class="headerRight floatright clearfix">
+            <!--头像 begin-->
+            <div class="DropDown clearfix floatleft marr20">
+                <span class="UserImg block floatleft ie-css3"><img src="../img/1.png"></span>
+                <div class="floatleft marl10 color-3">
+                    <p>欢迎回来</p>
+                    <p>刘德华</p>
+                </div>
+                <div class="DropList">
+                    <i class="Icon ico-arrow"></i>
+                    <ul class="border-33619f bg-347cdc">
+                        <li><a href="#"><i class="Icon ico-change"></i>切换账号</a></li>
+                        <li><a href="#"><i class="Icon ico-out"></i>退出明道</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--头像 over-->
+            <!--plus btn begin-->
+            <div class="DropDown clearfix noborder floatright" style="width:auto;">
+                <span class="UserImg block"><i class="Icon ico-plus"></i></span>
+                <div class="DropList">
+                    <i class="Icon ico-arrow"></i>
+                    <ul class="border-33619f bg-347cdc">
+                        <li><a href="#"><i class="Icon ico-launch"></i>发起申请</a></li>
+                        <li><a href="#"><i class="Icon ico-creatF"></i>创建表单</a></li>
+                        <li><a href="#"><i class="Icon ico-creatU"></i>新建角色</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--plus btn over-->
+        </div>
+        <!--右侧头像和发起按钮 over-->
+    </div>
+</div>
+<!--header over-->
+<div class="content">
+    <div class="main form-list nobg clearfix process-main">
+        <div class="formTop border-c aligncenter clearfix">
+            <a href="#" class="color-347cdc floatleft">&lt; 返回列表</a>
+            <span class="font14 floatright marr10">第二步：选择审批流程</span>
+        </div>
+        <div class="form-main nobg mart20 clearfix">
+            <p class="font18 aligncenter">报销申请</p>
+            <div class="process_choose mart30 p-top10 clearfix">
+                <div class="process_left floatleft">
+                    <div class="search ie-css3 select width-auto marr10 mart10"><!--加 current，显示下拉列表框-->
+                        <span class="Choosed">选择报销申请标准流程</span>
+                        <span class="ico-select"><i class="Icon ico-upd"></i></span>
+                        <!--搜索结果begin-->
+                        <div class="ser_Results ie-css3">
+                            <ul>
+                                <li>选择报销申请标准流程</li>
+                                <li>选择报销申请标准流程</li>
+                                <li>选择报销申请标准流程</li>
+                            </ul>
+                        </div>
+                        <!--搜索结果over-->
+                    </div>
+                    <p class="alignright marr10 p-top10">
+                        <a href="javascript:;" class="add marr10">自定义流程</a>
+                        <a href="javascript:;" class="add">删除选中流程</a>
+                    </p>
+                    <p class="font14 color-3 mart30">自定义流程明细 :</p>
+                    <div class="jscroll mart20" style="height:160px; width:300px;">
+                        <ul class="process_li" style="width:300px;">
+                            <li class="clearfix">
+                                <span class="floatleft">1.</span>
+                                <div class="has-general has-error floatleft width-140">
+                                    <input type="text" class="int" readonly placeholder="请输入角色名称...">
+                                </div>
+                                <a href="javascript:;" title="替换审批人"><i class="Icon ico-refresh"></i></a>
+                                <a href="javascript:;" title="删除审批人"><i class="Icon ico-delete"></i></a>
+                            </li>
+                            <li class="clearfix">
+                                <span class="floatleft">2.</span>
+                                <div class="has-general floatleft width-140">
+                                    <input type="text" class="int" readonly placeholder="请输入角色名称...">
+                                </div>
+                                <a href="javascript:;" title="替换审批人"><i class="Icon ico-refresh"></i></a>
+                                <a href="javascript:;" title="删除审批人"><i class="Icon ico-delete"></i></a>
+                            </li>
+                            <li class="clearfix">
+                                <span class="floatleft">3.</span>
+                                <div class="has-general floatleft width-140">
+                                    <input type="text" class="int" readonly placeholder="请输入角色名称...">
+                                </div>
+                                <a href="javascript:;" title="添加审批人"><i class="Icon ico-p-add"></i></a>
+                            </li>
+                            <li class="clearfix">
+                                <span class="floatleft">4.</span>
+                                <span class="floatleft">刘德华</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="font14 color-3 mart30">添加执行人 :</div>
+                    <ul class="process_li mart20">
+                        <li class="clearfix">
+                            <div class="has-general has-error floatleft width-140">
+                                <input type="text" class="int" placeholder="请输入角色名称...">
+                                <label class="control-label">审批角色名称不能为空</label>
+                            </div>
+                            <a href="javascript:;" title="替换执行人"><i class="Icon ico-refresh"></i></a>
+                        </li>
+                    </ul>
+                    <p class="aligncenter mart10"><a href="#" class="Btn step_btn ie-css3 No_click">保存自定义流程</a></p>
+                </div>
+                <div class="process_right floatleft marl30">
+                    <p class="font14 color-3 mart30 p-bt20">推送设置</p>
+                    <p class="mart10"><span class="check checked"><i class="Icon ico-check marr10"></i>置顶在TA的待审列表中</span></p>
+                    <p class="mart10"><span class="check"><i class="Icon ico-check marr10"></i>经办完成后请通知我确认</span></p>
+                    <!--<p class="mart10"><span class="check"><i class="Icon ico-check marr10"></i>超过24小时开启提醒</span></p>-->
+                    <p class="mart10 marl25">
+                        <span class="radio checked"><i class="Icon ico-check"></i>自动</span>
+                        <span class="radio marl10"><i class="Icon ico-check"></i>手动</span>
+                    </p>
+                    <p class="alignleft mart50"><a href="#" class="Btn step_btn ie-css3">完成提交</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

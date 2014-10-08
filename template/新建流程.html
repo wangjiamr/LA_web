@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>新建流程</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/appstyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/jscrollpane.css">
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/Mutual.js"></script>
+    <script type="text/javascript" src="../js/jquery.jscrollpane.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
+    <script type="text/javascript">
+        function Jscroll(){
+            $('.jscroll').jScrollPane({
+                'mouseWheelSpeed':100,
+                "showArrows":false
+            });
+        }
+        $(function(){
+            Jscroll();
+            $('.select').hover(function(){
+                $(this).addClass('current');
+                Jscroll();
+            },function(){
+                $(this).removeClass('current');
+            });
+        });
+    </script>
+</head>
+<body>
+<!--header begin-->
+<div class="header">
+    <div class="headerInner clearfix">
+        <span class="inlineblock company_logo"><img src="../img/1.png"></span>
+        <span class="inlineblock company_name font16 marl10 color-3">梅花与明道</span>
+        <a href="#" class="back_md marl20 color-8">返回明道</a>
+        <!--右侧头像和发起按钮 begin-->
+        <div class="headerRight floatright clearfix">
+            <!--头像 begin-->
+            <div class="DropDown clearfix floatleft marr20">
+                <span class="UserImg block floatleft ie-css3"><img src="../img/1.png"></span>
+                <div class="floatleft marl10 color-3">
+                    <p>欢迎回来</p>
+                    <p>刘德华</p>
+                </div>
+                <div class="DropList">
+                    <i class="Icon ico-arrow"></i>
+                    <ul class="border-33619f bg-347cdc">
+                        <li><a href="#"><i class="Icon ico-change"></i>切换账号</a></li>
+                        <li><a href="#"><i class="Icon ico-out"></i>退出明道</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--头像 over-->
+            <!--plus btn begin-->
+            <div class="DropDown clearfix noborder floatright" style="width:auto;">
+                <span class="UserImg block"><i class="Icon ico-plus"></i></span>
+                <div class="DropList">
+                    <i class="Icon ico-arrow"></i>
+                    <ul class="border-33619f bg-347cdc">
+                        <li><a href="#"><i class="Icon ico-launch"></i>发起申请</a></li>
+                        <li><a href="#"><i class="Icon ico-creatF"></i>创建表单</a></li>
+                        <li><a href="#"><i class="Icon ico-creatU"></i>新建角色</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--plus btn over-->
+        </div>
+        <!--右侧头像和发起按钮 over-->
+    </div>
+</div>
+<!--header over-->
+<div class="content">
+    <div class="main form-list border-c clearfix process-main" style="height:;">
+        <div class="formTop border-c aligncenter clearfix">
+            <a href="#" class="color-347cdc floatleft">&lt; 返回列表</a>
+            <span class="font18 marl30 color-3">采购申请流程</span>
+            <div class="btn_right">
+                <a href="javascript:;" class="Btn btn-make btn-sure">新建流程</a>
+                <a href="javascript:;" class="Btn btn-make btn-sure marl10">应用流程</a>
+            </div>
+        </div>
+        <div class="form-main clearfix nobg"><!--三列都有数据时候加这个three-full-->
+            <a href="javascript:;" class="go_left"></a>
+            <a href="javascript:;" class="go_right"></a>
+            <div class="process-content">
+                <!--拖动时候出现的幻影框框begin-->
+                <div class="item_box drag-box" style="height:100px;line-height:100px;left: 260px;">ssss<div class="drag-mask"></div></div>
+                <!--拖动时候出现的幻影框框over-->
+                <div class="process-in clearfix" style="left:0;"><!--318px-->
+                    <div class="processlist border-solid floatleft">
+                        <a href="javascript:;" class="Icon ico-delete4"></a>
+                        <div class="pro_title width-230">
+                            <input type="text" class="int width-200" value="北京研发中心标准流程A">
+                            <a href="javascript:;" class="Icon ico-lock"></a>
+                        </div>
+                        <!--条件begin-->
+                        <div class="item_box">
+                            <span class="title color-3">条件</span>
+                            <div class="jscroll" style="height:90px;">
+                                <ul>
+                                    <li>
+                                        <em>1.</em>
+                                        <span>100000 <= 一月销售金额 <= 100000 </span>
+                                        <a href="javascript:;" class="floatright"><i class="Icon ico-delete"></i></a>
+                                    </li>
+                                    <li>
+                                        <em>2.</em>
+                                        <span>100000 <= 一月销售金额 <= 100000 </span>
+                                        <a href="javascript:;" class="floatright"><i class="Icon ico-delete"></i></a>
+                                    </li>
+                                    <li>
+                                        <em>3.</em>
+                                        <span>100000 <= 一月销售金额 <= 100000 </span>
+                                        <a href="javascript:;" class="floatright"><i class="Icon ico-delete"></i></a>
+                                    </li>
+                                    <li>
+                                        <em>4.</em>
+                                        <span>100000 <= 一月销售金额 <= 100000 </span>
+                                        <a href="javascript:;" class="floatright"><i class="Icon ico-delete"></i></a>
+                                    </li>
+                                    <li>
+                                        <em>5.</em>
+                                        <span>100000 <= 一月销售金额 <= 100000 </span>
+                                        <a href="javascript:;" class="floatright"><i class="Icon ico-delete"></i></a>
+                                    </li>
+                                    <li>
+                                        <em>6.</em>
+                                        <span>100000 <= 一月销售金额 <= 100000 </span>
+                                        <a href="javascript:;" class="floatright"><i class="Icon ico-delete"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="aligncenter p-bt10"><a href="javascript:;" class="add">＋添加流程条件</a></p>
+                        </div>
+                        <!--条件over-->
+                        <!--审批流begin-->
+                        <div class="item_box has-touch">
+                            <span class="title color-3">审批流</span>
+                            <div class="jscroll" style="height:246px;">
+                                <table class="process_tab mart10">
+                                    <tr>
+                                        <th>step1:</th>
+                                        <td>
+                                            <span class="UserImg block floatleft ie-css3 marr10"><img src="../img/1.png"></span>刘德华
+                                        </td>
+                                        <td class="alignright">
+                                            <a href="javascript:;" title="替换审批人"><i class="Icon ico-refresh"></i></a>
+                                            <a href="javascript:;" class="marl5 marr10" title="删除审批人"><i class="Icon ico-delete"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr><th colspan="3" class="p-top10 aligncenter"><i class="Icon ico-down"></i></th></tr>
+                                    <tr>
+                                        <th>step2:</th>
+                                        <td>
+                                            <em class="block aligncenter">刘德华</em>
+                                        </td>
+                                        <td class="alignright">
+                                            <a href="javascript:;" title="替换审批人"><i class="Icon ico-refresh"></i></a>
+                                            <a href="javascript:;" class="marl5 marr10" title="删除审批人"><i class="Icon ico-delete"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr><th colspan="3" class="p-top10 aligncenter"><i class="Icon ico-down"></i></th></tr>
+                                    <tr>
+                                        <th>step3:</th>
+                                        <td>
+                                            <span class="UserImg block floatleft ie-css3 marr10"><img src="../img/1.png"></span>刘德华
+                                        </td>
+                                        <td class="alignright">
+                                            <a href="javascript:;" title="替换审批人"><i class="Icon ico-refresh"></i></a>
+                                            <a href="javascript:;" class="marl5 marr10" title="删除审批人"><i class="Icon ico-delete"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr><th colspan="3" class="p-top10 aligncenter"><i class="Icon ico-down"></i></th></tr>
+                                    <tr>
+                                        <th>step4:</th>
+                                        <td>
+                                            <span class="UserImg block floatleft ie-css3 marr10"><img src="../img/1.png"></span>刘华
+                                        </td>
+                                        <td class="alignright">
+                                            <a href="javascript:;" title="替换审批人"><i class="Icon ico-refresh"></i></a>
+                                            <a href="javascript:;" class="marl5 marr10" title="删除审批人"><i class="Icon ico-delete"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr><th colspan="3" class="p-top10 aligncenter"><i class="Icon ico-down"></i></th></tr>
+                                    <tr>
+                                        <th>step5:</th>
+                                        <td>
+                                            <span class="UserImg block floatleft ie-css3 marr10"><img src="../img/1.png"></span>刘德华
+                                        </td>
+                                        <td class="alignright">
+                                            <a href="javascript:;" title="替换审批人"><i class="Icon ico-refresh"></i></a>
+                                            <a href="javascript:;" class="marl5 marr10" title="删除审批人"><i class="Icon ico-delete"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr><th colspan="3" class="p-top10 aligncenter"><i class="Icon ico-down"></i></th></tr>
+                                </table>
+                            </div>
+                            <p class="aligncenter mart5 p-bt10"><a href="javascript:;" class="add">＋添加审批成员</a></p>
+                        </div>
+                        <!--审批流over-->
+                        <!--执行人begin-->
+                        <div class="item_box p-bt20">
+                            <span class="title color-3">执行人</span>
+                            <table class="process_tab mart10">
+                                <tr>
+                                    <td>
+                                        <span class="UserImg block floatleft ie-css3 marr10 marl10"><img src="../img/1.png"></span>刘德华
+                                    </td>
+                                    <td class="alignright">
+                                        <a href="javascript:;" title="替换执行人"><i class="Icon ico-refresh"></i></a>
+                                        <a href="javascript:;" class="marl5 marr15" title="删除执行人"><i class="Icon ico-delete"></i></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--执行人over-->
+                        <!--群组begin-->
+                        <div class="item_box p-bt10 nomar">
+                            <span class="title color-3">群组</span>
+                            <a href="javascript:;" class="add change">切换至部门</a>
+                            <div id="select" class="search ie-css3 select width-120 "><!--加 current，显示下拉列表框-->
+                                <span class="Choosed">选择群组</span>
+                                <span class="ico-select"><i class="Icon ico-upd"></i></span>
+                                <!--搜索结果begin-->
+                                <div class="ser_Results ie-css3">
+                                    <div class="jscroll" style="width:190px;height:140px;">
+                                        <ul>
+                                            <li><span class="check checked"><i class="Icon ico-check"></i>一块红布</span></li>
+                                            <li><span class="check"><i class="Icon ico-check"></i>后会后会无期无期</span></li>
+                                            <li><span class="check"><i class="Icon ico-check"></i>你把我灌醉</span></li>
+                                            <li><span class="check"><i class="Icon ico-check"></i>你把我灌醉</span></li>
+                                            <li><span class="check"><i class="Icon ico-check"></i>你把我灌醉</span></li>
+                                            <li><span class="check"><i class="Icon ico-check"></i>你把我灌醉</span></li>
+                                            <li><span class="check"><i class="Icon ico-check"></i>你把我灌醉</span></li>
+                                            <li><span class="check"><i class="Icon ico-check"></i>你把我灌醉</span></li>
+                                            <li><span class="check"><i class="Icon ico-check"></i>你把我灌醉</span></li>
+                                            <li><span class="check"><i class="Icon ico-check"></i>你把我灌醉</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!--搜索结果over-->
+                            </div>
+                            <div class="jscroll mart10" style="height:70px;">
+                                <ul class="choosedlist clearfix mart10">
+                                    <li><span class="txt_hidden">一块红布</span><a href="javascript:;">×</a></li>
+                                    <li><span class="txt_hidden">你把我你你把我你把我灌醉灌醉把我灌醉灌醉</span><a href="javascript:;">×</a></li>
+                                    <li><span class="txt_hidden">你醉</span><a href="javascript:;">×</a></li>
+                                    <li><span class="txt_hidden">块红块</span><a href="javascript:;">×</a></li>
+                                    <li><span class="txt_hidden">一块红布</span><a href="javascript:;">×</a></li>
+                                    <li><span class="txt_hidden">你把我你把我灌醉灌醉</span><a href="javascript:;">×</a></li>
+                                    <li><span class="txt_hidden">你醉</span><a href="javascript:;">×</a></li>
+                                    <li><span class="txt_hidden">块红块</span><a href="javascript:;">×</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--群组over-->
+                    </div>
+                    <div class="processlist floatleft">
+                        <div class="pro_title width-230">
+                            <input type="text" class="int width-200" value="北京研发中心标准流程A">
+                            <a href="javascript:;" class="Icon ico-unlock"></a>
+                        </div>
+                    </div>
+                    <div class="processlist floatleft">3</div>
+                    <div class="processlist floatleft">4</div>
+                    <div class="processlist floatleft">5</div>
+                    <div class="processlist floatleft">6</div>
+                    <div class="processlist floatleft">7</div>
+                    <div class="processlist floatleft">8</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>管理-日志</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/appstyle.css">
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/Mutual.js"></script>
+</head>
+<body>
+<!--header begin-->
+<div class="header">
+    <div class="headerInner clearfix">
+        <span class="inlineblock company_logo"></span>
+        <span class="inlineblock company_name font16 marl10 color-3">梅花与明道</span>
+        <a href="#" class="back_md marl20 color-8">返回明道</a>
+        <!--右侧头像和发起按钮 begin-->
+        <div class="headerRight floatright clearfix">
+            <!--头像 begin-->
+            <div class="DropDown clearfix floatleft marr20">
+                <span class="UserImg block floatleft ie-css3"><img src="../img/1.png"></span>
+                <div class="floatleft marl10 color-3">
+                    <p>欢迎回来</p>
+                    <p>刘德华</p>
+                </div>
+                <div class="DropList">
+                    <i class="Icon ico-arrow"></i>
+                    <ul class="border-33619f bg-347cdc">
+                        <li><a href="#"><i class="Icon ico-change"></i>切换账号</a></li>
+                        <li><a href="#"><i class="Icon ico-out"></i>退出明道</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--头像 over-->
+            <!--plus btn begin-->
+            <div class="DropDown clearfix noborder floatright" style="width:auto;">
+                <span class="UserImg block"><i class="Icon ico-plus"></i></span>
+                <div class="DropList">
+                    <i class="Icon ico-arrow"></i>
+                    <ul class="border-33619f bg-347cdc">
+                        <li><a href="#"><i class="Icon ico-launch"></i>发起申请</a></li>
+                        <li><a href="#"><i class="Icon ico-creatF"></i>创建表单</a></li>
+                        <li><a href="#"><i class="Icon ico-creatU"></i>新建角色</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--plus btn over-->
+        </div>
+        <!--右侧头像和发起按钮 over-->
+    </div>
+</div>
+<!--header over-->
+<!--主体begin-->
+<div class="content">
+    <div class="main clearfix">
+        <!--左侧菜单 begin-->
+        <div class="LeftBar floatleft">
+            <ul class="font16 color-8 mart20">
+                <li class="current"><a href="#"><i class="Icon ico-01"></i>申 请<em class="prompt ie-css3">3</em></a></li>
+                <li><a href="#"><i class="Icon ico-02"></i>审 批<em class="prompt ie-css3">3</em></a></li>
+                <li><a href="#"><i class="Icon ico-03"></i>经 办<em class="prompt ie-css3">3</em></a></li>
+                <li><a href="#"><i class="Icon ico-04"></i>设 置<em class="prompt ie-css3">13</em></a></li>
+                <li class="current">
+                    <a href="#"><i class="Icon ico-05"></i>管 理<em class="prompt ie-css3">13</em></a>
+                    <dl class="navT alignright">
+                        <dd><a href="#">- 流 程</a></dd>
+                        <dd class="current"><a href="#">- 角 色</a></dd>
+                        <dd><a href="#">- 日 志</a></dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+        <!--左侧菜单 over-->
+        <!--右侧begin-->
+        <div class="rightBar floatleft scroll">
+            <div class="rightIn">
+                <!--下拉和搜索begin-->
+                <div class="clearfix">
+                    <!--条件下拉begin-->
+                    <div class="search ie-css3 floatleft select width-160" id="select"><!--加 current，显示下拉列表框-->
+                        <span class="Choosed">按申请时间排序</span>
+                        <span class="ico-select"><i class="Icon ico-upd"></i></span>
+                        <!--搜索结果begin-->
+                        <div class="ser_Results ie-css3">
+                            <ul>
+                                <li>按申请时间排序</li>
+                                <li>按申请项目排序</li>
+                                <li>按申请部门排序</li>
+                            </ul>
+                        </div>
+                        <!--搜索结果over-->
+                    </div>
+                    <!--条件下拉over-->
+                    <div class="search floatright ie-css3">
+                        <input type="text" placeholder="搜索">
+                        <button><i class="Icon ico-ser"></i></button>
+                        <!--搜索结果begin-->
+                        <div class="ser_Results ie-css3">
+                            <ul>
+                                <li>1111111<em>按编码</em></li>
+                                <li><em>A099</em>按编码查询</li>
+                                <li>符合业界规范的运</li>
+                                <li>符合业界规范的运</li>
+                            </ul>
+                        </div>
+                        <!--搜索结果over-->
+                    </div>
+                </div>
+                <!--下拉和搜索over-->
+                <div class="AppList AppList-over Log mart20">
+                    <div class="ListTitle clearfix font13">
+                        <span class="Li_span1 down">编号<i class="Icon ico-upd"></i></span>
+                        <span class="Li_span2 up">申请项目<i class="Icon ico-upd"></i></span>
+                        <span class="Li_span3">申请时间<i class="Icon ico-upd"></i></span>
+                        <span class="Li_span4">申请人<i class="Icon ico-upd"></i></span>
+                        <span class="Li_span5">审批部门<i class="Icon ico-upd"></i></span>
+                        <span class="Li_span6">单据状态<i class="Icon ico-upd"></i></span>
+                        <span class="Li_span7">操作</span>
+                    </div>
+                    <div class="ListMain">
+                        <!--一条未审核的申请begin-->
+                        <div class="ListTitle wait clearfix">
+                            <span class="Li_span1">CQ2014070001</span>
+                            <span class="Li_span2">请假单</span>
+                            <span class="Li_span3">2014-6-30 14:32</span>
+                            <span class="Li_span4 ie-css3">
+                                <img src="../img/1.png">
+                                刘德华
+                            </span>
+                            <span class="Li_span5">北京研发中心北京研发中心</span>
+                            <span class="Li_span6"><i>未审核</i></span>
+                            <span class="Li_span7"><a href="#" class="block" title="删除"><i class="Icon ico-delete2"></i></a></span>
+                        </div>
+                        <!--一条未审核的申请over-->
+                        <!--一条已批准的申请begin-->
+                        <div class="ListTitle end clearfix">
+                            <span class="Li_span1">CQ2014070001</span>
+                            <span class="Li_span2">请假单</span>
+                            <span class="Li_span3">2014-6-30 14:32</span>
+                            <span class="Li_span4 ie-css3">
+                                <img src="../img/1.png">
+                                刘德华
+                            </span>
+                            <span class="Li_span5">北京研发中心北京研发中心</span>
+                            <span class="Li_span6"><i>已批准</i></span>
+                            <span class="Li_span7"><a href="#" class="block" title="删除"><i class="Icon ico-delete2"></i></a></span>
+                        </div>
+                        <!--一条已批准的申请over-->
+                        <!--一条已否决的申请begin-->
+                        <div class="ListTitle reject clearfix">
+                            <span class="Li_span1">CQ2014070001</span>
+                            <span class="Li_span2">请假单</span>
+                            <span class="Li_span3">2014-6-30 14:32</span>
+                            <span class="Li_span4 ie-css3">
+                                <img src="../img/1.png">
+                                刘德华
+                            </span>
+                            <span class="Li_span5">北京研发中心北京研发中心</span>
+                            <span class="Li_span6"><i>已否决</i></span>
+                            <span class="Li_span7"><a href="#" class="block" title="删除"><i class="Icon ico-delete2"></i></a></span>
+                        </div>
+                        <!--一条已否决的申请over-->
+                        <!--一条已转审的申请begin-->
+                        <div class="ListTitle forward clearfix">
+                            <span class="Li_span1">CQ2014070001</span>
+                            <span class="Li_span2">请假单</span>
+                            <span class="Li_span3">2014-6-30 14:32</span>
+                            <span class="Li_span4 ie-css3">
+                                <img src="../img/1.png">
+                                刘德华
+                            </span>
+                            <span class="Li_span5">北京研发中心北京研发中心</span>
+                            <span class="Li_span6"><i>已转审</i></span>
+                            <span class="Li_span7"><a href="#" class="block" title="删除"><i class="Icon ico-delete2"></i></a></span>
+                        </div>
+                        <!--一条已转审的申请over-->
+                        <!--一条已回退的申请begin-->
+                        <div class="ListTitle back clearfix">
+                            <span class="Li_span1">CQ2014070001</span>
+                            <span class="Li_span2">请假单</span>
+                            <span class="Li_span3">2014-6-30 14:32</span>
+                            <span class="Li_span4 ie-css3">
+                                <img src="../img/1.png">
+                                刘德华
+                            </span>
+                            <span class="Li_span5">北京研发中心北京研发中心</span>
+                            <span class="Li_span6"><i>已回退</i></span>
+                            <span class="Li_span7"><a href="#" class="block" title="删除"><i class="Icon ico-delete2"></i></a></span>
+                        </div>
+                        <!--一条已回退的申请over-->
+                        <!--一条审批中的申请begin-->
+                        <div class="ListTitle ing clearfix">
+                            <span class="Li_span1">CQ2014070001</span>
+                            <span class="Li_span2">请假单</span>
+                            <span class="Li_span3">2014-6-30 14:32</span>
+                            <span class="Li_span4 ie-css3">
+                                <img src="../img/1.png">
+                                刘德华
+                            </span>
+                            <span class="Li_span5">北京研发中心北京研发中心</span>
+                            <span class="Li_span6"><i>审批中</i></span>
+                            <span class="Li_span7"><a href="#" class="block" title="删除"><i class="Icon ico-delete2"></i></a></span>
+                        </div>
+                        <!--一条审批中的申请over-->
+                    </div>
+                </div>
+                <!--分页器begin-->
+                <div class="pagenation aligncenter mart30 p-bt20">
+                    <a href="javascript:;" class="page prev">&lt;</a>
+                    <a href="#" class="current">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#" class="disabled">7</a>
+                    <a href="#" class="disabled">8</a>
+                    <a href="#" class="disabled">9</a>
+                    <a href="#" class="disabled">100</a>
+                    <a href="javascript:;" class="page next">&gt;</a>
+                </div>
+                <!--分页器over-->
+            </div>
+        </div>
+    </div>
+</div>
+<!--主体over-->
+</body>
+</html>

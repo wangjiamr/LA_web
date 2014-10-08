@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>选择模板</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/appstyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/jscrollpane.css">
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/Mutual.js"></script>
+    <script type="text/javascript" src="../js/jquery.jscrollpane.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
+    <script type="text/javascript">
+        function Jscroll(){
+            $('.jscroll').jScrollPane({
+                'mouseWheelSpeed':100,
+                "showArrows":false
+            });
+        }
+        $(function(){
+            Jscroll();
+            $('.select').hover(function(){
+                $(this).addClass('current');
+                Jscroll();
+            },function(){
+                $(this).removeClass('current');
+            });
+        });
+    </script>
+</head>
+<body>
+<!--header begin-->
+<div class="header">
+    <div class="headerInner clearfix">
+        <span class="inlineblock company_logo"></span>
+        <span class="inlineblock company_name font16 marl10 color-3">梅花与明道</span>
+        <a href="#" class="back_md marl20 color-8">返回明道</a>
+        <!--右侧头像和发起按钮 begin-->
+        <div class="headerRight floatright clearfix">
+            <!--头像 begin-->
+            <div class="DropDown clearfix floatleft marr20">
+                <span class="UserImg block floatleft ie-css3"><img src="../img/1.png"></span>
+                <div class="floatleft marl10 color-3">
+                    <p>欢迎回来</p>
+                    <p>刘德华</p>
+                </div>
+                <div class="DropList">
+                    <i class="Icon ico-arrow"></i>
+                    <ul class="border-33619f bg-347cdc">
+                        <li><a href="#"><i class="Icon ico-change"></i>切换账号</a></li>
+                        <li><a href="#"><i class="Icon ico-out"></i>退出明道</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--头像 over-->
+            <!--plus btn begin-->
+            <div class="DropDown clearfix noborder floatright" style="width:auto;">
+                <span class="UserImg block"><i class="Icon ico-plus"></i></span>
+                <div class="DropList">
+                    <i class="Icon ico-arrow"></i>
+                    <ul class="border-33619f bg-347cdc">
+                        <li><a href="#"><i class="Icon ico-launch"></i>发起申请</a></li>
+                        <li><a href="#"><i class="Icon ico-creatF"></i>创建表单</a></li>
+                        <li><a href="#"><i class="Icon ico-creatU"></i>新建角色</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--plus btn over-->
+        </div>
+        <!--右侧头像和发起按钮 over-->
+    </div>
+</div>
+<!--header over-->
+<div class="content">
+    <div class="main" style="height: 100%;">
+        <!--左侧begin-->
+        <div class="form_left floatleft">
+            <div class="p-top20 clearfix alignright marl10 marr10">
+                <a href="#" class="color-347cdc floatleft mart5">&lt; 返回列表</a>
+                <a href="#" class="Btn btn-make btn-quit marl10">取消</a>
+                <a href="#" class="Btn btn-make btn-sure marl10">应用模板</a>
+            </div>
+            <div class="form_inner">
+                <div class="form_main">
+                    <p class="font18 p-top20 aligncenter">标 题</p>
+                    <table class="form_tab mart20">
+                        <tr>
+                            <td colspan="2" class="choose">
+                                <div class="td_inner">
+                                    <a href="javascript:;" class="Icon ico-all" title="选择整行"></a>
+                                    <span class="font14">单选框</span>
+                                    <span>
+                                        <span class="radio checked"><i class="Icon ico-check"></i>选项一</span>
+                                        <span class="radio"><i class="Icon ico-check"></i>选项二</span>
+                                        <span class="radio"><i class="Icon ico-check"></i>选项三</span>
+                                    </span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="td_inner">
+                                    <a href="javascript:;" class="Icon ico-all" title="选择整行"></a>
+                                    <a href="javascript:;" class="Icon ico-delete4" title="删除"></a>
+                                    <span class="font14">公司<em class="font12">（只读）</em></span>
+                                    <span>明道北京研发中心</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="td_inner">
+                                    <span class="font14">报销金额</span>
+                                    <span><input class="int width-150" type="text"></span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="choose_row">
+                            <td>
+                                <div class="td_inner">
+                                    <a href="javascript:;" class="Icon ico-all" title="选择整行"></a>
+                                    <span class="font14">下拉选择</span>
+                                    <span class="div">
+                                        <div class="search ie-css3 select width-150"><!--加 current，显示下拉列表框-->
+                                            <span class="Choosed">选择1</span>
+                                            <span class="ico-select"><i class="Icon ico-upd"></i></span>
+                                        </div>
+                                    </span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="td_inner">
+                                    <a href="javascript:;" class="Icon ico-delete4" title="删除"></a>
+                                    <span class="font14">选择省市</span>
+                                    <span class="div">
+                                        <div class="search ie-css3 select width-80"><!--加 current，显示下拉列表框-->
+                                            <span class="Choosed">省份</span>
+                                            <span class="ico-select"><i class="Icon ico-upd"></i></span>
+                                            <!--下拉选项begin-->
+                                            <div class="ser_Results ie-css3">
+                                                <ul>
+                                                    <li>河北</li>
+                                                    <li>天津</li>
+                                                    <li>北京</li>
+                                                    <li>河南</li>
+                                                </ul>
+                                            </div>
+                                            <!--下拉选项over-->
+                                        </div>
+                                    </span>
+                                    <span class="div">
+                                        <div class="search ie-css3 select width-80"><!--加 current，显示下拉列表框-->
+                                            <span class="Choosed">城市</span>
+                                            <span class="ico-select"><i class="Icon ico-upd"></i></span>
+                                            <!--下拉选项begin-->
+                                            <div class="ser_Results ie-css3">
+                                                <ul>
+                                                    <li>石家庄</li>
+                                                    <li>驻马店</li>
+                                                    <li>正定</li>
+                                                    <li>荷兰</li>
+                                                </ul>
+                                            </div>
+                                            <!--下拉选项over-->
+                                        </div>
+                                    </span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="td_inner">
+                                    <span class="font14">日期区间</span>
+                                    <span class="div">
+                                        <div class="has-general width-80">
+                                            <input type="text" class="int">
+                                            <label class="control-label">提示信息</label>
+                                            <a href="javascript:;" class="Icon ico-clander"></a>
+                                        </div>
+                                    </span>
+                                    <span class="div"> 至 </span>
+                                    <span class="div">
+                                        <div class="has-general width-80">
+                                            <input type="text" class="int">
+                                            <label class="control-label">提示信息</label>
+                                            <a href="javascript:;" class="Icon ico-clander"></a>
+                                        </div>
+                                    </span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="td_inner">
+                                    <span class="font14">下拉选择</span>
+                                    <span class="div">
+                                        <select class="int width-160">
+                                            <option>行政费用</option>
+                                            <option>财务费用</option>
+                                            <option>交通费用</option>
+                                        </select>
+                                    </span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><p class="color-a aligncenter">拖动控件到此出</p></td>
+                            <td><p class="color-a aligncenter">拖动控件到此出</p></td>
+                        </tr>
+                    </table>
+                    <p class="mart20 aligncenter"><a href="#" class="add">+ 添加一行</a></p>
+                </div>
+            </div>
+        </div>
+        <!--左侧over-->
+        <!--右侧begin-->
+        <div class="form_right floatleft">
+            <div class="TopBar mart10 clearfix">
+                <div class="nav floatleft clearfix color-8 width-auto">
+                    <em class="borderBt" style="left:0;"></em>
+                    <a href="#" class="current">我的模板</a>
+                    <a href="#">预设模板</a>
+                </div>
+            </div>
+            <!--我的模板begin-->
+            <div class="module_box">
+                <div class="module mart20">
+                    <div class="mart15 marl10">
+                        <ul class="module_list">
+                            <li class="current">出差申请</li>
+                            <li>请假申请</li>
+                            <li>报销申请</li>
+                            <li>员工考核</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--我的模板over-->
+            <!--预设模板begin-->
+            <div class="module_box" style="display: none;">
+                <div class="module mart20">
+                    <div class="mart15 marl10">
+                        <ul class="module_list">
+                            <li class="current">出差申请</li>
+                            <li>请假申请</li>
+                            <li>报销申请</li>
+                            <li>员工考核</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--预设模板over-->
+        </div>
+        <!--右侧over-->
+    </div>
+</div>
+</body>
+</html>

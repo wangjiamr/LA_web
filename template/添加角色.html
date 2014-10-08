@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>弹出-创建角色</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/appstyle.css">
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/Mutual.js"></script>
+</head>
+<body><!--当出现弹出框时候才加这个visible-->
+<div class="mask"></div>
+<div class="pop" style="width:400px;height:200px;margin:-100px 0 0 -200px;"><!--保持弹出框始终左右，上下居中，那么保持margin-top等于 -1/2height  和margin-left等于  -1/2width -->
+    <p class="title">添加审批角色</p>
+    <span class="off">×</span>
+    <div class="popIn">
+        <!--点击选择用户时候这里的dom才展开begin-->
+        <div class="clearfix mart30">
+            <div class="has-general has-error width-350">
+                <input type="text" placeholder="请输入角色名称..." class="int">
+                <label class="control-label">审批角色名称不能为空</label>
+            </div>
+            <div class="mart20">
+                <span>审批人</span>
+                <span class="Li_span4 ie-css3 marl30">
+                    <img src="../img/1.png">
+                    <i class="add">刘德华</i>
+                </span>
+                <a href="javascript:;" class="add marl30">替换审批成员</a>
+            </div>
+        </div>
+        <p class="mart20 alignright">
+            <a href="#" class="Btn btn-make btn-quit mart3">取 消</a>
+            <a href="#" class="Btn btn-make btn-sure marl10 mart3">确 定</a>
+        </p>
+        <!--点击选择用户时候这里的dom才展开over-->
+    </div>
+</div>
+</body>
+</html>

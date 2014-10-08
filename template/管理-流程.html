@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>管理-流程</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/appstyle.css">
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/Mutual.js"></script>
+</head>
+<body>
+<!--header begin-->
+<div class="header">
+    <div class="headerInner clearfix">
+        <span class="inlineblock company_logo"></span>
+        <span class="inlineblock company_name font16 marl10 color-3">梅花与明道</span>
+        <a href="#" class="back_md marl20 color-8">返回明道</a>
+        <!--右侧头像和发起按钮 begin-->
+        <div class="headerRight floatright clearfix">
+            <!--头像 begin-->
+            <div class="DropDown clearfix floatleft marr20">
+                <span class="UserImg block floatleft ie-css3"><img src="../img/1.png"></span>
+                <div class="floatleft marl10 color-3">
+                    <p>欢迎回来</p>
+                    <p>刘德华</p>
+                </div>
+                <div class="DropList">
+                    <i class="Icon ico-arrow"></i>
+                    <ul class="border-33619f bg-347cdc">
+                        <li><a href="#"><i class="Icon ico-change"></i>切换账号</a></li>
+                        <li><a href="#"><i class="Icon ico-out"></i>退出明道</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--头像 over-->
+            <!--plus btn begin-->
+            <div class="DropDown clearfix noborder floatright" style="width:auto;">
+                <span class="UserImg block"><i class="Icon ico-plus"></i></span>
+                <div class="DropList">
+                    <i class="Icon ico-arrow"></i>
+                    <ul class="border-33619f bg-347cdc">
+                        <li><a href="#"><i class="Icon ico-launch"></i>发起申请</a></li>
+                        <li><a href="#"><i class="Icon ico-creatF"></i>创建表单</a></li>
+                        <li><a href="#"><i class="Icon ico-creatU"></i>新建角色</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--plus btn over-->
+        </div>
+        <!--右侧头像和发起按钮 over-->
+    </div>
+</div>
+<!--header over-->
+<div class="content">
+    <div class="main clearfix" style="height: auto;">
+        <!--左侧菜单 begin-->
+        <div class="LeftBar floatleft">
+            <ul class="font16 color-8 mart20">
+                <li class="current"><a href="#"><i class="Icon ico-01"></i>申 请<em class="prompt ie-css3">3</em></a></li>
+                <li><a href="#"><i class="Icon ico-02"></i>审 批<em class="prompt ie-css3">3</em></a></li>
+                <li><a href="#"><i class="Icon ico-03"></i>经 办<em class="prompt ie-css3">3</em></a></li>
+                <li><a href="#"><i class="Icon ico-04"></i>设 置<em class="prompt ie-css3">13</em></a></li>
+                <li class="current">
+                    <a href="#"><i class="Icon ico-05"></i>管 理<em class="prompt ie-css3">13</em></a>
+                    <dl class="navT alignright">
+                        <dd><a href="#">- 流 程</a></dd>
+                        <dd class="current"><a href="#">- 角 色</a></dd>
+                        <dd><a href="#">- 日 志</a></dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+        <!--左侧菜单 over-->
+        <!--右侧begin-->
+        <div class="rightBar floatleft scroll">
+            <div class="rightIn">
+                <!--顶部检索begin-->
+                <table style="width: 100%;">
+                    <tr>
+                        <th style="width: 35px" class="alignleft">分类 :</th>
+                        <td class="width-100">
+                            <div class="search ie-css3 select width-100 marl10"><!--加 current，显示下拉列表框-->
+                                <span class="Choosed">财务类</span>
+                                <span class="ico-select"><i class="Icon ico-upd"></i></span>
+                                <!--搜索结果begin-->
+                                <div class="ser_Results ie-css3">
+                                    <ul>
+                                        <li>行政类</li>
+                                        <li>财务类</li>
+                                        <li>人事类</li>
+                                    </ul>
+                                </div>
+                                <!--搜索结果over-->
+                            </div>
+                        </td>
+                        <th style="width: 40px" class="alignright">单据 :</th>
+                        <td class="width-100">
+                            <div class="search ie-css3 select width-100 marl10"><!--加 current，显示下拉列表框-->
+                                <span class="Choosed">报销流程</span>
+                                <span class="ico-select"><i class="Icon ico-upd"></i></span>
+                                <!--搜索结果begin-->
+                                <div class="ser_Results ie-css3">
+                                    <ul>
+                                        <li>转正流程</li>
+                                        <li>请假流程</li>
+                                        <li>采购流程</li>
+                                    </ul>
+                                </div>
+                                <!--搜索结果over-->
+                            </div>
+                        </td>
+                        <th style="width: 40px" class="alignright">状态 :</th>
+                        <td class="width-100">
+                            <div class="search ie-css3 select width-100 marl10"><!--加 current，显示下拉列表框-->
+                                <span class="Choosed">已配置流程</span>
+                                <span class="ico-select"><i class="Icon ico-upd"></i></span>
+                                <!--搜索结果begin-->
+                                <div class="ser_Results ie-css3">
+                                    <ul>
+                                        <li>已配置流程</li>
+                                        <li>未确认流程</li>
+                                    </ul>
+                                </div>
+                                <!--搜索结果over-->
+                            </div>
+                        </td>
+                        <td colspan="4">
+                            <div class="search floatright ie-css3">
+                                <input type="text" placeholder="搜索">
+                                <button><i class="Icon ico-ser"></i></button>
+                                <!--搜索结果begin-->
+                                <div class="ser_Results ie-css3">
+                                    <ul>
+                                        <li>1111111<em>按编码</em></li>
+                                        <li><em>A099</em>按编码查询</li>
+                                        <li>符合业界规范的运</li>
+                                        <li>符合业界规范的运</li>
+                                    </ul>
+                                </div>
+                                <!--搜索结果over-->
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <!--顶部检索over-->
+                <div class="process mart50 p-bt10">
+                    <p class="Title">
+                        <span class="font16 floatleft">采购申请</span>
+                        <a href="#" class="add marl20">编辑流程</a>
+                        <span class="switch floatright">
+                            强制执行：
+                            <a href="javascript:;" class="current">是</a>
+                            <a href="javascript:;">否</a>
+                        </span>
+                    </p>
+                    <div class="mart20">
+                        <table class="Item">
+                            <tbody>
+                                <tr class="current">
+                                    <td class="font14"><span class="txt_hidden">财务报销流程</span></td>
+                                    <td>
+                                        <div class="first ProcessOut" style="width:456px;">
+                                            <ul class="ProcessLi clearfix">
+                                                <li>刘德华<i class="Icon ico-arrow2"></i></li>
+                                                <li>王振佳<i class="Icon ico-arrow2"></i></li>
+                                                <li>王佳<i class="Icon ico-arrow2"></i></li>
+                                                <li>张睿<i class="Icon ico-arrow2"></i></li>
+                                                <li>王佳<i class="Icon ico-arrow2"></i></li>
+                                                <li>张睿<i class="Icon ico-arrow2"></i></li>
+                                                <li>何一河<i class="Icon ico-arrow2"></i></li>
+                                                <li>赵阳</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="mid width-110"><em class="color-8">执行：</em>刘德华</div>
+                                    </td>
+                                    <td>
+                                        <div class="last width-40">
+                                            <a href="#" class="add">删除</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="">
+                                    <td class="font14"><span class="txt_hidden">财务报销流程</span></td>
+                                    <td>
+                                        <div class="first ProcessOut" style="width:456px;">
+                                            <ul class="ProcessLi clearfix">
+                                                <li>刘德华<i class="Icon ico-arrow2"></i></li>
+                                                <li>王振佳<i class="Icon ico-arrow2"></i></li>
+                                                <li>王佳<i class="Icon ico-arrow2"></i></li>
+                                                <li>张睿<i class="Icon ico-arrow2"></i></li>
+                                                <li>王佳<i class="Icon ico-arrow2"></i></li>
+                                                <li>张睿<i class="Icon ico-arrow2"></i></li>
+                                                <li>何一河<i class="Icon ico-arrow2"></i></li>
+                                                <li>赵阳</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="mid width-110"><em class="color-8">执行：</em>刘德华</div>
+                                    </td>
+                                    <td>
+                                        <div class="last width-40">
+                                            <a href="#" class="add">删除</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="">
+                                    <td class="font14"><span class="txt_hidden">财务报销流程</span></td>
+                                    <td>
+                                        <div class="first ProcessOut" style="width:456px;">
+                                            <ul class="ProcessLi clearfix">
+                                                <li>刘德华<i class="Icon ico-arrow2"></i></li>
+                                                <li>王振佳<i class="Icon ico-arrow2"></i></li>
+                                                <li>王佳<i class="Icon ico-arrow2"></i></li>
+                                                <li>张睿<i class="Icon ico-arrow2"></i></li>
+                                                <li>王佳<i class="Icon ico-arrow2"></i></li>
+                                                <li>张睿<i class="Icon ico-arrow2"></i></li>
+                                                <li>何一河<i class="Icon ico-arrow2"></i></li>
+                                                <li>赵阳</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="mid width-110"><em class="color-8">执行：</em>刘德华</div>
+                                    </td>
+                                    <td>
+                                        <div class="last width-40">
+                                            <a href="#" class="add">删除</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="process mart30 p-bt10">
+                    <p class="Title">
+                        <span class="font16 floatleft">采购申请</span>
+                        <a href="#" class="add marl20">编辑流程</a>
+                        <span class="switch floatright">
+                            强制执行：
+                            <a href="javascript:;" class="current">是</a>
+                            <a href="javascript:;">否</a>
+                        </span>
+                    </p>
+                    <div class="mart20">
+                        <table class="Item">
+                            <tbody>
+                                <tr class="current">
+                                    <td class="font14"><span class="txt_hidden">财务报销流程</span></td>
+                                    <td>
+                                        <div class="first ProcessOut" style="width:456px;">
+                                            <ul class="ProcessLi clearfix">
+                                                <li>刘德华<i class="Icon ico-arrow2"></i></li>
+                                                <li>王振佳<i class="Icon ico-arrow2"></i></li>
+                                                <li>王佳<i class="Icon ico-arrow2"></i></li>
+                                                <li>张睿<i class="Icon ico-arrow2"></i></li>
+                                                <li>王佳<i class="Icon ico-arrow2"></i></li>
+                                                <li>张睿<i class="Icon ico-arrow2"></i></li>
+                                                <li>何一河<i class="Icon ico-arrow2"></i></li>
+                                                <li>赵阳</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="mid width-110"><em class="color-8">执行：</em>刘德华</div>
+                                    </td>
+                                    <td>
+                                        <div class="last width-40">
+                                            <a href="#" class="add">删除</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="">
+                                    <td class="font14"><span class="txt_hidden">财务报销流程</span></td>
+                                    <td>
+                                        <div class="first ProcessOut" style="width:456px;">
+                                            <ul class="ProcessLi clearfix">
+                                                <li>刘德华<i class="Icon ico-arrow2"></i></li>
+                                                <li>王振佳<i class="Icon ico-arrow2"></i></li>
+                                                <li>王佳<i class="Icon ico-arrow2"></i></li>
+                                                <li>张睿<i class="Icon ico-arrow2"></i></li>
+                                                <li>王佳<i class="Icon ico-arrow2"></i></li>
+                                                <li>张睿<i class="Icon ico-arrow2"></i></li>
+                                                <li>何一河<i class="Icon ico-arrow2"></i></li>
+                                                <li>赵阳</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="mid width-110"><em class="color-8">执行：</em>刘德华</div>
+                                    </td>
+                                    <td>
+                                        <div class="last width-40">
+                                            <a href="#" class="add">删除</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="">
+                                    <td class="font14"><span class="txt_hidden">财务报销流程</span></td>
+                                    <td>
+                                        <div class="first ProcessOut" style="width:456px;">
+                                            <ul class="ProcessLi clearfix">
+                                                <li>刘德华<i class="Icon ico-arrow2"></i></li>
+                                                <li>王振佳<i class="Icon ico-arrow2"></i></li>
+                                                <li>王佳<i class="Icon ico-arrow2"></i></li>
+                                                <li>张睿<i class="Icon ico-arrow2"></i></li>
+                                                <li>王佳<i class="Icon ico-arrow2"></i></li>
+                                                <li>张睿<i class="Icon ico-arrow2"></i></li>
+                                                <li>何一河<i class="Icon ico-arrow2"></i></li>
+                                                <li>赵阳</li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="mid width-110"><em class="color-8">执行：</em>刘德华</div>
+                                    </td>
+                                    <td>
+                                        <div class="last width-40">
+                                            <a href="#" class="add">删除</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="process mart30 p-bt10">
+                    <p class="Title alignright">
+                        <span class="font16 floatleft">报销申请</span>
+                        <a href="#" class="add">＋添加流程</a>
+                    </p>
+                    <div>
+                        <p class="aligncenter nodata p-top20">尚未配置流程 ！</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--右侧over-->
+    </div>
+</div>
+</body>
+</html>

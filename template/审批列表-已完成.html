@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>审批列表-已完成</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/appstyle.css">
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/Mutual.js"></script>
+</head>
+<body>
+<!--header begin-->
+<div class="header">
+    <div class="headerInner clearfix">
+        <span class="inlineblock company_logo"></span>
+        <span class="inlineblock company_name font16 marl10 color-3">梅花与明道</span>
+        <a href="#" class="back_md marl20 color-8">返回明道</a>
+        <!--右侧头像和发起按钮 begin-->
+        <div class="headerRight floatright clearfix">
+            <!--头像 begin-->
+            <div class="DropDown clearfix floatleft marr20">
+                <span class="UserImg block floatleft ie-css3"><img src="../img/1.png"></span>
+                <div class="floatleft marl10 color-3">
+                    <p>欢迎回来</p>
+                    <p>刘德华</p>
+                </div>
+                <div class="DropList">
+                    <i class="Icon ico-arrow"></i>
+                    <ul class="border-33619f bg-347cdc">
+                        <li><a href="#"><i class="Icon ico-change"></i>切换账号</a></li>
+                        <li><a href="#"><i class="Icon ico-out"></i>退出明道</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--头像 over-->
+            <!--plus btn begin-->
+            <div class="DropDown clearfix noborder floatright" style="width:auto;">
+                <span class="UserImg block"><i class="Icon ico-plus"></i></span>
+                <div class="DropList">
+                    <i class="Icon ico-arrow"></i>
+                    <ul class="border-33619f bg-347cdc">
+                        <li><a href="#"><i class="Icon ico-launch"></i>发起申请</a></li>
+                        <li><a href="#"><i class="Icon ico-creatF"></i>创建表单</a></li>
+                        <li><a href="#"><i class="Icon ico-creatU"></i>新建角色</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--plus btn over-->
+        </div>
+        <!--右侧头像和发起按钮 over-->
+    </div>
+</div>
+<!--header over-->
+<!--主体begin-->
+<div class="content">
+    <div class="main" style="height: 1000px;"><!--设置此处的height 等于 右侧划出来的页面高度即可-->
+        <!--左侧菜单 begin-->
+        <div class="LeftBar floatleft"><!--当右侧滑出详情的时候加NewBar-->
+            <ul class="font16 color-8 mart20">
+                <li><a href="#"><i class="Icon ico-01"></i>申 请<em class="prompt ie-css3">3</em></a></li>
+                <li class="current"><a href="#"><i class="Icon ico-02"></i>审 批<em class="prompt ie-css3">3</em></a></li>
+                <li><a href="#"><i class="Icon ico-03"></i>经 办<em class="prompt ie-css3">3</em></a></li>
+                <li><a href="#"><i class="Icon ico-04"></i>设 置<em class="prompt ie-css3">13</em></a></li>
+                <li><a href="#"><i class="Icon ico-05"></i>管 理<em class="prompt ie-css3">13</em></a></li>
+            </ul>
+        </div>
+        <!--左侧菜单 over-->
+        <!--右侧begin-->
+        <div class="rightBar floatleft scroll"  style="margin-left:px;"><!--右侧滑出详情的时候加 rightMove-->
+            <div class="rightIn">
+                <!--导航和搜索begin-->
+                <div class="TopBar clearfix">
+                    <div class="nav floatleft clearfix color-8">
+                        <em class="borderBt"></em>
+                        <a href="#">进行中</a>
+                        <a href="#" class="current">已完成</a>
+                    </div>
+                </div>
+                <!--导航和搜索over-->
+                <!--审批列表 begin-->
+                <div class="AppList AppList-over mart20">
+                    <div class="clearfix totop">
+                        <div class="search floatright ie-css3"><!--此处加current 展开搜索提示框-->
+                            <input type="text" placeholder="搜索">
+                            <button><i class="Icon ico-ser"></i></button>
+                            <!--搜索结果begin-->
+                            <div class="ser_Results ie-css3">
+                                <ul>
+                                    <li>符合业界规范的运</li>
+                                    <li>符合业界规范的运</li>
+                                    <li>符合业界规范的运</li>
+                                    <li>符合业界规范的运</li>
+                                </ul>
+                            </div>
+                            <!--搜索结果over-->
+                        </div>
+                    </div>
+                    <div class="ListTitle clearfix font13">
+                        <span class="Li_span1 down">编号<i class="Icon ico-upd"></i></span>
+                        <span class="Li_span2">申请人<i class="Icon ico-upd"></i></span>
+                        <span class="Li_span3">部门<i class="Icon ico-upd"></i></span>
+                        <span class="Li_span4">审批项目<i class="Icon ico-upd"></i></span>
+                        <span class="Li_span5">审批时间<i class="Icon ico-upd"></i></span>
+                        <span class="Li_span6">单据状态<i class="Icon ico-upd"></i></span>
+                    </div>
+                    <div class="ListMain">
+                        <!--一条未审核的申请begin-->
+                        <div class="ListTitle clearfix">
+                            <span class="Li_span1">CQ2014070001</span>
+                            <span class="Li_span2">刘德华</span>
+                            <span class="Li_span3">明道北研</span>
+                            <span class="Li_span4">请假单</span>
+                            <span class="Li_span5">2014-07-26 1:53</span>
+                            <span class="Li_span6 wait"><i>未审核</i></span>
+                            <!--操作按钮begin-->
+                            <div class="MakeBtn aligncenter">
+                                <a href="#" class="inlineblock"><i class="Icon ico-print" title="打印"></i></a>
+                            </div>
+                            <!--操作按钮over-->
+                        </div>
+                        <!--一条未审核的申请over-->
+                        <!--一条已批准的申请begin-->
+                        <div class="ListTitle clearfix">
+                            <span class="Li_span1">CQ2014070001</span>
+                            <span class="Li_span2">刘德华</span>
+                            <span class="Li_span3">明道北研</span>
+                            <span class="Li_span4">请假单</span>
+                            <span class="Li_span5">2014-07-26 1:53</span>
+                            <span class="Li_span6 end"><i>已批准</i></span>
+                            <!--操作按钮begin-->
+                            <div class="MakeBtn aligncenter">
+                                <a href="#" class="inlineblock"><i class="Icon ico-print" title="打印"></i></a>
+                            </div>
+                            <!--操作按钮over-->
+                        </div>
+                        <!--一条已批准的申请over-->
+                        <!--一条已否决的申请begin-->
+                        <div class="ListTitle clearfix">
+                            <span class="Li_span1">CQ2014070001</span>
+                            <span class="Li_span2">刘德华</span>
+                            <span class="Li_span3">明道北研</span>
+                            <span class="Li_span4">请假单</span>
+                            <span class="Li_span5">2014-07-26 1:53</span>
+                            <span class="Li_span6 reject"><i>已否决</i></span>
+                            <!--操作按钮begin-->
+                            <div class="MakeBtn aligncenter">
+                                <a href="#" class="inlineblock"><i class="Icon ico-print" title="打印"></i></a>
+                            </div>
+                            <!--操作按钮over-->
+                        </div>
+                        <!--一条已否决的申请over-->
+                        <!--一条已转审的申请begin-->
+                        <div class="ListTitle clearfix">
+                            <span class="Li_span1">CQ2014070001</span>
+                            <span class="Li_span2">刘德华</span>
+                            <span class="Li_span3">明道北研</span>
+                            <span class="Li_span4">请假单</span>
+                            <span class="Li_span5">2014-07-26 1:53</span>
+                            <span class="Li_span6 forward"><i>已转审</i></span>
+                            <!--操作按钮begin-->
+                            <div class="MakeBtn aligncenter">
+                                <a href="#" class="inlineblock"><i class="Icon ico-print" title="打印"></i></a>
+                            </div>
+                            <!--操作按钮over-->
+                        </div>
+                        <!--一条已转审的申请over-->
+                        <!--一条已回退中的申请begin-->
+                        <div class="ListTitle clearfix">
+                            <span class="Li_span1">CQ2014070001</span>
+                            <span class="Li_span2">刘德华</span>
+                            <span class="Li_span3">明道北研</span>
+                            <span class="Li_span4">请假单</span>
+                            <span class="Li_span5">2014-07-26 1:53</span>
+                            <span class="Li_span6 back"><i>已回退</i></span>
+                            <!--操作按钮begin-->
+                            <div class="MakeBtn aligncenter">
+                                <a href="#" class="inlineblock"><i class="Icon ico-print" title="打印"></i></a>
+                            </div>
+                            <!--操作按钮over-->
+                        </div>
+                        <!--一条已回退的申请over-->
+                    </div>
+                    <!--分页器begin-->
+                    <div class="pagenation aligncenter mart30 p-bt20">
+                        <a href="javascript:;" class="page prev">&lt;</a>
+                        <a href="#" class="current">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a href="#">7</a>
+                        <a href="#">8</a>
+                        <a href="#">9</a>
+                        <a href="#">100</a>
+                        <a href="javascript:;" class="page next">&gt;</a>
+                    </div>
+                    <!--分页器over-->
+                </div>
+                <!--审批列表 over-->
+            </div>
+        </div>
+        <!--右侧 over-->
+    </div>
+    <!--表单详情begin-->
+    <div class="AppDetail scroll" style="right:;">
+        <div class="AppDetailIn">
+            <p class="font20 alignleft">请假单</p>
+            <p class="font14 mart20 alignleft">单据编号：<span>SB-2014-29038478</span></p>
+            <!--单据明细begin-->
+            <div class="mart30">
+                <table class="AppTable">
+                    <tbody>
+                        <tr>
+                            <th>申请人</th>
+                            <td>孙悟空</td>
+                            <th>申请日期</th>
+                            <td>2014-07-21 18:28:39</td>
+                        </tr>
+                        <tr>
+                            <th>申请部门</th>
+                            <td>天宫动物园</td>
+                            <th>请假类别</th>
+                            <td>事假</td>
+                        </tr>
+                        <tr>
+                            <th>请假是由</th>
+                            <td colspan="3">去医院</td>
+                        </tr>
+                        <tr>
+                            <th>备注</th>
+                            <td colspan="3">烦躁</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--单据明细over-->
+            <!--审批记录begin-->
+            <div class="mart30 clearfix">
+                <div class="font14 floatleft">
+                    <p>申请人：<span>赵阳</span></p>
+                    <p class="mart10">申请时间：<span>2014-7-26 2:38</span></p>
+                </div>
+                <div class="floatright">
+                    <table class="AppTable AppTableStory">
+                        <thead>
+                            <tr>
+                                <th>操作人</th>
+                                <th>操作</th>
+                                <th>操作时间</th>
+                                <th style="width: 40%;">备注</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>赵阳</td>
+                                <td>发起申请</td>
+                                <td>2014-7-26 2:38</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>魏琪琪</td>
+                                <td>接收申请</td>
+                                <td>2014-7-26 2:38</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>魏琪琪</td>
+                                <td>查看申请</td>
+                                <td>2014-7-26 2:38</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>魏琪琪</td>
+                                <td>批准申请</td>
+                                <td>2014-7-26 2:38</td>
+                                <td>批准了</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!--审批记录over-->
+        </div>
+        <!--操作按钮begin-->
+        <div class="AppMakeBtn clearfix aligncenter" style="display: none;">
+            <a href="#" class="Btn btn-cross"><i class="Icon ico-cross"></i>通 过</a>
+            <a href="#" class="Btn btn-veto"><i class="Icon ico-veto"></i>否 决</a>
+            <a href="#" class="Btn btn-turn2"><i class="Icon ico-turn2"></i>转 审</a>
+            <a href="#" class="print floatright" title="打印"><i class="Icon ico-print2"></i></a>
+        </div>
+        <!--操作按钮over-->
+    </div>
+    <!--表单详情over-->
+</div>
+<!--主体over-->
+</body>
+</html>

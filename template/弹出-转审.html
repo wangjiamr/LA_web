@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>弹出-转审</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/appstyle.css">
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/Mutual.js"></script>
+</head>
+<body class="visible"><!--当出现弹出框时候才加这个visible-->
+<div class="mask"></div>
+<div class="pop" style="">
+    <p class="title">请选择转审人员</p>
+    <div class="popIn">
+        <span class="off">×</span>
+        <!--导航和搜索begin-->
+        <div class="TopBar mart10 clearfix">
+            <div class="nav floatleft clearfix color-8">
+                <em class="borderBt"></em>
+                <a href="#" class="current">姓名</a>
+                <a href="#">部门</a>
+                <a href="#">群</a>
+                <a href="#">角色</a>
+            </div>
+            <div class="search floatright ie-css3"><!--加 current，显示搜索结果框-->
+                <input type="text" placeholder="搜索">
+                <button><i class="Icon ico-ser"></i></button>
+                <!--搜索结果begin-->
+                <div class="ser_Results ie-css3">
+                    <ul>
+                        <li>所有部门</li>
+                        <li>人力资源部</li>
+                        <li>行政部门</li>
+                        <li>财务部门</li>
+                    </ul>
+                </div>
+                <!--搜索结果over-->
+            </div>
+        </div>
+        <!--导航和搜索over-->
+        <div class="mart5" style="">
+            <!--姓名首字母检索begin-->
+            <ul class="CheckWord clearfix">
+                <li class="refresh">所有</li>
+                <li>A</li>
+                <li>B</li>
+                <li class="current">C</li>
+                <li>D</li>
+                <li>E</li>
+                <li>F</li>
+                <li>G</li>
+                <li>H</li>
+                <li>I</li>
+                <li>J</li>
+                <li>K</li>
+                <li>L</li>
+                <li>M</li>
+                <li>N</li>
+                <li>O</li>
+                <li>P</li>
+                <li>Q</li>
+                <li>R</li>
+                <li>S</li>
+                <li>T</li>
+                <li>U</li>
+                <li>V</li>
+                <li>W</li>
+                <li>X</li>
+                <li>Y</li>
+                <li>Z</li>
+            </ul>
+            <!--姓名首字母检索over-->
+        </div>
+        <!--员工列表begin-->
+        <div class="contactOut">
+            <div class="contact mart10">
+                <span class="block mask">A</span>
+                <ul class="clearfix contact-list">
+                    <li class="txt_hidden current">
+                        <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                        <span class="UserName">张睿</span>
+                        <span>产品设计</span>
+                    </li>
+                    <li class="txt_hidden">
+                        <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                        <span class="UserName">刘德华</span>
+                        <span>产品设计</span>
+                    </li>
+                    <li class="txt_hidden">
+                        <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                        <span class="UserName">刘能</span>
+                        <span>产品设计</span>
+                    </li>
+                    <li class="txt_hidden">
+                        <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                        <span class="UserName">刘罗刘锅</span>
+                        <span>产品设计</span>
+                    </li>
+                    <li class="txt_hidden">
+                        <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                        <span class="UserName">刘德华</span>
+                        <span>产品设计</span>
+                    </li>
+                    <li class="txt_hidden">
+                        <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                        <span class="UserName">刘能</span>
+                        <span>产品设计</span>
+                    </li>
+                    <li class="txt_hidden">
+                        <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                        <span class="UserName">刘罗锅</span>
+                        <span>产品设计</span>
+                    </li>
+                    <li class="txt_hidden">
+                        <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                        <span class="UserName">刘德华</span>
+                        <span>产品设计</span>
+                    </li>
+                    <li class="txt_hidden">
+                        <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                        <span class="UserName">刘能</span>
+                        <span>产品设计</span>
+                    </li>
+                    <li class="txt_hidden">
+                        <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                        <span class="UserName">刘罗锅</span>
+                        <span>产品设计</span>
+                    </li>
+                    <li class="txt_hidden">
+                        <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                        <span class="UserName">刘德华</span>
+                        <span>产品设计</span>
+                    </li>
+                    <li class="txt_hidden">
+                        <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                        <span class="UserName">刘能</span>
+                        <span>产品设计</span>
+                    </li>
+                    <li class="txt_hidden">
+                        <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                        <span class="UserName">刘罗锅</span>
+                        <span>产品设计</span>
+                    </li>
+                </ul>
+                <!--操作消息提示框begin-->
+                <div class="message"><p class="font14 color-white">通讯录刷新成功！</p></div>
+                <!--操作消息提示框over-->
+            </div>
+        </div>
+        <!--员工列表over-->
+        <!--点击选择用户时候这里的dom才展开转身输入 begin-->
+        <div class="mart10">
+            <textarea class="text TurnTxt ie-css3 color-a" placeholder="请输入转审意见..."></textarea>
+        </div>
+        <!--点击选择用户时候这里的dom才展开转身输入 over-->
+        <p class="mart10 alignright">
+            <a href="#" class="Btn btn-make btn-sure">确 定</a>
+            <a href="#" class="Btn btn-make btn-quit marl10">取 消</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>

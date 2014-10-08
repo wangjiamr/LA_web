@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>弹出-条件配置</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/appstyle.css">
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/Mutual.js"></script>
+</head>
+<body class="visible"><!--当出现弹出框时候才加这个visible-->
+<div class="mask"></div>
+<div class="pop" style=""><!--保持弹出框始终左右，上下居中，那么保持margin-top等于 -1/2height  和margin-left等于  -1/2width -->
+    <p class="title">条件配置</p>
+    <span class="off">×</span>
+    <div class="popIn">
+        <div class="contactOut">
+            <div class="contact noborder mart10" style="display: block;">
+                <ul class="ul_page">
+                    <li>
+                        <!--金额条件 begin-->
+                        <p class="font14">金额类型</p>
+                        <div class="cond color-6">
+                            <span class="radio checked"><i class="Icon ico-check"></i><em>a</em> < 数值</span>
+                            <span class="radio"><i class="Icon ico-check"></i><em>a</em> <=数值</span>
+                            <span class="radio"><i class="Icon ico-check"></i><em>a</em> > 数值</span>
+                            <span class="radio"><i class="Icon ico-check"></i><em>a</em> >= 数值</span>
+                            <span class="radio"><i class="Icon ico-check"></i>数值 < <em>a</em> < 数值</span>
+                            <span class="radio"><i class="Icon ico-check"></i>数值 <= <em>a</em> < 数值</span>
+                            <span class="radio"><i class="Icon ico-check"></i>数值 <= <em>a</em> <= 数值</span>
+                            <span class="radio"><i class="Icon ico-check"></i>数值 < <em>a</em> <= 数值</span>
+                        </div>
+                        <p class="font14 mart30">金额数值</p>
+                        <div class="mart15 marl10">
+                            <input type="text" class="int width-100" placeholder="金额">
+                            <span class="font14 marl5 marr5 color-6">&gt;a&gt;</span>
+                            <input type="text" class="int width-100" placeholder="金额">
+                        </div>
+                        <!--金额条件 over-->
+                    </li>
+                    <li>
+                        <!--付款条件 begin-->
+                        <p class="font14">金额类型</p>
+                        <div class="cond color-6">
+                            <span class="radio checked"><i class="Icon ico-check"></i>现金</span>
+                            <span class="radio"><i class="Icon ico-check"></i>转账</span>
+                            <span class="radio"><i class="Icon ico-check"></i>支票</span>
+                            <span class="radio"><i class="Icon ico-check"></i>其他</span>
+                        </div>
+                        <!--付款条件 over-->
+                    </li>
+                    <li>
+                        <!--部门条件 begin-->
+                        <p class="font14">部门</p>
+                        <div class="cond color-6">
+                            <span class="check checked"><i class="Icon ico-check"></i>人力部门</span>
+                            <span class="check"><i class="Icon ico-check"></i>行政部门</span>
+                            <span class="check"><i class="Icon ico-check"></i>市场部</span>
+                            <span class="check"><i class="Icon ico-check"></i>研发部</span>
+                            <span class="check"><i class="Icon ico-check"></i>财务部</span>
+                            <span class="check"><i class="Icon ico-check"></i>后勤部</span>
+                            <span class="check"><i class="Icon ico-check"></i>公关善后部</span>
+                        </div>
+                        <!--部门条件 over-->
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class="alignright">
+            <a href="#" class="Btn btn-make btn-sure">确 定</a>
+            <a href="#" class="Btn btn-make btn-quit marl10">取 消</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>
