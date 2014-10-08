@@ -190,7 +190,7 @@
 .UserList li:nth-child(2n){border-right:0;}
 .R-btns{position:absolute;border-left:1px solid #9abee5;top:10px;bottom:10px;right:-35px;padding:0 5px 0 10px;z-index:20;background-color: #fff;}
 .R-btns a{width:15px;height:15px;display:block;margin-top:15px;}
-.FormIco li .R-btns{border:0;top:-1px;bottom:0;background:none;}
+.FormIco li .R-btns{border:0;top:-1px;bottom:0;background:transparent;}
 .FormIco li .R-btns a{margin:4px 0 12px 0;}
 /*流程*/
 .process{border-bottom:1px solid #aaa;}
