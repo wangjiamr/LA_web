@@ -218,7 +218,10 @@ li.current .ico-05,.NewBar ul li:hover .ico-05{background-position:-24px -136px;
 .LeftNav .ico-arrow{width:10px;height:16px;position: absolute;background-position: -35px -160px;z-index: 20;right:-10px;}
 .ico-set{background-position: -94px -58px;}
 .ico-set:hover{background-position: -155px -30px;}
-
+.ico-up,.ico-down2{width:12px;height:11px;background-position:-155px -180px;}
+.ico-down2{background-position:-155px -198px;}
+/*.ico-up:hover{background-position:-155px -211px;}*/
+/*.ico-down2:hover{background-position:-155px -225px;}*/
 .ico-Started{background-position:-155px -120px;}
 .ico-Started:hover{background-position:-155px -150px;}
 .ico-delete2{background-position: -94px -88px;}
