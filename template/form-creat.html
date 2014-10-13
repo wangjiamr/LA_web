@@ -74,7 +74,7 @@
     </div>
 </div>
 <!--header over-->
-<div class="content">
+<div class="content hidden">
     <div class="main" style="height: 100%;">
         <!--左侧begin-->
         <div class="form_left floatleft">
@@ -97,12 +97,13 @@
                                         <a href="javascript:;"><i class="Icon ico-down2 mart15" title="下移一行"></i></a>
                                         <em></em>
                                     </div>
-                                    <span class="font12">单选框</span>
-                                    <span>
-                                        <label><input type="radio" name="qb" value="">男</label>
-                                        <label><input type="radio" name="qb" value="">男</label>
-                                        <label><input type="radio" name="qb" value="">男</label>
-                                    </span>
+                                    <p class="font12">选择你最认为正确的选项</p>
+                                    <div class="block options">
+                                        <p>
+                                            <label><input type="radio" name="qb" value="">选项一</label><label><input type="radio" name="qb" value="">选项二</label>
+                                        </p>
+                                        <p><label><input type="radio" name="qb" value="">选项三</label></p>
+                                    </div>
                                 </div>
                             </td>
                         </tr>
@@ -433,7 +434,7 @@
         </div>
         <!--左侧over-->
         <!--右侧begin-->
-        <div class="form_right floatleft">
+        <div class="form_right inlineblock">
             <div class="TopBar mart10">
                 <div class="nav clearfix color-8 font14 width-auto">
                     <em class="borderBt" style="left:0;"></em>
@@ -443,136 +444,134 @@
                 </div>
             </div>
             <!--基本设置begin-->
-            <div class="module_box p-top10" style="display:none;">
-                <p class="color-8 p-top20">请先选择组件再进行编辑</p>
-                <!--<div class="jscroll" id="right_scroll" style="height:100%;display: none;">-->
-                    <div class="module mart20">
-                        <p class="font14">必填项</p>
-                        <div class="mart15 marl10">
-                            <table class="normal_set" style="width:100%;">
-                                <tr>
-                                    <th>图标</th>
-                                    <td>
-                                        <div class="Icon-box">
-                                            <span><img src="../img/f-ico6.png"/></span>
-                                            <ul class="ico_list clearfix">
-                                                <li><img src="../img/f-ico1.png"/></li>
-                                                <li><img src="../img/f-ico2.png"/></li>
-                                                <li><img src="../img/f-ico3.png"/></li>
-                                                <li><img src="../img/f-ico4.png"/></li>
-                                                <li><img src="../img/f-ico5.png"/></li>
-                                                <li><img src="../img/f-ico6.png"/></li>
-                                                <li><img src="../img/f-ico4.png"/></li>
-                                                <li><img src="../img/f-ico5.png"/></li>
-                                                <li><img src="../img/f-ico6.png"/></li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                    <th>颜色</th>
-                                    <td>
-                                       <div class="Icon-box color">
-                                            <span><em class="bg-01"></em></span>
-                                            <ul class="ico_list clearfix">
-                                                <li><em class="bg-01"></em></li>
-                                                <li><em class="bg-02"></em></li>
-                                                <li><em class="bg-03"></em></li>
-                                                <li><em class="bg-04"></em></li>
-                                                <li><em class="bg-05"></em></li>
-                                                <li><em class="bg-06"></em></li>
-                                                <li><em class="bg-07"></em></li>
-                                                <li><em class="bg-08"></em></li>
-                                                <li><em class="bg-09"></em></li>
-                                                <li><em class="bg-10"></em></li>
-                                            </ul>
-                                       </div>
-                                    </td>
-                                    <th>预览</th>
-                                    <td>
-                                        <span class="bg bg-01"><i class="Icon ico ico-6"></i></span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>标题</th>
-                                    <td colspan="5">
-                                        <div class="has-general width-250">
-                                            <input type="text" class="int" placeholder="最多输入6个字">
-                                            <label class="control-label">提示信息</label>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th colspan="2">编号起始缩写</th>
-                                    <td colspan="4">
-                                        <div class="has-general width-200">
-                                            <input type="text" class="int">
-                                            <label class="control-label">提示信息</label>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>备注</th>
-                                    <td colspan="5">
-                                        <div class="has-general width-200">
-                                            <input type="text" class="int">
-                                            <label class="control-label">提示信息</label>
-                                        </div>
-                                        <a href="javascript:;" title="删除明细"><i class="Icon ico-p-add"></i></a>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
+            <div class="module_box p-top10" style="display:;">
+                <!--<p class="color-8 p-top20">请先选择组件再进行编辑</p>-->
+                <div class="module mart20">
+                    <p class="font14">必填项</p>
+                    <div class="mart15 marl10">
+                        <table class="normal_set" style="width:100%;">
+                            <tr>
+                                <th>图标</th>
+                                <td>
+                                    <div class="Icon-box">
+                                        <span><img src="../img/f-ico6.png"/></span>
+                                        <ul class="ico_list clearfix">
+                                            <li><img src="../img/f-ico1.png"/></li>
+                                            <li><img src="../img/f-ico2.png"/></li>
+                                            <li><img src="../img/f-ico3.png"/></li>
+                                            <li><img src="../img/f-ico4.png"/></li>
+                                            <li><img src="../img/f-ico5.png"/></li>
+                                            <li><img src="../img/f-ico6.png"/></li>
+                                            <li><img src="../img/f-ico4.png"/></li>
+                                            <li><img src="../img/f-ico5.png"/></li>
+                                            <li><img src="../img/f-ico6.png"/></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                                <th>颜色</th>
+                                <td>
+                                   <div class="Icon-box color">
+                                        <span><em class="bg-01"></em></span>
+                                        <ul class="ico_list clearfix">
+                                            <li><em class="bg-01"></em></li>
+                                            <li><em class="bg-02"></em></li>
+                                            <li><em class="bg-03"></em></li>
+                                            <li><em class="bg-04"></em></li>
+                                            <li><em class="bg-05"></em></li>
+                                            <li><em class="bg-06"></em></li>
+                                            <li><em class="bg-07"></em></li>
+                                            <li><em class="bg-08"></em></li>
+                                            <li><em class="bg-09"></em></li>
+                                            <li><em class="bg-10"></em></li>
+                                        </ul>
+                                   </div>
+                                </td>
+                                <th>预览</th>
+                                <td>
+                                    <span class="bg bg-01"><i class="Icon ico ico-6"></i></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>标题</th>
+                                <td colspan="5">
+                                    <div class="has-general width-250">
+                                        <input type="text" class="int" placeholder="最多输入6个字">
+                                        <label class="control-label">提示信息</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th colspan="2">编号起始缩写</th>
+                                <td colspan="4">
+                                    <div class="has-general width-200">
+                                        <input type="text" class="int">
+                                        <label class="control-label">提示信息</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>备注</th>
+                                <td colspan="5">
+                                    <div class="has-general width-200">
+                                        <input type="text" class="int">
+                                        <label class="control-label">提示信息</label>
+                                    </div>
+                                    <a href="javascript:;" title="删除明细"><i class="Icon ico-p-add"></i></a>
+                                </td>
+                            </tr>
+                        </table>
                     </div>
-                    <div class="module mart20">
-                        <p class="font14">单选设置</p>
-                        <div class="mart15 marl10">
-                            <label><input type="radio" name="qb" value="">男</label>
-                            <label><input type="radio" name="qb" value="">女</label>
-                        </div>
+                </div>
+                <div class="module mart20">
+                    <p class="font14">单选设置</p>
+                    <div class="mart15 marl10">
+                        <span class="radio"><i class="Icon ico-check"></i>男</span>
+                        <span class="radio marl20"><i class="Icon ico-check"></i>女</span>
                     </div>
-                    <div class="module mart20">
-                        <p class="font14">多选设置</p>
-                        <div class="mart15 marl10">
-                            <label><input type="checkbox" name="a">选事实上1</label>
-                            <label><input type="checkbox" name="a">选项2</label>
-                            <label><input type="checkbox" name="a">选项3</label>
-                            <label><input type="checkbox" name="a">选项4</label>
-                        </div>
+                </div>
+                <div class="module mart20">
+                    <p class="font14">多选设置</p>
+                    <div class="mart15 marl10">
+                        <span class="check"><i class="Icon ico-check"></i>行政部门</span>
+                        <span class="check"><i class="Icon ico-check"></i>行政部门</span>
+                        <span class="check"><i class="Icon ico-check"></i>行政部门</span>
                     </div>
-                    <div class="module mart20">
-                        <p class="font14">省份设置</p>
-                        <div class="mart15 marl10">
-                           <select class="int width-80">
-                                <option>北京</option>
-                                <option>上海</option>
-                                <option>河北</option>
-                           </select>
-                           <select class="int width-80">
-                                <option>石家庄</option>
-                                <option>上海</option>
-                           </select>
-                        </div>
+                </div>
+                <div class="module mart20">
+                    <p class="font14">省份设置</p>
+                    <div class="mart15 marl10">
+                       <select class="int width-80">
+                            <option>北京</option>
+                            <option>上海</option>
+                            <option>河北</option>
+                       </select>
+                       <select class="int width-80">
+                            <option>石家庄</option>
+                            <option>上海</option>
+                       </select>
                     </div>
-                    <div class="module mart20">
-                        <p class="font14">区间设置</p>
-                        <div class="mart15 marl10">
-                           <input type="text" class="int width-80">
-                           <span>~</span>
-                           <input type="text" class="int width-80">
-                        </div>
+                </div>
+                <div class="module mart20">
+                    <p class="font14">区间设置</p>
+                    <div class="mart15 marl10">
+                       <input type="text" class="int width-80">
+                       <span>~</span>
+                       <input type="text" class="int width-80">
                     </div>
-                    <div class="module mart20">
-                        <p class="font14">数据格式</p>
-                        <div class="mart15 marl10">
-                           <input type="text" class="int width-160">
-                           <select class="int width-80">
-                                <option>验证格式</option>
-                                <option>邮箱</option>
-                                <option>手机号码</option>
-                                <option>邮编</option>
-                           </select>
-                        </div>
+                </div>
+                <div class="module mart20">
+                    <p class="font14">数据格式</p>
+                    <div class="mart15 marl10">
+                       <input type="text" class="int width-160">
+                       <select class="int width-80">
+                            <option>验证格式</option>
+                            <option>邮箱</option>
+                            <option>手机号码</option>
+                            <option>邮编</option>
+                       </select>
                     </div>
-                    <div class="module mart20">
+                </div>
+                <div class="module mart20">
                     <p class="font14 strong">非必填项</p>
                     <div class="mart15 marl10">
                         <span>选择分类</span>
@@ -603,11 +602,10 @@
                         </div>
                     </div>
                 </div>
-                <!--</div>-->
             </div>
             <!--基本设置over-->
             <!--添加组件begin-->
-            <div class="module_box" style="display: ;">
+            <div class="module_box" style="display:none;">
                 <div class="module mart20">
                     <p class="font14 alignright clearfix marr30">
                         <span class="font14 floatleft">互动组件</span>

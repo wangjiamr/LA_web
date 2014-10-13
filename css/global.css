@@ -33,6 +33,7 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .noborder{border:none!important;}
 .noborder-r{border-right:none!important;}
 .visible{overflow:visible!important;}
+.hidden{overflow:hidden!important;}
 /*margin*/
 .nomar{margin:0!important;}
 .mar-auto{margin:0 auto!important;}

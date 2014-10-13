@@ -273,11 +273,11 @@
 .form-edit .search button{padding:0;}
 /*编辑组件*/
 .form_left{width:628px;padding:0 10px;border:1px solid #aaa;border-width:0 1px;background:#eee;min-height:100%;position: relative;}
-.form_right{width:329px;min-height:100%;padding:0 0 0 20px;border-right:1px solid #aaa;}
+.form_right{width:329px;padding:0 0 0 20px;border-right:1px solid #aaa;height:100%;min-height: auto;}
 .form_inner{position: absolute;top:60px;left:0;right:0;bottom:20px;padding:0 20px;overflow-y: auto;}
 .form_main{position:relative;border:1px solid #ccc;background:#fff;padding-bottom:30px;min-height:92%;}
 .form_tab{width:100.4%;position: relative;left:-1px;right:-1px;margin-top:-1px;}
-.form_right .TopBar{margin-left:-10px;margin-right:10px;}
+/*.form_right .TopBar{margin-left:-10px;margin-right:10px;}*/
 .form_right .TopBar .nav{padding-bottom:5px;}
 .module{padding-bottom:5px;}
 .form_tab td,.form_tab th{height:46px;width:50%;border:1px dashed #ccc;border-bottom:0;}
@@ -289,14 +289,16 @@
 .Column tbody td:last-child{border-right:0;}
 .form_tab_last{border:1px dashed #ccc;}
 .form_tab td .td_inner{width:100%;min-height:46px;line-height:45px;position: relative;color:#888;}
-.form_tab td .td_inner span.font12{min-width:40px;display:inline-block;padding:0 10px 0 10px;color:#333}
+.form_tab td .td_inner span.font12,.form_tab td .td_inner p.font12{min-width:40px;display:inline-block;padding:0 10px 0 10px;color:#333}
+.form_tab td .td_inner .options{padding-left:20px;}
+.form_tab td .td_inner .options p{line-height:30px;}
 .form_tab td .td_inner input.int,.module input.int{height:26px;line-height:25px;border:1px solid #ccc;border-radius:2px;}
 .form_tab td.choose .td_inner,.form_tab td.choose,.form_tab td:hover .td_inner,.form_tab td:hover{background:#edf5fe;}
 .form_tab .td_inner span.radio{padding-right:20px;}
 .form_tab .td_inner span.div{display:inline-block;}
 .td_inner:hover .ico-delete4{display:block;right:0;z-index:100;}
 .mask_in{display: none;}
-.form_tab td:hover .mask_in{position: absolute;width:100%;height:100%;top:0;left:0;display: block;}
+.form_tab td:hover .mask_in{position: absolute;width:100%;height:100%;top:0;left:0;display: block;z-index:4;}
 .form_tab tr:hover .ico-all,.form_tab tr.choose_row .ico-all{display:inline-block;}
 .form_tab tr .ico-all:hover em{display: none;}
 .form_tab tr .ico-all .Icon{display:none;margin-top:5px;}
@@ -308,9 +310,9 @@
 .form_tab td textarea.int{width:80%;min-height:40px;margin:10px 0;}
 .form_tab td input.int,.form_tab td select.int{width:65%;}
 .form_tab td .td_inner .has-general{width:65%;}
-.form_tab td .td_inner .has-general  input.int{width:100%;}
+.form_tab td .td_inner .has-general input.int{width:100%;}
 .module input.int,.module textarea.int{width:85%;}
-.module .has-general{display: inline-block;}
+.module .has-general{display:inline-block;}
 .module .has-general input.int,.module .has-general textarea.int{width:100%;}
 .module .ico-p-minus,.module .ico-p-add{margin-left:5px;position: relative;top:6px;}
 .module .control-label.unit{display:inline-block;width:20%;left:inherit;right:0;padding:0 3px;background:#fff;}
@@ -343,7 +345,7 @@
 .module_list li{height:28px;line-height:28px;padding-left:15px;border:1px solid #cbcbcb;border-left-width:5px;margin:10px 0;cursor: pointer;}
 .module_list li:hover,.module_list li.current{border-color:#2b97df;}
 .jscroll{outline:0;}
-
+.module_box{padding-bottom:50px;height:90%;overflow-y: auto;}
 
 
 
