@@ -134,14 +134,14 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .Btn{display:inline-block;color:#fff;}
 .btn-cross,.btn-veto,.btn-turn2,.btn-invite,.btn-notice{width:90px;height:30px;margin:10px 0 0 17px;line-height:30px;border-radius: 4px;text-align: center;font-size:14px;border: 1px solid transparent;}
 .Btn:hover,.AppMakeBtn .Btn.current{background-color:#002059;border: 1px solid #2e5cac;}
-.btn-quit,.btn-sure{color:#666;width:88px;height:23px;line-height:23px;border-radius:4px;border:1px solid #aaa;text-align: center;}
-.btn-make:hover{color:#fff;}
+.btn-quit,.btn-sure,.Btn-normal{color:#666;width:88px;height:23px;line-height:23px;border-radius:4px;border:1px solid #aaa;text-align: center;}
+.btn-make:hover,.Btn-normal:hover{color:#fff;}
 .btn_right{position:absolute;right:10px;top:13px;}
 .step_btn{width:100px;height:30px;line-height:30px;text-align: center;background-color:#3478d3;color:#fff;border-radius:3px;}
 .No_click{background-color:#ccc;cursor: default;}
 .form_left .Btn{background:#fff;}
 /*background-color and border-color*/
-.bg-347cdc,.MakeBtn,.pagenation a.current,.btn-make:hover,.CheckWord li:hover,.CheckWord li.current{background-color:#347cdc;}
+.bg-347cdc,.MakeBtn,.pagenation a.current,.btn-make:hover,.Btn-normal:hover,.CheckWord li:hover,.CheckWord li.current{background-color:#347cdc;}
 .ListMain .ListTitle:hover{background-color: #f3f3f3;}
 .border-33619f{border-color:#33619f;}
 .search,.text{border-color:#aaa;}
@@ -270,7 +270,6 @@ li.current .ico-05,.NewBar ul li:hover .ico-05{background-position:-24px -136px;
 .ico-7{background-position:-109px -132px;}
 .Icon-add{display:block;width:90px;height:90px;position: absolute;left:50%;top:50%;margin:-45px 0 0 -45px;}
 .ico-add{width:60px;height:60px;background: url("../img/ico-plus.png");margin-bottom: 5px;}
-
 /*弹出*/
 .loading{position:fixed;width:160px;height:60px;top:50%;left:50%;margin:-30px 0 0 -80px;line-height: 60px;text-align:center;background: url("../img/mask.png") repeat;border-radius:3px;color:#fff;behavior: url(../css/PIE.htc);}
 .loading img{vertical-align:-4px;width: 18px;margin:0 10px 0 -5px;animation: spin .8s infinite linear;}

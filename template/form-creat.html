@@ -80,10 +80,10 @@
         <div class="form_left floatleft">
             <div class="p-top20 clearfix alignright marl10 marr10">
                 <a href="#" class="color-347cdc floatleft mart5">&lt; 返回列表</a>
-                <a href="#" class="Btn btn-make btn-quit marl10">另存为模板</a>
-                <a href="#" class="Btn btn-make btn-quit marl10">生成表单</a>
-                <a href="#" class="Btn btn-make btn-quit marl10">选择模板</a>
-                <a href="#" class="Btn btn-make btn-sure marl10">清空</a>
+                <a href="#" class="Btn Btn-normal marl10">另存为模板</a>
+                <a href="#" class="Btn Btn-normal marl10">生成表单</a>
+                <a href="#" class="Btn Btn-normal marl10">选择模板</a>
+                <a href="#" class="Btn Btn-normal marl10">清空</a>
             </div>
             <div class="form_inner">
                 <div class="form_main">
@@ -444,7 +444,7 @@
                 </div>
             </div>
             <!--基本设置begin-->
-            <div class="module_box p-top10" style="display:;">
+            <div class="module_box p-top10" style="display:none;">
                 <!--<p class="color-8 p-top20">请先选择组件再进行编辑</p>-->
                 <div class="module mart20">
                     <p class="font14">必填项</p>
@@ -653,7 +653,7 @@
             </div>
             <!--添加组件over-->
             <!--编辑组件begin-->
-            <div class="module_box" style="display: none;">
+            <div class="module_box" style="display: ;">
                 <div class="module mart20">
                     <p class="font14">标题</p>
                     <p class="mart15 marl10"><input class="int" type="text"></p>
@@ -729,23 +729,24 @@
                 </div>
                 <div class="module mart20">
                 <p class="font14">验证格式</p>
-                <div class="mart15 marl10">
-                    <div class="search ie-css3 select width-150 marr10 mart10"><!--加 current，显示下拉列表框-->
-                        <span class="Choosed">任意格式</span>
-                        <span class="ico-select"><i class="Icon ico-upd"></i></span>
-                        <!--搜索结果begin-->
-                        <div class="ser_Results ie-css3">
+                <div id="select" class="search ie-css3 select mart10 width-200" ><!--加 current，显示下拉列表框-->
+                    <span class="Choosed">选择群组</span>
+                    <span class="ico-select"><i class="Icon ico-upd"></i></span>
+                    <div class="ser_Results ie-css3 groupList">
+                        <div class="jscroll" style="width:190px;height:100px;">
                             <ul>
+                                <li>任意格式</li>
+                                <li>电子邮件</li>
+                                <li>移动电话</li>
+                                <li>身份证</li>
                                 <li>任意格式</li>
                                 <li>电子邮件</li>
                                 <li>移动电话</li>
                                 <li>身份证</li>
                             </ul>
                         </div>
-                        <!--搜索结果over-->
                     </div>
                 </div>
-            </div>
             </div>
             <!--编辑组件over-->
         </div>
