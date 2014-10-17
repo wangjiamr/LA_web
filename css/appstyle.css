@@ -286,9 +286,14 @@
 .Column,.form_tab td table{width:100%;}
 .form_tab .td_inner td{width:auto;}
 .Column thead th{border-width:0 0 1px 0;}
-.Column tbody td:first-child{border-left:0;}
-.Column tbody td:last-child{border-right:0;}
-.Column .td_inner span input{margin-top:-10px;}
+.Column tbody th:first-child,.Column tbody td:first-child{border-left:0;}
+.Column tbody th:last-child,.Column tbody td:first-child{border-right:0;}
+.form_tab td .td_inner .Column td,.form_tab td .td_inner .Column th{text-align: center;}
+.form_tab td .td_inner .Column td input.int{height:18px;}
+.form_tab td .td_inner .Column th,.form_tab td .td_inner .Column td{line-height:35px;height:35px;}
+.form_tab td .td_inner .Column thead th{color:#333;}
+.Column th .Icon{vertical-align: -3px;}
+.form_tab td .td_inner .Column td textarea{margin-left:19px;}
 .form_tab_last{border:1px dashed #ccc;}
 .form_tab td .td_inner{width:100%;min-height:46px;line-height:45px;position: relative;color:#888;}
 .form_tab td .td_inner span.font12,.form_tab td .td_inner p.font12{min-width:40px;display:inline-block;padding:0 10px 0 10px;color:#333}
