@@ -280,10 +280,11 @@
 /*.form_right .TopBar{margin-left:-10px;margin-right:10px;}*/
 .form_right .TopBar .nav{padding-bottom:5px;}
 .module{padding-bottom:5px;}
-.form_tab td,.form_tab th{height:46px;border:1px dashed #ccc;border-bottom:0;width:50%;}
+.form_tab th{height:46px;border:1px dashed #ccc;border-bottom:0;}
+.form_tab td{height:46px;border:1px dashed #ccc;border-bottom:0;width:50%;}
 .form_tab td td{border:1px dashed #ccc;border-bottom:0;}
 .Column,.form_tab td table{width:100%;}
-.form_tab .td_inner td{width:0;}
+.form_tab .td_inner td{width:auto;}
 .Column thead th{border-width:0 0 1px 0;}
 .Column tbody td:first-child{border-left:0;}
 .Column tbody td:last-child{border-right:0;}
