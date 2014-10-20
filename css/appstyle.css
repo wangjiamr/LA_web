@@ -80,7 +80,7 @@
 .ListMain .ListTitle .Li_span4 img,.popIn .Li_span4 img{width:30px;height: 30px;border-radius:50em;vertical-align:-10px;margin:0 5px 0 0;}
 .ListMain .ListTitle .Li_span5{width:159px;}
 .Li_span4 font{color:#888;padding-left: 5px;}
-.Li_span4 em{padding-right:10px;}
+.Li_span4 em{padding-right:10px;display: inline-block;width:60px;}
 .MakeBtn{height:38px;padding:0 15px;border-radius:0 5px 5px 0;position: absolute;top:-1px;right:-200px;}
 .MakeBtn a{margin:7px 5px;}
 .AppDetail{width:805px;background: url("../img/r-bg.png") repeat-y;position:absolute;top:0;right:-805px;bottom:0;z-index: 20;}
