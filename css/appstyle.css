@@ -299,11 +299,16 @@
 .form_tab td .td_inner span.font12,.form_tab td .td_inner p.font12{min-width:40px;display:inline-block;padding:0 10px 0 10px;color:#333}
 .form_tab td .td_inner .options{padding-left:50px;}
 .form_tab td .td_inner .options p{line-height:30px;}
+.form_tab td .td_inner .options label{height:18px;line-height:18px;}
+.form_tab td .td_inner .options p.has_two label{width:40%;}
+.form_tab td .td_inner .options p.has_three label{width:30%;}
+.form_tab td .td_inner .options p.has_four label{width:22%;}
 .form_tab td .td_inner input.int,.module input.int{height:26px;line-height:25px;border:1px solid #ccc;border-radius:2px;}
 .form_tab td.choose .td_inner,.form_tab td.choose,.form_tab td:hover .td_inner,.form_tab td:hover{background:#edf5fe;}
 .form_tab .td_inner span.radio{padding-right:20px;}
 .form_tab .td_inner span.div{display:inline-block;}
 .td_inner:hover .ico-delete4{display:block;right:0;z-index:100;}
+.form_tab td .Out_here,.form_tab td:hover .Out_here{background:#fb7c78;color:#fff;}
 .mask_in{display: none;}
 .form_tab td:hover .mask_in{position: absolute;width:100%;height:100%;top:0;left:0;display: block;z-index:4;}
 .form_tab tr:hover .ico-all,.form_tab tr.choose_row .ico-all{display:inline-block;}
