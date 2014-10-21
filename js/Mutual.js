@@ -137,9 +137,15 @@ $(function(){
         $this.find('.ProcessLi').stop().animate({marginLeft:0},1500);
     });
 //    选择流程
-    $(".Item tr").click(function(){
+
+    $(".Item tr").hover(function(){
         var $this = $(this);
-        $this.addClass('current').siblings().removeClass('current');
+        var $Btn_item = $this.find('.Btn_item');
+        $Btn_item.stop().animate({right:0},200);
+    },function(){
+        var $this = $(this);
+        var $Btn_item = $this.find('.Btn_item');
+        $Btn_item.stop().animate({right:-100},200);
     });
 //  点击选择check
     $('.radio').click(function(){

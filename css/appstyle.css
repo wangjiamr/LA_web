@@ -16,11 +16,11 @@
 .item_box .UserImg,.item_box .UserImg img{width:30px;height:30px;}
 .DropDown{position: relative;z-index: 20;width:130px;border-right: 1px solid #ccc;border-left: 1px solid #ccc;padding-left:20px;margin-left:20px;}
 .DropDown p{line-height:20px;}
-.DropDown .DropList{position: absolute;width:90px;z-index: 20;top:50px;left:-25px;display: none;}
-.DropDown .DropList .ico-arrow{position: absolute;right:24px;top:-7px;}
-.DropDown .DropList ul{border:1px solid #00479d;background:#fff;padding:5px 0;border-radius:3px;}
+.DropDown .DropList{position: absolute;width:98px;z-index: 20;top:60px;left:-28px;display: none;background: url("../img/dropdown.png") 0 bottom no-repeat;}
+.DropDown .DropList .ico-arrow{position: absolute;left:0;top:-14px;width:98px;height:14px;background-position:1px -378px;}
+.DropDown .DropList ul{margin:0 5px;padding:0 0 8px 0;}
 .DropDown .DropList li{margin:5px 0;}
-.DropDown .DropList li a{display:block;height:30px;line-height:30px;color:#666;padding-left:14px;font-size:14px;}
+.DropDown .DropList li a{display:block;height:30px;line-height:30px;color:#666;text-align:center;font-size:12px;}
 .DropDown .DropList li a:hover{background-color: #edf5fe;}
 .DropDown.current .ico-plus{background-position:-40px 0;}
 .DropDown.current .ico-home{background-position:-88px -338px;}
@@ -212,13 +212,16 @@
 .Item tbody td{border-bottom:12px solid #fff;}
 .Item tbody td div{height:36px;line-height:36px;border:1px solid #ddd;border-right-width:0;overflow:hidden;padding-left:9px;}
 .Item tbody td div.first{border-radius:3px 0 0 3px;padding:0 20px;}
-.Item tbody td div.last{border-right-width:1px;border-radius:0 3px 3px 0;}
-.Item tbody tr.current td div.mid,.Item tbody tr.current td div.last{border-left-color:#ddd;}
-.Item tbody tr.current td div{border-color:#f24c29;}
-.Item tbody tr.current span.txt_hidden{color:#f24c29;}
+.Item tbody td div.last{border-right-width:1px;border-radius:0 3px 3px 0;position: relative;}
+.Item tbody tr:hover td div.mid,.Item tbody tr:hover td div.last{border-left-color:#347cdc;}
+.Item tbody tr:hover td div{border-color:#347cdc;}
+.Item tbody tr:hover span.txt_hidden{color:#347cdc;}
+.Item tbody td div.Btn_item{position: absolute;top:-1px;height:38px;right:-100px;background:#347cdc;padding:0 10px;}
+.Item tbody td div.Btn_item a{display:inline-block;height:38px;line-height:38px;padding:0 10px;}
+.Item tbody td div.Btn_item a:hover{background:#24579a;}
 .ProcessLi{display:block;height:100%;width:999px;}
 .ProcessLi li{display: inline-block;float: left;}
-.Item tbody td div span{display: inline-block;line-height:35px;position: relative;top:2px;cursor:pointer;}
+.Item tbody td div span{display: inline-block;line-height:35px;position: relative;cursor:pointer;}
 .Item tbody td div span .Icon{top:-2px;}
 .cond span .Icon{top:-1px;}
 .process-main{background-color:#eee;}
