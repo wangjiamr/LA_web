@@ -253,6 +253,7 @@ li.current .ico-05,.NewBar ul li:hover .ico-05{background-position:-24px -136px;
 .form-mini-bt .ico-arrow-top{background-position: -131px -92px;}
 .ico-clander{width:12px;height:11px;background-position:-131px -135px;position: absolute;right:3px;top:10px;z-index:10;}
 .ico-clander:hover{background-position:-131px -150px;}
+.Column .ico-clander{top:4px;}
 .ico-edit,.ico-delete5{width:14px;height:14px;background-position:-155px -240px;vertical-align:-2px;}
 .ico-delete5{background-position:-155px -268px;}
 /*表单图标背景和ico*/
