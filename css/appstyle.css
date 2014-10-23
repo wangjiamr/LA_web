@@ -209,7 +209,7 @@
 .process .Title{background: url("../img/title_bg.jpg") 0 bottom repeat-x;}
 .Item{width:100%;}
 .Item thead th{height:40px;line-height: 40px;padding-left:20px;}
-.Item span.txt_hidden{width:100px;}
+.Item span.txt_hidden{width:100px;color:#888;}
 .Item tbody td{border-bottom:12px solid #fff;height:36px;}
 .Item tbody td div{height:36px;line-height:36px;border:1px solid #ddd;border-right-width:0;overflow:hidden;padding-left:9px;}
 .Item.Item_title tbody td div,.Item.Item_title tbody td{height:25px;line-height:25px;}
