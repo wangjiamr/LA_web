@@ -175,7 +175,7 @@
 .CheckWord li:hover,.CheckWord li.current{color: #fff;}
 .refresh,.CheckWord li.refresh:hover{border:1px solid #aaa;border-radius:3px;color: #888;background-color: #fff;}
 .contact .nodata{position: absolute;top:50%;left:50%;line-height: 20px;margin:-30px 0 0 -85px;padding-top: 0;color:#666;}
- .nodata a{color:#0000ff;padding:0 3px;}
+ .nodata a{color:#347cdc;padding:0 3px;}
 /*选择申请表单*/
 .form-main{background: url("../img/form-bg.jpg") repeat-y;}
 .form-list{width:998px;border-width:0 1px;}
