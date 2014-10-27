@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>编辑模板</title>
+    <title>magic 控件</title>
     <link rel="stylesheet" type="text/css" href="../css/global.css">
     <link rel="stylesheet" type="text/css" href="../css/appstyle.css">
     <link rel="stylesheet" type="text/css" href="../css/jscrollpane.css">
@@ -35,7 +35,7 @@
 <!--header begin-->
 <div class="header">
     <div class="headerInner clearfix">
-        <span class="inlineblock company_logo"><img src="https://img.mingdao.com/ProjectLogo/default.gif"/></span>
+        <span class="inlineblock company_logo"></span>
         <span class="inlineblock company_name font16 marl10 color-3">梅花与明道</span>
         <!--右侧头像和发起按钮 begin-->
         <div class="headerRight floatright clearfix">
@@ -70,7 +70,7 @@
             <!--plus btn over-->
         </div>
         <!--右侧头像和发起按钮 over-->
-        <a href="#" class="back_md marl20 color-8">快捷审批</a>
+        <a href="#" class="back_md marl20 color-8">返回明道</a>
     </div>
 </div>
 <!--header over-->
@@ -87,36 +87,13 @@
             </div>
             <div class="form_inner">
                 <div class="form_main">
-                    <p class="font18 p-top20 aligncenter">标 题</p>
-                    <table class="form_tab mart20">
+                    <table class="form_tab form_tab_title">
                         <tr>
-                            <td colspan="2">
-                                <div class="td_inner">
-                                    <div class="Icon ico-all" style="display: block;">
-                                        <a href="javascript:;"><i class="Icon ico-up" title="上移一行"></i></a>
-                                        <a href="javascript:;"><i class="Icon ico-down2 mart15" title="下移一行"></i></a>
-                                        <em></em>
-                                    </div>
-                                    <p class="font12">选择你最认为正确的选项</p>
-                                    <div class="block options">
-                                        <p class="has_two">
-                                            <label class="txt_hidden"><input type="radio" name="qb" value="">选择你最认为正确的选项选择你最认择你最认为正确的选项</label>
-                                            <label class="txt_hidden"><input type="radio" name="qb" value="">选项二</label>
-                                        </p>
-                                        <p class="has_three">
-                                            <label class="txt_hidden"><input type="radio" name="qb" value="">dewqrwrw34正确的选项选择你最认为正确的选项选择你最认为正确的选项</label>
-                                            <label class="txt_hidden"><input type="radio" name="qb" value="">选项二</label>
-                                            <label class="txt_hidden"><input type="radio" name="qb" value="">选项二</label>
-                                        </p>
-                                        <p class="has_four">
-                                            <label class="txt_hidden"><input type="radio" name="qb" value="">选择你最认57858689690690确的选项选择你最认为正确的选项选择你最认为正确的选项</label>
-                                            <label class="txt_hidden"><input type="radio" name="qb" value="">选项二</label>
-                                            <label class="txt_hidden"><input type="radio" name="qb" value="">选项二</label>
-                                            <label class="txt_hidden"><input type="radio" name="qb" value="">选项二</label>
-                                        </p>
-                                        <p><label class="txt_hidden"><input type="radio" name="qb" value="">选项三</label></p>
-                                    </div>
-                                </div>
+                            <td>
+                                <div class="td_inner ">A</div>
+                            </td>
+                            <td>
+                                <div class="td_inner">B</div>
                             </td>
                         </tr>
                     </table>
@@ -124,8 +101,7 @@
                         <tr>
                             <td>
                                 <div class="td_inner">
-                                    <a href="javascript:;" class="Icon ico-all" title="选择整行"><em></em></a>
-                                    <a href="javascript:;" class="Icon ico-delete4" title="删除"></a>
+                                    <a href="javascript:;" class="Number"><em>1</em></a>
                                     <span class="font12">公司<em>（只读）</em></span>
                                     <span>明道北京研发中心</span>
                                 </div>
@@ -143,7 +119,7 @@
                         <tr>
                             <td>
                                 <div class="td_inner">
-                                    <a href="javascript:;" class="Icon ico-all" title="选择整行"><em></em></a>
+                                    <a href="javascript:;" class="Number"><em>1</em></a>
                                     <span class="font12">下拉选择</span>
                                     <span>
                                         <select class="int">
@@ -156,7 +132,6 @@
                             </td>
                             <td>
                                 <div class="td_inner">
-                                    <a href="javascript:;" class="Icon ico-delete4" title="删除"></a>
                                     <span class="font12">选择省市</span>
                                     <span class="div">
                                         <div class="search ie-css3 select width-80"><!--加 current，显示下拉列表框-->
@@ -198,6 +173,7 @@
                         <tr>
                             <td colspan="2">
                                 <div class="td_inner">
+                                    <a href="javascript:;" class="Number"><em>3</em></a>
                                     <div class="mask_in"></div>
                                     <span class="font12">文本域</span>
                                     <span>
@@ -211,7 +187,7 @@
                          <tr>
                              <td>
                                  <div class="td_inner">
-                                    <a href="javascript:;" class="Icon ico-delete4" title="删除"></a>
+                                    <a href="javascript:;" class="Number"><em>4</em></a>
                                     <table class="Column">
                                         <thead>
                                             <tr>
@@ -717,11 +693,60 @@
                         </div>
                     </div>
                 </div>
+                <div class="module mart20">
+                    <p class="font14">关联控件</p>
+                    <div class="marl10">
+                        <p class="mart10">可关联控件：</p>
+                        <ul class="Control mart5">
+                            <li>A2(日期控件1)</li>
+                            <li>B2(日期控件1)</li>
+                            <li>A4(日期控件1)</li>
+                            <li>A2(日期控件1)</li>
+                            <li>B2(日期控件1)</li>
+                            <li>A4(日期控件1)</li>
+                            <li>A2(日期控件1)</li>
+                            <li>B2(日期控件1)</li>
+                            <li>A4(日期控件1)</li>
+                        </ul>
+                        <p class="mart15">编辑公式：</p>
+                        <div class="mart10">
+                            <div class="textarea has-general" style="width:95%;">
+                                <textarea class="int">公式编辑器支持：+ - * / ( )运算。控件请以坐标形式输入，字符之间以空格分隔。</textarea>
+                            </div>
+                            <p class="alignright mart10 marr15">
+                                <span class="floatleft color-info">运算符有误！</span>
+                                <a href="#" class="Btn step_btn ie-css3">数据测试</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!--编辑组件over-->
-            </div>
         </div>
         <!--右侧over-->
     </div>
+</div>
+<div class="mask"></div>
+<div class="pop" style="width:500px;margin-left:-250px;"><!--保持弹出框始终左右，上下居中，那么保持margin-top等于 -1/2height  和margin-left等于  -1/2width -->
+    <p class="title">数据测试</p>
+    <span class="off">×</span>
+    <div class="popIn">
+        <table class="control">
+            <tr>
+                <th rowspan="4">A3（总金额）=</th>
+                <th>((B2（金额1）)</th>
+                <td></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <p class="pop_btn alignright">
+        <a href="#" class="Btn btn-make btn-quit">取 消</a>
+        <a href="#" class="Btn btn-make btn-sure marl10">确 定</a>
+    </p>
+</div>
 </body>
 </html>

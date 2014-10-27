@@ -337,6 +337,12 @@
 .form_tab td input.int,.form_tab td select.int{width:65%;}
 .form_tab td .td_inner .has-general{width:65%;}
 .form_tab td .td_inner .has-general input.int{width:100%;}
+.form_tab_title td{text-align:center;padding:10px 0;}
+.form_tab_title td .td_inner{font-size:24px;}
+.form_tab_title td:hover .td_inner,.form_tab_title td:hover{background:none;}
+.Number{display:block;width:21px;position:absolute;left:-21px;top:0;bottom:0;text-align: center;;background:#e3e3e3;color:#666;outline: 1px dashed #ccc;outline-width:1px 0;}
+.Number em{width:100%;height:20px;line-height:20px;top:50%;margin-top:-10px;left:0;position: absolute;}
+
 .module input.int,.module textarea.int{width:85%;}
 .module .has-general{display:inline-block;}
 .module .has-general input.int,.module .has-general textarea.int{width:100%;}
@@ -372,7 +378,7 @@
 .module_list li:hover,.module_list li.current{border-color:#2b97df;}
 .jscroll{outline:0;}
 .module_box{padding-bottom:50px;height:90%;overflow-y: auto;}
-
+.Control li{display: inline-block;width:45%;color:#666;line-height:24px;padding-left:10px;}
 
 
 
