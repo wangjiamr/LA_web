@@ -381,7 +381,7 @@
 .Control li{display: inline-block;width:45%;color:#666;line-height:24px;padding-left:10px;}
 .Control li.current{background:#edf5fe;color:#333;}
 .control_box{border-bottom:1px solid #ccc;padding-bottom:15px;}
-.control_box table th{width:20%;vertical-align: top;}
+.control_box table th{width:20%;}
 .control_box table td{line-height:20px;}
 
 
