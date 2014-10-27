@@ -382,11 +382,11 @@
 .Control li.current{background:#edf5fe;color:#333;}
 .control_box{border-bottom:1px solid #ccc;padding-bottom:15px;}
 .control_box table th{width:20%;}
-.control_box table td{line-height:20px;}
-
-
-
-
+.control_box table td{line-height:20px;padding:5px 0;padding-left:10px;}
+.control_box .int,.control_int{border:1px solid #ccc;}
+.control_box label.tips{right:-35px;}
+.control_int{width:95%;height:70px;}
+.control_int em.current{background:#ccc;color:#333;padding:0 5px;margin:0 2px;display: inline-block;}
 
 
 

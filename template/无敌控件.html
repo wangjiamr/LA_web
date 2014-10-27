@@ -719,8 +719,10 @@
                         </ul>
                         <p class="mart15">编辑公式：</p>
                         <div class="mart10">
-                            <div class="textarea has-general" style="width:95%;">
-                                <textarea class="int">公式编辑器支持：+ - * / ( )运算。控件请以坐标形式输入，字符之间以空格分隔。</textarea>
+                            <div class="int control_int" contenteditable="true">
+                                <em class="current">A2 选择时间1</em>
+                                <em>A2 选择时间1</em>
+                                <em>A2 选择时间1</em>
                             </div>
                             <p class="alignright mart10 marr15">
                                 <span class="floatleft color-info">运算符有误！</span>
@@ -735,14 +737,14 @@
         <!--右侧over-->
     </div>
 </div>
-<div class="mask" style="display: ;"></div>
+<div class="mask" style="display:none ;"></div>
 <div class="pop" style="width:500px;margin-left:-250px;display: ;"><!--保持弹出框始终左右，上下居中，那么保持margin-top等于 -1/2height  和margin-left等于  -1/2width -->
     <p class="title">数据验证</p>
     <span class="off">×</span>
     <div class="popIn">
         <div class="control_box mart20">
             <p class="font14">关联公式</p>
-            <table class="mart10">
+            <table class="mart10 marl10">
                 <tr>
                     <th>A3(总金额) = </th>
                     <td>( B2(金额1) + B3(金额2) + B4(金额3) + B2(金额1) + B3(金额2) + B4(金额3) ) * B6(日期1)</td>
@@ -751,25 +753,46 @@
         </div>
         <div class="control_box mart20">
             <p class="font14">测试数据</p>
-            <table class="mart10">
+            <table class="mart10 marl10">
                 <tr>
                     <th>A3(总金额)</th>
                     <td>
-                        <div class="has-general">
+                        <div class="has-general  width-140">
                             <input type="text" class="int">
                             <label class="control-label">提示信息</label>
+                            <label class="tips">(元)</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>A3(总金额)</th>
+                    <td>
+                        <div class="has-general  width-140">
+                            <input type="text" class="int">
+                            <label class="control-label">提示信息</label>
+                            <label class="tips">(元)</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>A3(总金额)</th>
+                    <td>
+                        <div class="has-general  width-140">
+                            <input type="text" class="int">
+                            <label class="control-label">提示信息</label>
+                            <a href="javascript:;" class="Icon ico-clander"></a>
                         </div>
                     </td>
                 </tr>
             </table>
         </div>
         <div class="control_box noborder mart20">
-
+            <p class="font14">验证结果</p>
+            <p class="font14 mart15 marl10">A3(总金额) = <span>10000</span></p>
         </div>
     </div>
     <p class="pop_btn alignright">
-        <a href="#" class="Btn btn-make btn-quit">取 消</a>
-        <a href="#" class="Btn btn-make btn-sure marl10">确 定</a>
+        <a href="#" class="Btn step_btn ie-css3">计算</a>
     </p>
 </div>
 </body>
