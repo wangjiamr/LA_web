@@ -349,7 +349,7 @@
 .module .ico-p-minus,.module .ico-p-add{margin-left:5px;position: relative;top:6px;}
 .module .control-label.unit{display:inline-block;width:20%;left:inherit;right:0;padding:0 3px;background:#fff;}
 .module_li li{display: inline-block;width:138px;height:26px;line-height:26px;text-align:center;border:1px dashed #b6b6b6;border-radius:3px;margin:10px 5px 0 5px;cursor: pointer;}
-.module_li li:hover{border:1px solid #347cdc;background:#f2f8fe;}
+.module_li li:hover,.module_li li.current{border:1px solid #347cdc;background:#f2f8fe;}
 .module_li li:active{cursor: move;}
 .cursor_none{cursor:url('../img/aero_unavail.cur'),auto!important;}
 .Icon-box{width:34px;height:34px;display:inline-block;background: url("../img/ico-box-bg.jpg"); text-align: center;cursor: pointer;position: relative;}
@@ -379,10 +379,10 @@
 .jscroll{outline:0;}
 .module_box{padding-bottom:50px;height:90%;overflow-y: auto;}
 .Control li{display: inline-block;width:45%;color:#666;line-height:24px;padding-left:10px;}
-
-
-
-
+.Control li.current{background:#edf5fe;color:#333;}
+.control_box{border-bottom:1px solid #ccc;padding-bottom:15px;}
+.control_box table th{width:20%;vertical-align: top;}
+.control_box table td{line-height:20px;}
 
 
 

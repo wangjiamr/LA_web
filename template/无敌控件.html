@@ -694,19 +694,28 @@
                     </div>
                 </div>
                 <div class="module mart20">
-                    <p class="font14">关联控件</p>
-                    <div class="marl10">
-                        <p class="mart10">可关联控件：</p>
-                        <ul class="Control mart5">
-                            <li>A2(日期控件1)</li>
-                            <li>B2(日期控件1)</li>
-                            <li>A4(日期控件1)</li>
-                            <li>A2(日期控件1)</li>
-                            <li>B2(日期控件1)</li>
-                            <li>A4(日期控件1)</li>
-                            <li>A2(日期控件1)</li>
-                            <li>B2(日期控件1)</li>
-                            <li>A4(日期控件1)</li>
+                    <p class="font14"><span class="check checked"><i class="Icon ico-check marr10"></i>关联控件</span></p>
+                    <div>
+                        <p class="mart15">可关联控件：</p>
+                        <ul class="module_li mart5">
+                            <li class="txt_hidden current">文文本输入文本输入本输入</li>
+                            <li class="txt_hidden">数字输入</li>
+                            <li class="txt_hidden">日期选择</li>
+                            <li class="txt_hidden">下拉列表</li>
+                            <li class="txt_hidden">复选框</li>
+                            <li class="txt_hidden">单选框</li>
+                            <li class="txt_hidden">文本域</li>
+                            <li class="txt_hidden">金额输入</li>
+                            <li class="txt_hidden">选择时间</li>
+                            <li class="txt_hidden">选择部门</li>
+                            <li class="txt_hidden">搜索员工</li>
+                            <li class="txt_hidden">评分指标</li>
+                            <li class="txt_hidden">四列明细表</li>
+                            <li class="txt_hidden">五列明细表</li>
+                            <li class="txt_hidden">省份与城市</li>
+                            <li class="txt_hidden">省份</li>
+                            <li class="txt_hidden">日期区间</li>
+                            <li class="txt_hidden">大写金额</li>
                         </ul>
                         <p class="mart15">编辑公式：</p>
                         <div class="mart10">
@@ -726,22 +735,26 @@
         <!--右侧over-->
     </div>
 </div>
-<div class="mask"></div>
-<div class="pop" style="width:500px;margin-left:-250px;"><!--保持弹出框始终左右，上下居中，那么保持margin-top等于 -1/2height  和margin-left等于  -1/2width -->
-    <p class="title">数据测试</p>
+<div class="mask" style="display: ;"></div>
+<div class="pop" style="width:500px;margin-left:-250px;display: ;"><!--保持弹出框始终左右，上下居中，那么保持margin-top等于 -1/2height  和margin-left等于  -1/2width -->
+    <p class="title">数据验证</p>
     <span class="off">×</span>
     <div class="popIn">
-        <table class="control">
-            <tr>
-                <th rowspan="4">A3（总金额）=</th>
-                <th>((B2（金额1）)</th>
-                <td></td>
-            </tr>
-            <tr>
-                <th></th>
-                <td></td>
-            </tr>
-        </table>
+        <div class="control_box mart20">
+            <p class="font14">关联公式</p>
+            <table class="mart10">
+                <tr>
+                    <th>A3(总金额) = </th>
+                    <td>( B2(金额1) + B3(金额2) + B4(金额3) + B2(金额1) + B3(金额2) + B4(金额3) ) * B6(日期1)</td>
+                </tr>
+            </table>
+        </div>
+        <div class="control_box mart20">
+            <p class="font14">测试数据</p>
+        </div>
+        <div class="control_box noborder mart20">
+
+        </div>
     </div>
     <p class="pop_btn alignright">
         <a href="#" class="Btn btn-make btn-quit">取 消</a>
