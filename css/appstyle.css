@@ -352,6 +352,7 @@
 .module_li li{display: inline-block;width:138px;height:26px;line-height:26px;text-align:center;border:1px dashed #b6b6b6;border-radius:3px;margin:10px 5px 0 5px;cursor: pointer;}
 .module_li li:hover,.module_li li.current{border:1px solid #347cdc;background:#f2f8fe;}
 .module_li li:active{cursor: move;}
+.module_li.module_li2 li:active{cursor: pointer;}
 .cursor_none{cursor:url('../img/aero_unavail.cur'),auto!important;}
 .Icon-box{width:34px;height:34px;display:inline-block;background: url("../img/ico-box-bg.jpg"); text-align: center;cursor: pointer;position: relative;}
 .Icon-box img{width:24px;height:24px;position: relative;top:4.5px;}

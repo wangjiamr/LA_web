@@ -275,10 +275,11 @@ $(function(){
     });
     $next_step.click(function(){
         $before.animate({
-            marginLeft:-550,
-            zIndex:90
+            marginLeft:-550
         },400,function(){
-            $before.find('.form-main').css('height',$WH-50);
+            $before.find('.form-main').animate({
+                height:$WH-50
+            },300);
             $before.animate({
                 marginLeft:-380,
                 marginTop:-0.5*$WH+30,
@@ -289,7 +290,9 @@ $(function(){
             marginLeft:-220,
             zIndex:120
         },350,function(){
-            $behind.find('.form-main').addClass('visible-y').css('height',$WH);
+            $behind.find('.form-main').addClass('visible-y').animate({
+               height:$WH
+            },300);
             $behind.animate({
                 marginLeft:-350,
                 marginTop:-0.5*$WH,
@@ -302,7 +305,9 @@ $(function(){
             marginLeft:-550,
             zIndex:100
         },400,function(){
-            $behind.find('.form-main').removeClass('visible-y').css('height',$WH-50);
+            $behind.find('.form-main').removeClass('visible-y').animate({
+                height:$WH-50
+            },300);
             $behind.animate({
                 marginLeft:-370,
                 marginTop:-0.5*$WH+30,
@@ -313,7 +318,9 @@ $(function(){
             marginLeft:-220,
             zIndex:120
         },350,function(){
-            $before.find('.form-main').css('height',$WH);
+            $before.find('.form-main').animate({
+                height:$WH
+            },300);
             $before.animate({
                 marginLeft:-400,
                 marginTop:-0.5*$WH,
