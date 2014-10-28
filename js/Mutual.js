@@ -250,6 +250,29 @@ $(function(){
             $Collapse.text('展开');
         }
     });
+//    申请表单切换
+    $window = $(window);
+    $WH = 0.7*$window.height();
+    $WT = 0.5*$window.height();
+    $mask = $('.mask');
+    $commit = $('.commit');
+    $next_step = $('#next_step');
+    $prev_step = $('#prev_step');
+    $before = $('.before');
+    $behind = $('.behind');
+    $commit.click(function(){
+        $mask.show();
+        $before.find('.form-main').css('height',$WH);
+        $behind.find('.form-main').css('height',$WH-50);
+        $before.fadeIn().animate({
+            top:$WT,
+            marginTop:-0.5*$WH
+        },200);
+        $behind.fadeIn().animate({
+            top:$WT,
+            marginTop:-0.5*$WH+30
+        },400);
+    });
 });
 
 

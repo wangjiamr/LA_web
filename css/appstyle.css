@@ -387,6 +387,40 @@
 .control_box label.tips{right:-35px;}
 .control_int{width:95%;height:70px;}
 .control_int em.current{background:#ccc;color:#333;padding:0 5px;margin:0 2px;display: inline-block;}
+/*弹出的表单申请*/
+.popIn .form-main{height:700px;overflow-y: auto;background:#fff;padding:20px 60px;border-radius:4px;}
+.behind,.before{top:100%;margin-top:0;margin-bottom:40px;}
+.behind{opacity:0.5;filter:Alpha(Opacity=50);z-index:100;}
+.before{box-shadow:0 0 30px #333;}
+.behind .form-main{height:650px;overflow:hidden;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
