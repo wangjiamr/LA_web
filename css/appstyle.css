@@ -337,9 +337,10 @@
 .form_tab td input.int,.form_tab td select.int{width:65%;}
 .form_tab td .td_inner .has-general{width:65%;}
 .form_tab td .td_inner .has-general input.int{width:100%;}
-.form_tab_title td{text-align:center;padding:10px 0;}
-.form_tab_title td{font-size:24px;}
-.form_tab_title td:hover .td_inner,.form_tab_title td:hover{background:none;}
+.form_tab_title span{display:inline-block;text-align:center;padding:20px 0;font-size:24px;width:49%;}
+.form_tab_title span.first{border-right:1px dashed #ccc;width:49.9%;}
+
+
 .Number{display:block;width:21px;position:absolute;left:-21px;top:0;bottom:0;text-align: center;;background:#e3e3e3;color:#666;outline: 1px dashed #ccc;outline-width:1px 0;}
 .Number em{width:100%;height:20px;line-height:20px;top:50%;margin-top:-10px;left:0;position: absolute;}
 
