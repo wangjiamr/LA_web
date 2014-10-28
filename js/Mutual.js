@@ -273,7 +273,55 @@ $(function(){
             marginTop:-0.5*$WH+30
         },400);
     });
-});
+    $next_step.click(function(){
+        $before.animate({
+            marginLeft:-550,
+            zIndex:90
+        },400,function(){
+            $before.find('.form-main').css('height',$WH-50);
+            $before.animate({
+                marginLeft:-380,
+                marginTop:-0.5*$WH+30,
+                opacity:0.8
+            },400);
+        });
+        $behind.animate({
+            marginLeft:-220,
+            zIndex:120
+        },350,function(){
+            $behind.find('.form-main').addClass('visible-y').css('height',$WH);
+            $behind.animate({
+                marginLeft:-350,
+                marginTop:-0.5*$WH,
+                opacity:1
+            },400);
+        });
+    });
+    $prev_step.click(function(){
+        $behind.animate({
+            marginLeft:-550,
+            zIndex:100
+        },400,function(){
+            $behind.find('.form-main').removeClass('visible-y').css('height',$WH-50);
+            $behind.animate({
+                marginLeft:-370,
+                marginTop:-0.5*$WH+30,
+                opacity:0.8
+            },400);
+        });
+        $before.animate({
+            marginLeft:-220,
+            zIndex:120
+        },350,function(){
+            $before.find('.form-main').css('height',$WH);
+            $before.animate({
+                marginLeft:-400,
+                marginTop:-0.5*$WH,
+                opacity:1
+            },400);
+        });
+    });
+  });
 
 
 
