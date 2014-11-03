@@ -200,7 +200,7 @@
         </div>
         <!--删除提示弹出over-->
         <!--操作消息提示框begin-->
-        <div class="message" style="display: none;"><p class="font14 color-white">您已成功删除表单,您已成功删除表单！</p></div>
+        <div class="message" style="display: ;"><p class="font14 color-white">您已成功删除表单,您已成功删除表单！</p></div>
         <!--操作消息提示框over-->
     </div>
 </div>
@@ -473,265 +473,85 @@
     <!--第一步over-->
     <!--第二步begin-->
     <div class="pop behind noborder" id="step2" style="display:none;width:800px;margin-left:-370px;">
-        <p class="title">第二步：填写表单</p>
+        <p class="title">第二步：选择流程</p>
         <span class="off">×</span>
         <div class="popIn nopadding">
-            <div class="form-main">
-                <p class="font18 aligncenter">报销申请</p>
-                <div class="form-edit mart30">
-                    <table class="form-top">
-                        <tr>
-                            <th>申请人</th>
-                            <td class="width-300">
-                                <div class="has-general">
-                                    <input type="text" class="int" placeholder="请输入角色名称...">
-                                    <label class="tips">每月</label>
-                                    <label class="control-label">提示信息</label>
-                                </div>
-                            </td>
-                            <th>申请日期</th>
-                            <td>
-                                <div class="has-general">
-                                    <input type="text" class="int" placeholder="请输入日期...">
-                                    <label class="control-label">提示信息</label>
-                                    <a href="javascript:;" class="Icon ico-clander"></a>
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                    <table class="form-top">
-                        <tr>
-                            <th>申请部门</th>
-                            <td class="width-300">
-                                <div class="search ie-css3"><!--此处加current 展开搜索提示框-->
-                                    <input type="text" placeholder="搜索">
-                                    <button><i class="Icon ico-ser"></i></button>
-                                    <!--搜索结果begin-->
-                                    <div class="ser_Results ie-css3">
-                                        <ul>
-                                            <li>符合业界规范的运</li>
-                                            <li>符合业界规范的运</li>
-                                            <li>符合业界规范的运</li>
-                                            <li>符合业界规范的运</li>
-                                        </ul>
+            <div class="form-main nobg mart20 clearfix">
+                <div class="process_choose p-bt20 clearfix">
+                    <div class="process_left p-top20 floatleft">
+                        <div class="search ie-css3 select width-auto marr10"><!--加 current，显示下拉列表框-->
+                            <span class="Choosed">选择报销申请标准流程</span>
+                            <span class="ico-select"><i class="Icon ico-upd"></i></span>
+                            <!--搜索结果begin-->
+                            <div class="ser_Results ie-css3">
+                                <ul>
+                                    <li>选择报销申请标准流程</li>
+                                    <li>选择报销申请标准流程</li>
+                                    <li>选择报销申请标准流程</li>
+                                </ul>
+                            </div>
+                            <!--搜索结果over-->
+                        </div>
+                        <p class="alignright marr10 p-top10">
+                            <a href="javascript:;" class="add marr10">自定义流程</a>
+                            <a href="javascript:;" class="add">删除选中流程</a>
+                        </p>
+                        <p class="font14 color-3 mart30">自定义流程明细 :</p>
+                        <div class="jscroll mart20" style="height:160px; width:300px;">
+                            <ul class="process_li" style="width:300px;">
+                                <li class="clearfix">
+                                    <span class="floatleft">1.</span>
+                                    <div class="has-general has-error floatleft width-140">
+                                        <input type="text" class="int" readonly placeholder="请输入角色名称...">
                                     </div>
-                                    <!--搜索结果over-->
-                                </div>
-                            </td>
-                            <th>支付方式</th>
-                            <td>
-                                <select class="int">
-                                    <option>现金支付</option>
-                                    <option>银行转账</option>
-                                    <option>支票</option>
-                                </select>
-                            </td>
-                        </tr>
-                    </table>
-                    <table class="form-top">
-                        <tr>
-                            <th>收款方</th>
-                            <td colspan="3">
-                                <div class="has-general has-error">
+                                    <a href="javascript:;" title="替换审批人"><i class="Icon ico-refresh"></i></a>
+                                    <a href="javascript:;" title="删除审批人"><i class="Icon ico-delete"></i></a>
+                                </li>
+                                <li class="clearfix">
+                                    <span class="floatleft">2.</span>
+                                    <div class="has-general floatleft width-140">
+                                        <input type="text" class="int" readonly placeholder="请输入角色名称...">
+                                    </div>
+                                    <a href="javascript:;" title="替换审批人"><i class="Icon ico-refresh"></i></a>
+                                    <a href="javascript:;" title="删除审批人"><i class="Icon ico-delete"></i></a>
+                                </li>
+                                <li class="clearfix">
+                                    <span class="floatleft">3.</span>
+                                    <div class="has-general floatleft width-140">
+                                        <input type="text" class="int" readonly placeholder="请输入角色名称...">
+                                    </div>
+                                    <a href="javascript:;" title="添加审批人"><i class="Icon ico-p-add"></i></a>
+                                </li>
+                                <li class="clearfix">
+                                    <span class="floatleft">4.</span>
+                                    <span class="floatleft">刘德华</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="font14 color-3 mart30">添加执行人 :</div>
+                        <ul class="process_li mart20">
+                            <li class="clearfix">
+                                <div class="has-general has-error floatleft width-140">
                                     <input type="text" class="int" placeholder="请输入角色名称...">
-                                    <label class="tips">每月</label>
-                                    <label class="control-label">提示信息</label>
+                                    <label class="control-label">审批角色名称不能为空</label>
                                 </div>
-                            </td>
-                        </tr>
-                    </table>
-                    <table class="form-top">
-                        <tr>
-                            <th>人物性别</th>
-                            <td class="width-300">
-                                <label><input type="radio" name="qb" value=""/>男</label>
-                                <label><input type="radio" name="qb" value=""/>女</label>
-                            </td>
-                            <th>多选择</th>
-                            <td>
-                                <label><input type="checkbox" name="a">选项1</label>
-                                <label><input type="checkbox" name="a">选项2</label>
-                                <label><input type="checkbox" name="a">选项3</label>
-                            </td>
-                        </tr>
-                    </table>
-                    <table class="form-top">
-                        <tr>
-                            <th>加班时间</th>
-                            <td class="width-300">
-                               <select class="int width-80">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                               </select>
-                               <span>:</span>
-                               <select class="int width-80">
-                                    <option>00</option>
-                                    <option>01</option>
-                                    <option>02</option>
-                               </select>
-                            </td>
-                            <th>费用类型</th>
-                            <td>
-                                <select class="int">
-                                    <option>行政费用</option>
-                                    <option>财务费用</option>
-                                    <option>交通费用</option>
-                                </select>
-                            </td>
-                        </tr>
-                    </table>
-                    <table class="form-top">
-                        <tr>
-                            <th>报销金额</th>
-                            <td class="width-300"><span>1000,000</span></td>
-                            <th>金额大写</th>
-                            <td><span>壹仟元</span></td>
-                        </tr>
-                    </table>
-                    <table class="form-top">
-                        <tr>
-                            <th style="vertical-align: top">上传附件</th>
-                            <td colspan="3">
-                                <div><a href="#" class="add"><i class="Icon ico-acc"></i> 添加附件</a></div>
-                                <div class="mart10 p-bt10" style="display: block;">
-                                    <ul class="acc_list clearfix">
-                                        <li>
-                                            <a href="javascript:;" class="Icon ico-delete4"></a>
-                                            <div class="block ie-css3"><p><img src="../img/fu_bmp.gif"/></p></div>
-                                            <p class="txt_hidden" contenteditable="true">第一季度报表</p>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:;" class="Icon ico-delete4"></a>
-                                            <div class="block ie-css3">
-                                                <p><img src="../img/ico.png"/></p>
-                                                <span class="mask" style="height:50%"><em>20%</em></span>
-                                            </div>
-                                            <p class="txt_hidden" contenteditable="true">第一季度报表</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                    <table class="form-top">
-                        <tr>
-                            <th style="vertical-align: top">备注</th>
-                            <td colspan="3">
-                                <div class="textarea has-general">
-                                    <textarea class="int" placeholder="请输入备注..."></textarea>
-                                    <label class="control-label">提示信息</label>
-                                    <span>你还可以输入<em>140</em>个字</span>
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
+                                <a href="javascript:;" title="替换执行人"><i class="Icon ico-refresh"></i></a>
+                            </li>
+                        </ul>
+                        <p class="aligncenter mart30"><a href="#" class="Btn step_btn ie-css3 No_click">保存自定义流程</a></p>
+                    </div>
+                    <div class="process_right p-top20 floatleft marl30">
+                        <p class="font14 color-3">推送设置</p>
+                        <p class="mart10"><span class="check checked"><i class="Icon ico-check marr10"></i>置顶在TA的待审列表中</span></p>
+                        <p class="mart10"><span class="check"><i class="Icon ico-check marr10"></i>经办完成后请通知我确认</span></p>
+                        <!--<p class="mart10"><span class="check"><i class="Icon ico-check marr10"></i>超过24小时开启提醒</span></p>-->
+                        <p class="mart10 marl25">
+                            <span class="radio checked"><i class="Icon ico-check"></i>自动</span>
+                            <span class="radio marl10"><i class="Icon ico-check"></i>手动</span>
+                        </p>
+                        <p class="alignleft mart50"><a href="#" class="Btn step_btn ie-css3">完成提交</a></p>
+                    </div>
                 </div>
-                <p class="font18 mart50 aligncenter">明细信息</p>
-                <table class="form-txt mart20">
-                    <thead>
-                        <tr>
-                            <th class="width-40">编号</th>
-                            <th class="width-120">日期</th>
-                            <th class="width-120">类型</th>
-                            <th class="width-120">型号</th>
-                            <th class="width-120">金额</th>
-                            <th class="width-40">操作</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td rowspan="2">1</td>
-                            <td>
-                                <div class="has-general">
-                                    <input type="text" class="int" placeholder="请输入日期...">
-                                    <label class="control-label">提示信息</label>
-                                    <a href="javascript:;" class="Icon ico-clander"></a>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="has-general">
-                                    <input type="text" class="int" placeholder="">
-                                    <label class="control-label">提示信息</label>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="has-general">
-                                    <input type="text" class="int" placeholder="">
-                                    <label class="control-label">提示信息</label>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="has-general">
-                                    <input type="text" class="int" placeholder="">
-                                    <label class="control-label">提示信息</label>
-                                </div>
-                            </td>
-                            <td rowspan="2" class="aligncenter">
-                                <a href="javascript:;" class="add">删除</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="4">
-                                <div class="has-general">
-                                    <label class="tips tips_txt">备注：</label>
-                                    <div class="int int_txt" contenteditable="true"></div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="6" class="aligncenter nopadding"><a href="javascript:;"  class="add">添加一条明细</a></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <p class="font18 mart50 aligncenter">转正考核</p>
-                <table class="form-txt score mart20">
-                    <thead>
-                        <tr>
-                            <th class="width-160">评分指标</th>
-                            <th>指标描述</th>
-                            <th class="width-100">得分</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>工作状态</td>
-                            <td>
-                                <ul class="score-list">
-                                    <li>1. 很好</li>
-                                    <li>2. 一般</li>
-                                    <li>3. 不好</li>
-                                </ul>
-                            </td>
-                            <td>
-                                <select class="int border">
-                                    <option>现金支付</option>
-                                    <option>银行转账</option>
-                                    <option>支票</option>
-                                </select>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>工作状态</td>
-                            <td>
-                                <ul class="score-list">
-                                    <li>1. 很好</li>
-                                    <li>2. 一般</li>
-                                    <li>3. 不好</li>
-                                </ul>
-                            </td>
-                            <td>
-                                <select class="int border">
-                                    <option>现金支付</option>
-                                    <option>银行转账</option>
-                                    <option>支票</option>
-                                </select>
-                            </td>
-                        </tr>
-                    </tbody>
-                    <tfoot><tr><th colspan="3"><span class="floatright">总计：3分</span></th></tr></tfoot>
-                </table>
-                <p class="aligncenter mart30"><a href="#" class="Btn step_btn ie-css3" id="prev_step">上一步</a></p>
             </div>
         </div>
     </div>

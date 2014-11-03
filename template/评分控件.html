@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>评分控件</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/appstyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/jscrollpane.css">
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/Mutual.js"></script>
+    <script type="text/javascript" src="../js/jquery.jscrollpane.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
+    <script type="text/javascript">
+        function Jscroll(){
+            $('.jscroll').jScrollPane({
+                'mouseWheelSpeed':100,
+                "showArrows":false
+            });
+        }
+        $(function(){
+            Jscroll();
+            $('.select').hover(function(){
+                $(this).addClass('current');
+                Jscroll();
+            },function(){
+                $(this).removeClass('current');
+            });
+        });
+        $(window).resize(function(){
+             Jscroll();
+        });
+    </script>
+</head>
+<body>
+<!--header begin-->
+<div class="header">
+    <div class="headerInner clearfix">
+        <span class="inlineblock company_logo"></span>
+        <span class="inlineblock company_name font16 marl10 color-3">梅花与明道</span>
+        <!--右侧头像和发起按钮 begin-->
+        <div class="headerRight floatright clearfix">
+            <!--头像 begin-->
+            <div class="DropDown clearfix floatleft marr20">
+                <span class="UserImg block floatleft ie-css3"><img src="../img/1.png"></span>
+                <div class="floatleft marl10 color-3">
+                    <p>欢迎回来</p>
+                    <p>刘德华</p>
+                </div>
+                <div class="DropList">
+                    <i class="Icon ico-arrow"></i>
+                    <ul class="border-33619f bg-347cdc">
+                        <li><a href="#"><i class="Icon ico-change"></i>切换账号</a></li>
+                        <li><a href="#"><i class="Icon ico-out"></i>退出明道</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--头像 over-->
+            <!--plus btn begin-->
+            <div class="DropDown clearfix noborder floatright" style="width:auto;">
+                <span class="UserImg block"><i class="Icon ico-plus"></i></span>
+                <div class="DropList">
+                    <i class="Icon ico-arrow"></i>
+                    <ul>
+                        <li><a href="#">发起申请</a></li>
+                        <li><a href="#">创建表单</a></li>
+                        <li><a href="#">新建角色</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--plus btn over-->
+        </div>
+        <!--右侧头像和发起按钮 over-->
+        <a href="#" class="back_md marl20 color-8">返回明道</a>
+    </div>
+</div>
+<!--header over-->
+<div class="content hidden">
+    <div class="main" style="height: 100%;">
+        <!--左侧begin-->
+        <div class="form_left floatleft">
+            <div class="p-top20 clearfix alignright marl10 marr10">
+                <a href="#" class="color-347cdc floatleft mart5">&lt; 返回列表</a>
+                <a href="#" class="Btn Btn-normal marl10">另存为模板</a>
+                <a href="#" class="Btn Btn-normal marl10">生成表单</a>
+                <a href="#" class="Btn Btn-normal marl10">选择模板</a>
+                <a href="#" class="Btn Btn-normal marl10">清空</a>
+            </div>
+            <div class="form_inner">
+                <div class="form_main">
+                    <p class="font18 p-top20 aligncenter">评分控件</p>
+                    <table class="form_tab form_tab_last mart20">
+                        <tr>
+                            <td>
+                                <div class="td_inner">
+                                    <a href="javascript:;" class="Icon ico-delete4" title="删除"></a>
+                                    <span class="block">
+                                        <table class="Column">
+                                            <thead>
+                                                <tr>
+                                                    <th class="width-120">
+                                                        <div class="td_inner">
+                                                            <span class="font12">类别</span>
+                                                        </div>
+                                                    </th>
+                                                    <th>
+                                                        <div class="td_inner">
+                                                            <span class="font12">指标描述</span>
+                                                        </div>
+                                                    </th>
+                                                    <th class="width-40">
+                                                        <div class="td_inner">
+                                                            <span class="font12">得分</span>
+                                                        </div>
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div class="td_inner">
+                                                            <span class="font12">工作效率</span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="td_inner">
+                                                            <ol class="score">
+                                                                <li>对自身岗位职责与目标负责，勇于承担责任</li>
+                                                                <li>对上级交付的任务积极完成，可让人信任</li>
+                                                            </ol>
+                                                        </div>
+                                                    </td>
+                                                    <td class="width-40">
+                                                        <div class="td_inner">
+                                                            <div class="block options nopadding">
+                                                                <p><label class="txt_hidden"><input type="radio" name="qb" value="">A</label></p>
+                                                                <p><label class="txt_hidden"><input type="radio" name="qb" value="">B</label></p>
+                                                                <p><label class="txt_hidden"><input type="radio" name="qb" value="">C</label></p>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="td_inner">
+                                                            <span class="font12">学习适应能力</span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="td_inner">
+                                                            <ol class="score">
+                                                                <li>善于总结、学习，正确理解新的工作目标和职责，很快熟悉工作岗位，不出现相同的错误</li>
+                                                                <li>不断学习新的专业知识</li>
+                                                            </ol>
+                                                        </div>
+                                                    </td>
+                                                    <td class="width-40">
+                                                        <div class="td_inner has-general width-60 mar-auto">
+                                                            <input type="text" class="int" placeholder="">
+                                                            <label class="control-label">提示信息</label>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </span>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!--左侧over-->
+        <!--右侧begin-->
+        <div class="form_right inlineblock">
+            <div class="TopBar mart10">
+                <div class="nav clearfix color-8 font14 width-auto">
+                    <em class="borderBt" style="left:0;"></em>
+                    <a href="#">基本设置</a>
+                    <a href="#">添加组件</a>
+                    <a href="#" class="current">编辑组件</a>
+                </div>
+            </div>
+            <!--基本设置begin-->
+            <div class="module_box p-top10" style="display:none;">
+                <!--<p class="color-8 p-top20">请先选择组件再进行编辑</p>-->
+                <div class="module mart20">
+                    <p class="font14">必填项</p>
+                    <div class="mart15 marl10">
+                        <table class="normal_set" style="width:100%;">
+                            <tr>
+                                <th>图标</th>
+                                <td>
+                                    <div class="Icon-box">
+                                        <span><img src="../img/f-ico6.png"/></span>
+                                        <ul class="ico_list clearfix">
+                                            <li><img src="../img/f-ico1.png"/></li>
+                                            <li><img src="../img/f-ico2.png"/></li>
+                                            <li><img src="../img/f-ico3.png"/></li>
+                                            <li><img src="../img/f-ico4.png"/></li>
+                                            <li><img src="../img/f-ico5.png"/></li>
+                                            <li><img src="../img/f-ico6.png"/></li>
+                                            <li><img src="../img/f-ico4.png"/></li>
+                                            <li><img src="../img/f-ico5.png"/></li>
+                                            <li><img src="../img/f-ico6.png"/></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                                <th>颜色</th>
+                                <td>
+                                   <div class="Icon-box color">
+                                        <span><em class="bg-01"></em></span>
+                                        <ul class="ico_list clearfix">
+                                            <li><em class="bg-01"></em></li>
+                                            <li><em class="bg-02"></em></li>
+                                            <li><em class="bg-03"></em></li>
+                                            <li><em class="bg-04"></em></li>
+                                            <li><em class="bg-05"></em></li>
+                                            <li><em class="bg-06"></em></li>
+                                            <li><em class="bg-07"></em></li>
+                                            <li><em class="bg-08"></em></li>
+                                            <li><em class="bg-09"></em></li>
+                                            <li><em class="bg-10"></em></li>
+                                        </ul>
+                                   </div>
+                                </td>
+                                <th>预览</th>
+                                <td>
+                                    <span class="bg bg-01"><i class="Icon ico ico-6"></i></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>标题</th>
+                                <td colspan="5">
+                                    <div class="has-general width-250">
+                                        <input type="text" class="int" placeholder="最多输入6个字">
+                                        <label class="control-label">提示信息</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th colspan="2">编号起始缩写</th>
+                                <td colspan="4">
+                                    <div class="has-general width-200">
+                                        <input type="text" class="int">
+                                        <label class="control-label">提示信息</label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>备注</th>
+                                <td colspan="5">
+                                    <div class="has-general width-200">
+                                        <input type="text" class="int">
+                                        <label class="control-label">提示信息</label>
+                                    </div>
+                                    <a href="javascript:;" title="删除明细"><i class="Icon ico-p-add"></i></a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="module mart20">
+                    <p class="font14">单选设置</p>
+                    <div class="mart15 marl10">
+                        <span class="radio"><i class="Icon ico-check"></i>男</span>
+                        <span class="radio marl20"><i class="Icon ico-check"></i>女</span>
+                    </div>
+                </div>
+                <div class="module mart20">
+                    <p class="font14">多选设置</p>
+                    <div class="mart15 marl10">
+                        <span class="check"><i class="Icon ico-check"></i>行政部门</span>
+                        <span class="check"><i class="Icon ico-check"></i>行政部门</span>
+                        <span class="check"><i class="Icon ico-check"></i>行政部门</span>
+                    </div>
+                </div>
+                <div class="module mart20">
+                    <p class="font14">省份设置</p>
+                    <div class="mart15 marl10">
+                       <select class="int width-80">
+                            <option>北京</option>
+                            <option>上海</option>
+                            <option>河北</option>
+                       </select>
+                       <select class="int width-80">
+                            <option>石家庄</option>
+                            <option>上海</option>
+                       </select>
+                    </div>
+                </div>
+                <div class="module mart20">
+                    <p class="font14">区间设置</p>
+                    <div class="mart15 marl10">
+                       <input type="text" class="int width-80">
+                       <span>~</span>
+                       <input type="text" class="int width-80">
+                    </div>
+                </div>
+                <div class="module mart20">
+                    <p class="font14">数据格式</p>
+                    <div class="mart15 marl10">
+                       <input type="text" class="int width-160">
+                       <select class="int width-80">
+                            <option>验证格式</option>
+                            <option>邮箱</option>
+                            <option>手机号码</option>
+                            <option>邮编</option>
+                       </select>
+                    </div>
+                </div>
+                <div class="module mart20">
+                    <p class="font14 strong">非必填项</p>
+                    <div class="mart15 marl10">
+                        <span>选择分类</span>
+                        <select class="int marl10 width-160">
+                            <option>行政费用</option>
+                            <option>财务费用</option>
+                            <option>交通费用</option>
+                        </select>
+                    </div>
+                    <div class="mart20 marl10">
+                        <span>加入群组</span>
+                        <select class="int block width-200 mart10">
+                            <option>行政费用</option>
+                            <option>财务费用</option>
+                            <option>交通费用</option>
+                        </select>
+                        <div>
+                            <ul class="choosedlist clearfix mart10">
+                                <li><span class="txt_hidden">一块红布</span><a href="javascript:;">×</a></li>
+                                <li><span class="txt_hidden">你把我你你把我你把我灌醉灌醉把我灌醉灌醉</span><a href="javascript:;">×</a></li>
+                                <li><span class="txt_hidden">你醉</span><a href="javascript:;">×</a></li>
+                                <li><span class="txt_hidden">块红块</span><a href="javascript:;">×</a></li>
+                                <li><span class="txt_hidden">一块红布</span><a href="javascript:;">×</a></li>
+                                <li><span class="txt_hidden">你把我你把我灌醉灌醉</span><a href="javascript:;">×</a></li>
+                                <li><span class="txt_hidden">你醉</span><a href="javascript:;">×</a></li>
+                                <li><span class="txt_hidden">块红块</span><a href="javascript:;">×</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--基本设置over-->
+            <!--添加组件begin-->
+            <div class="module_box" style="display:none;">
+                <div class="module mart20">
+                    <p class="font14 alignright clearfix marr30">
+                        <span class="font14 floatleft">互动组件</span>
+                        <a href="javascript:;" class="add font12" id="Collapse">收起</a>
+                    </p>
+                    <ul class="module_li mart10">
+                        <li class="cursor_none">文本输入</li>
+                        <li>数字输入</li>
+                        <li>日期选择</li>
+                        <li>下拉列表</li>
+                        <li>复选框</li>
+                        <li>单选框</li>
+                        <li>文本域</li>
+                        <li>金额输入</li>
+                        <li>选择时间</li>
+                        <li>选择部门</li>
+                        <li>搜索员工</li>
+                        <li>评分指标</li>
+                        <li>四列明细表</li>
+                        <li>五列明细表</li>
+                        <li>省份与城市</li>
+                        <li>省份</li>
+                        <li>日期区间</li>
+                        <li>大写金额</li>
+                    </ul>
+                </div>
+                <div class="module mart20">
+                    <p class="font14 alignright clearfix marr30">
+                        <span class="floatleft">只读组件</span>
+                        <a href="javascript:;" class="add font12" id="Expand">展开</a>
+                    </p>
+                    <ul class="module_li mart10" style="display: none;">
+                        <li>申请人</li>
+                        <li>所属部门</li>
+                        <li>职位</li>
+                        <li>工作地点</li>
+                        <li>公司</li>
+                        <li>工作电话</li>
+                        <li>移动电话</li>
+                        <li>工号</li>
+                        <li>申请日期</li>
+                        <li>分割标签</li>
+                    </ul>
+                </div>
+            </div>
+            <!--添加组件over-->
+            <!--编辑组件begin-->
+            <div class="module_box" style="display: ;">
+                <div class="module mart20">
+                    <p class="font14">标题</p>
+                    <p class="mart15 marl10"><input class="int" type="text"></p>
+                </div>
+                <div class="module mart20">
+                    <p class="font14">注释</p>
+                    <p class="mart15 marl10"><textarea class="int"></textarea></p>
+                    <p class="marl10 mart10">
+                        <span class="radio checked"><i class="Icon ico-check marr5"></i>记分制</span>
+                        <span class="radio marl10"><i class="Icon ico-check marr5"></i>选择制</span>
+                        <span class="radio marl10"><i class="Icon ico-check marr5"></i>文本输入制</span>
+                    </p>
+                </div>
+                <div class="module mart20">
+                    <p class="font14">评分指标</p>
+                    <p class="mart15 marl10"><input class="int width-250" type="text"></p>
+                    <div class="mart10 marl10">
+                        <div class="has-general width-250">
+                            <input type="text" class="int" placeholder="选项3">
+                            <label class="control-label">提示信息</label>
+                        </div>
+                        <a href="javascript:;" title="删除此项"><i class="Icon ico-p-minus"></i></a>
+                    </div>
+                    <div class="mart10 marl10">
+                        <div class="has-general width-250">
+                            <input type="text" class="int" placeholder="选项3">
+                            <label class="control-label">提示信息</label>
+                        </div>
+                        <a href="javascript:;" title="删除此项"><i class="Icon ico-p-minus"></i></a>
+                        <a href="javascript:;" title="添加一行"><i class="Icon ico-p-add"></i></a>
+                    </div>
+                </div>
+                <div class="module mart20">
+                    <table style="width: 100%;">
+                        <tr>
+                            <td colspan="2">
+                                <p class="font14">评分指标</p>
+                                <p class="mart15"><input class="int" type="text"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="font14 strong aligntop p-top20">1.</th>
+                            <td>
+                                <p class="mart15"><textarea class="int"></textarea></p>
+                                <div class="mart10 alignright marr30">
+                                    <div id="select" class="search ie-css3 select width-100 floatleft"><!--加 current，显示下拉列表框-->
+                                      <span class="Choosed">归属类别</span>
+                                      <span class="ico-select"><i class="Icon ico-upd"></i></span>
+                                      <div class="ser_Results ie-css3 groupList">
+                                        <div class="jscroll" style="height: 100px; overflow: hidden;">
+                                            <ul>
+                                                <li>任意格式</li>
+                                                <li>电子邮件</li>
+                                                <li>移动电话</li>
+                                                <li>身份证</li>
+                                                <li>任意格式</li>
+                                                <li>电子邮件</li>
+                                                <li>移动电话</li>
+                                                <li>身份证</li>
+                                            </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <span class="radio marl10"><i class="Icon ico-check marr5"></i>选择</span>
+                                    <span class="radio marl10 marr15"><i class="Icon ico-check marr5"></i>填写</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>
+                                <p class="mart15">请填写选择内容，以逗号“,”分割</p>
+                                <p class="mart5"><input class="int" type="text"></p>
+                            </td>
+                        </tr>
+                    </table>
+                    <table style="width:100%;">
+                        <tr>
+                            <th class="font14 strong aligntop p-top20">A</th>
+                            <td>
+                                <p class="mart15"><textarea class="int"></textarea></p>
+                                <div class="mart10 alignright marr30">
+                                    <div id="select" class="search ie-css3 select width-100 floatleft"><!--加 current，显示下拉列表框-->
+                                      <span class="Choosed">归属类别</span>
+                                      <span class="ico-select"><i class="Icon ico-upd"></i></span>
+                                      <div class="ser_Results ie-css3 groupList">
+                                        <div class="jscroll" style="height: 100px; overflow: hidden;">
+                                            <ul>
+                                                <li>任意格式</li>
+                                                <li>电子邮件</li>
+                                                <li>移动电话</li>
+                                                <li>身份证</li>
+                                                <li>任意格式</li>
+                                                <li>电子邮件</li>
+                                                <li>移动电话</li>
+                                                <li>身份证</li>
+                                            </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <span class="marr15">分数 <input class="int width-60" type="text"></span>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!--编辑组件over-->
+        </div>
+        <!--右侧over-->
+    </div>
+</div>
+</body>
+</html>
