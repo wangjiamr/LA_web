@@ -390,19 +390,34 @@
 .control_int{width:95%;height:70px;}
 .control_int em.current{background:#ccc;color:#333;padding:0 5px;margin:0 2px;display: inline-block;}
 /*弹出的表单申请*/
-.popIn .form-main{height:700px;overflow-y: auto;background:#fff;padding:20px 60px;border-radius:4px;}
-.behind,.before{top:100%;margin-top:0;margin-bottom:40px;}
-.behind{opacity:0.5;filter:Alpha(Opacity=50);z-index:100;}
-.before{box-shadow:0 0 30px #333;}
-.behind .form-main{height:650px;overflow:hidden;}
-
-
-
-
-
-
-
-
+.popIn .form-main{background:#fff;padding:20px 60px;border-radius:4px;overflow-y:auto;}
+.before{top:100%;margin-top:0;margin-bottom:40px;}
+.go_up{top:-100%;transition:0.8s;-webkit-transition:0.8s;}
+.go_mid{top:10%;transition:0.4s;-webkit-transition:0.4s;}
+.go_down{top:150%;transition:0.8s;-webkit-transition:0.8s;}
+/*订购信息*/
+.order_main{padding:40px 0 0 40px;}
+.account_tab{width:98%;background: #f6f6f6;}
+.account_tab th{width:60px;}
+.account_tab th,.account_tab td{padding:10px 0 10px 30px;color:#666;height:10px;}
+.tab_nav li{float: left;margin-right:20px;}
+.tab_nav li a{display: inline-block;min-width:50px;height:22px;line-height: 22px;padding:0 10px;color: #666;text-align: center;}
+.tab_nav li a:hover{background-color: #cbe2fa;}
+.tab_nav li.current a{background-color: #347cdc;color:#fff;}
+.account_de{width:98%;}
+.account_de thead th{line-height:40px;border-top:1px solid #aaa;border-bottom:1px solid #aaa;color:#333;background-color:#f2f2f2;}
+.account_de th,.account_de td{padding-left:10px;}
+.account_de td{height:40px;border-bottom:1px solid #ddd;}
+.account_de td span{color:#eb6100;}
+.account_de td font{color:#53a000;}
+.account_de tbody tr:nth-child(2n) td{background-color:#f9fbfe;}
+.account_de .select{background:none;}
+.choose_main ul li{display: inline-block;color:#888;padding: 10px 40px;margin:0 30px;cursor: pointer;}
+.choose_one,.choose_two{width:614px;height:245px;padding-top:40px;background:url("../img/choose_one.png");margin:0 auto;display: none;position: relative;right:-20px;}
+.choose_two{background:url("../img/choose_two.png");}
+.de_table{width:360px;margin: 0 auto;}
+.de_table th,.de_table td{font-size:14px;color:#333;}
+.de_table th{width:80px;color:#888;height:35px;}
 
 
 

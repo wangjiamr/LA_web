@@ -263,70 +263,36 @@ $(function(){
     $commit.click(function(){
         $mask.show();
         $before.find('.form-main').css('height',$WH);
-        $behind.find('.form-main').css('height',$WH-50);
-        $before.fadeIn().animate({
-            top:$WT,
-            marginTop:-0.5*$WH
-        },200);
-        $behind.fadeIn().animate({
-            top:$WT,
-            marginTop:-0.5*$WH+30
-        },400);
-    });
-    $next_step.click(function(){
-        $before.animate({
-            marginLeft:-550
-        },400,function(){
-            $before.find('.form-main').animate({
-                height:$WH-50
+        var isChrome = window.navigator.userAgent.indexOf("Chrome") !== -1;
+        if (isChrome) {
+            $before.fadeIn().addClass('go_mid');
+            $next_step.click(function(){
+                $before.stop().addClass('go_up').removeClass('go_mid');
+            });
+            $prev_step.click(function(){
+                $before.stop().addClass('go_mid').removeClass('go_up');
+            });
+            $prev_step.click(function(){
+                $before.stop().addClass('go_down').removeClass('go_mid');
+            });
+        }else {
+            $before.fadeIn().animate({
+                top:$WT,
+                marginTop:-$WH*0.5
             },300);
-            $before.animate({
-                marginLeft:-380,
-                marginTop:-0.5*$WH+30,
-                opacity:0.8
-            },400);
-        });
-        $behind.animate({
-            marginLeft:-220,
-            zIndex:120
-        },350,function(){
-            $behind.find('.form-main').addClass('visible-y').animate({
-               height:$WH
-            },300);
-            $behind.animate({
-                marginLeft:-350,
-                marginTop:-0.5*$WH,
-                opacity:1
-            },400);
-        });
-    });
-    $prev_step.click(function(){
-        $behind.animate({
-            marginLeft:-550,
-            zIndex:100
-        },400,function(){
-            $behind.find('.form-main').removeClass('visible-y').animate({
-                height:$WH-50
-            },300);
-            $behind.animate({
-                marginLeft:-370,
-                marginTop:-0.5*$WH+30,
-                opacity:0.8
-            },400);
-        });
-        $before.animate({
-            marginLeft:-220,
-            zIndex:120
-        },350,function(){
-            $before.find('.form-main').animate({
-                height:$WH
-            },300);
-            $before.animate({
-                marginLeft:-400,
-                marginTop:-0.5*$WH,
-                opacity:1
-            },400);
-        });
+            $next_step.click(function(){
+                $before.fadeIn().animate({
+                    top:-$WT,
+                    marginTop:-$WH*0.5
+                },300);
+            });
+            $prev_step.click(function(){
+                $before.fadeIn().animate({
+                    top:1.5*$WT,
+                    marginTop:$WH*0.5
+                },300);
+            });
+        }
     });
   });
 
