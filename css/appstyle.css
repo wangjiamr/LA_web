@@ -262,8 +262,8 @@
 /*条件配置弹出*/
 .cond span{display:inline-block;width:150px;margin:25px 5px 0 20px;cursor: pointer;}
 .cond span em{font-family: arial;}
-.process_choose{width:730px;margin:0 auto;}
-.process_left{width:400px;padding-right:30px;border-right:1px solid #ddd;}
+.process_choose{margin:0 auto;}
+.process_left{width:55%;padding-right:10px;border-right:1px solid #ddd;}
 .jscroll:hover .jspVerticalBar{width:3px;display:block;}
 .process_li{max-height:200px;width:300px;}
 .process_li li{margin:5px 0 10px 10px}
@@ -390,7 +390,7 @@
 .control_int{width:95%;height:70px;}
 .control_int em.current{background:#ccc;color:#333;padding:0 5px;margin:0 2px;display: inline-block;}
 /*弹出的表单申请*/
-.popIn .form-main{background:#fff;padding:20px 60px;border-radius:4px;overflow-y:auto;}
+.popIn .form-main{background:#fff;padding:20px 40px;border-radius:4px;overflow-y:auto;}
 .before{top:100%;margin-top:0;margin-bottom:40px;}
 .go_up{top:-100%;transition:0.8s;-webkit-transition:0.8s;}
 .go_mid{top:10%;transition:0.4s;-webkit-transition:0.4s;}
