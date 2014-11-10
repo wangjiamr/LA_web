@@ -51,6 +51,7 @@
 .nav .borderBt{width:80px;font-size:0;line-height:0;border-bottom:2px solid #59a7f9;position: absolute;bottom:-1px;left:0;}
 .search{width:210px;height:26px;border-width:1px;border-style:solid;border-radius:3px;position: relative;z-index: 20;text-align: left;background-color:#fff;}
 .search input,.search .Choosed{width:76%;height:26px;line-height:26px;border:0;border-radius:5px;padding-left:10px;background: none;color: #666;outline: none;}
+.search .Choosed{width:93%;}
 .search button{background: none;border:0;cursor: pointer;padding:0;padding-top:3px;}
 .search.current{border-color:#347cdc;}
 .ser_Results{width:100%;position: absolute;background: #fff;border-style: solid;border-width:1px;border-radius:5px;}
@@ -265,7 +266,7 @@
 .process_choose{margin:0 auto;}
 .process_left{width:55%;padding-right:10px;border-right:1px solid #ddd;}
 .jscroll:hover .jspVerticalBar{width:3px;display:block;}
-.process_li{max-height:200px;width:300px;}
+.process_li{width:300px;}
 .process_li li{margin:5px 0 10px 10px}
 .process_li li a .Icon{position: relative;top:7px;margin-left:10px;}
 .process_li li span.floatleft{display: inline-block;line-height:30px;margin-right:10px;}
