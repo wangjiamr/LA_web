@@ -330,8 +330,8 @@ li.current .ico-06,.NewBar ul li:hover .ico-06{background-position:-128px -303px
 .has-error label.control-label{color: #b94a48;display: block;}
 .has-error input,.has-error input,.has-error input{border-color:#b94a48;}
 .has-warning label.control-label,.has-error label.control-label{display: inline-block;}
-/*.has-general label.control-label{border-radius:3px;color:#fff;top:-30px;background:#000;opacity: 0.5;width:200px;}*/
-
+.has-general label.control-label.top_tips{border-radius:3px;color:#fff;top:-30px;background:#000;opacity: 0.3;filter:Alpha(Opacity=30);width:200px;}
+.has-general label.control-label.top_tips em{display:block;position: absolute;border-left:6px solid transparent;border-right:6px solid transparent;border-top:8px solid #000;bottom:-8px;left:20px;}
 
 
 .check_label input,.check_label{margin-right:5px;}

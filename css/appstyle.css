@@ -391,6 +391,8 @@
 .control_box label.tips{right:-35px;}
 .control_int{width:95%;height:70px;}
 .control_int em.current{background:#ccc;color:#333;padding:0 5px;margin:0 2px;display: inline-block;}
+.module table.score-tab {border-bottom:1px solid #ccc;}
+.module table.score-tab td{padding-bottom:20px;}
 /*弹出的表单申请*/
 .popIn .form-main{background:#fff;padding:20px 40px;border-radius:4px;}
 .before{top:100%;margin-top:0;margin-bottom:40px;}
