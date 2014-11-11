@@ -49,9 +49,9 @@
 .nav a{display: inline-block;line-height:26px;height:26px;width:80px;text-align: center;float: left;}
 .nav a.current{color:#59a7f9;}
 .nav .borderBt{width:80px;font-size:0;line-height:0;border-bottom:2px solid #59a7f9;position: absolute;bottom:-1px;left:0;}
-.search{width:210px;height:26px;border-width:1px;border-style:solid;border-radius:3px;position: relative;z-index: 20;text-align: left;background-color:#fff;}
-.search input,.search .Choosed{width:76%;height:26px;line-height:26px;border:0;border-radius:5px;padding-left:10px;background: none;color: #666;outline: none;}
-.search .Choosed{width:93%;}
+.search{width:200px;height:26px;border-width:1px;border-style:solid;border-radius:3px;position: relative;z-index: 20;text-align: left;background-color:#fff;}
+.search input,.search .Choosed{width:76%;height:26px;line-height:normal;border:0;border-radius:5px;padding-left:10px;background: none;color: #666;outline: none;}
+.search .Choosed{width:93%;line-height:26px;}
 .search button{background: none;border:0;cursor: pointer;padding:0;padding-top:3px;}
 .search.current{border-color:#347cdc;}
 .ser_Results{width:100%;position: absolute;background: #fff;border-style: solid;border-width:1px;border-radius:5px;}
@@ -275,7 +275,7 @@
 /*填写表单*/
 .form-edit{margin:0 auto;}
 .form-top,.form-txt{width:100%;}
-.form-top th{font-size:14px;height:60px;width:95px;text-align: left;}
+.form-top th{font-size:14px;height:60px;width:100px;text-align: left;}
 .form-top td{color:#888;padding-right:20px;}
 .form-txt thead th,.form-txt tfoot th{background-color:#f2f2f2;line-height:40px;padding-left:10px;}
 .form-txt td{height:40px;padding-left:10px;color:#666;padding-top:10px;}
@@ -284,7 +284,7 @@
 .score tbody tr:last-child td{border:0;}
 .form-txt tfoot th{padding-right:30px;color:#333;font-size:14px;}
 .form-edit label input{margin-right:5px;}
-.form-edit .search input,.form-edit .search{height:26px;line-height:26px;}
+.form-edit .search input,.form-edit .search{height:26px;line-height:normal;}
 .form-edit .search button{padding:0;}
 /*编辑组件*/
 .form_left{width:628px;padding:0 10px;border:1px solid #aaa;border-width:0 1px;background:#eee;min-height:100%;position: relative;}
@@ -318,7 +318,7 @@
 .form_tab td .td_inner .options p.has_two label{width:40%;}
 .form_tab td .td_inner .options p.has_three label{width:30%;}
 .form_tab td .td_inner .options p.has_four label{width:22%;}
-.form_tab td .td_inner input.int,.module input.int{height:26px;line-height:25px;border:1px solid #ccc;border-radius:2px;}
+.form_tab td .td_inner input.int,.module input.int{height:26px;line-height:normal;border:1px solid #ccc;border-radius:2px;}
 .form_tab td.choose .td_inner,.form_tab td.choose,.form_tab td:hover .td_inner,.form_tab td:hover{background:#edf5fe;}
 .form_tab .td_inner span.radio{padding-right:20px;}
 .form_tab .td_inner span.div{display:inline-block;}
@@ -346,6 +346,7 @@
 .Number em{width:100%;height:20px;line-height:20px;top:50%;margin-top:-10px;left:0;position: absolute;}
 
 .module input.int,.module textarea.int{width:85%;}
+.module textarea.int{min-height:30px;}
 .module .has-general{display:inline-block;}
 .module .has-general input.int,.module .has-general textarea.int{width:100%;}
 .module .ico-p-minus,.module .ico-p-add{margin-left:5px;position: relative;top:6px;}
@@ -391,7 +392,7 @@
 .control_int{width:95%;height:70px;}
 .control_int em.current{background:#ccc;color:#333;padding:0 5px;margin:0 2px;display: inline-block;}
 /*弹出的表单申请*/
-.popIn .form-main{background:#fff;padding:20px 40px;border-radius:4px;overflow-y:auto;}
+.popIn .form-main{background:#fff;padding:20px 40px;border-radius:4px;}
 .before{top:100%;margin-top:0;margin-bottom:40px;}
 .go_up{top:-100%;transition:0.8s;-webkit-transition:0.8s;}
 .go_mid{top:10%;transition:0.4s;-webkit-transition:0.4s;}

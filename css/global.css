@@ -85,7 +85,11 @@ a.add:hover{text-decoration: underline;}
 .width-140{width:140px!important;}
 .width-150{width:150px!important;}
 .width-160{width:160px!important;}
+.width-180{width:180px!important;}
 .width-200{width:200px!important;}
+.width-210{width:210px!important;}
+.width-216{width:216px!important;}
+.width-220{width:220px!important;}
 .width-230{width:230px!important;}
 .width-250{width:250px!important;}
 .width-300{width:300px!important;}
@@ -312,7 +316,7 @@ li.current .ico-06,.NewBar ul li:hover .ico-06{background-position:-128px -303px
 .message{width:197px;height:53px;line-height:18px;padding:16px 20px 0 20px;background: url("../img/mesbg.png");position: fixed;bottom:0;right:0;word-break: break-all;word-wrap: break-word;z-index:300;}
 .off{position: absolute;top:9px;right:8px;font-weight: bold;font-size:26px;color:#aaa;cursor: pointer;}
 /*input*/
-.int{height:26px;line-height:26px;border:0;border-bottom:1px solid #ccc;border-radius:1px;text-indent:5px;color: #aaa;width: 100%;outline: 0;}
+.int{height:26px;line-height:normal;border:0;border-bottom:1px solid #ccc;border-radius:1px;text-indent:5px;color: #aaa;width: 100%;outline: 0;}
 .border{border:1px solid #ccc;}
 .int-txt{line-height:18px;width:100%;}
 .has-general{position: relative;}
@@ -326,9 +330,13 @@ li.current .ico-06,.NewBar ul li:hover .ico-06{background-position:-128px -303px
 .has-error label.control-label{color: #b94a48;display: block;}
 .has-error input,.has-error input,.has-error input{border-color:#b94a48;}
 .has-warning label.control-label,.has-error label.control-label{display: inline-block;}
+/*.has-general label.control-label{border-radius:3px;color:#fff;top:-30px;background:#000;opacity: 0.5;width:200px;}*/
+
+
+
 .check_label input,.check_label{margin-right:5px;}
 .check_label{vertical-align:-3px;margin-right:10px;}
-label.tips{position:absolute;right:0;top:0;height:25px;line-height:25px;padding:0 3px;}
+label.tips{position:absolute;right:0;top:0;height:25px;line-height:25px;padding:0 3px;background-color:#fff;color:#999;}
 label.tips_txt{left:0;right:inherit;}
 .int:focus{border-color:#347cdc;}
 .has-error input:focus{border-color:#b94a48;}

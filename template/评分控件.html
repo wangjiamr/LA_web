@@ -397,67 +397,43 @@
                     <p class="mart15 marl10"><input class="int" type="text"></p>
                 </div>
                 <div class="module mart20">
-                    <p class="font14">注释</p>
-                    <p class="mart15 marl10"><textarea class="int"></textarea></p>
+                    <p class="font14">选择类别</p>
                     <p class="marl10 mart10">
-                        <span class="radio checked"><i class="Icon ico-check marr5"></i>记分制</span>
-                        <span class="radio marl10"><i class="Icon ico-check marr5"></i>选择制</span>
-                        <span class="radio marl10"><i class="Icon ico-check marr5"></i>文本输入制</span>
+                        <label><input type="radio">记分制</label>
+                        <label><input type="radio">选择制</label>
+                        <label><input type="radio">文本输入制</label>
                     </p>
                 </div>
                 <div class="module mart20">
-                    <p class="font14">评分指标</p>
-                    <p class="mart15 marl10"><input class="int width-250" type="text"></p>
-                    <div class="mart10 marl10">
-                        <div class="has-general width-250">
-                            <input type="text" class="int" placeholder="选项3">
-                            <label class="control-label">提示信息</label>
-                        </div>
-                        <a href="javascript:;" title="删除此项"><i class="Icon ico-p-minus"></i></a>
-                    </div>
-                    <div class="mart10 marl10">
-                        <div class="has-general width-250">
-                            <input type="text" class="int" placeholder="选项3">
-                            <label class="control-label">提示信息</label>
-                        </div>
-                        <a href="javascript:;" title="删除此项"><i class="Icon ico-p-minus"></i></a>
-                        <a href="javascript:;" title="添加一行"><i class="Icon ico-p-add"></i></a>
-                    </div>
+                    <p class="font14">序号类型</p>
+                    <p class="marl10 mart10">
+                        <label><input type="radio">1~10</label>
+                        <label><input type="radio">A~Z</label>
+                    </p>
                 </div>
                 <div class="module mart20">
                     <table style="width: 100%;">
                         <tr>
                             <td colspan="2">
-                                <p class="font14">评分指标</p>
-                                <p class="mart15"><input class="int" type="text"></p>
+                                <p class="font14">
+                                    <span class="inlineblock width-180">指标类别</span>
+                                    <span class="marl30 font12">
+                                        <a href="#" class="add">收起</a>
+                                        <a href="#" class="add marl5">删除</a>
+                                    </span>
+                                </p>
                             </td>
                         </tr>
                         <tr>
-                            <th class="font14 strong aligntop p-top20">1.</th>
+                            <td colspan="2"><input class="int mart10" type="text" value=""></td>
+                        </tr>
+                        <tr>
+                            <th class="font14 strong aligntop p-top20">1</th>
                             <td>
-                                <p class="mart15"><textarea class="int"></textarea></p>
-                                <div class="mart10 alignright marr30">
-                                    <div id="select" class="search ie-css3 select width-100 floatleft"><!--加 current，显示下拉列表框-->
-                                      <span class="Choosed">归属类别</span>
-                                      <span class="ico-select"><i class="Icon ico-upd"></i></span>
-                                      <div class="ser_Results ie-css3 groupList">
-                                        <div class="jscroll" style="height: 100px; overflow: hidden;">
-                                            <ul>
-                                                <li>任意格式</li>
-                                                <li>电子邮件</li>
-                                                <li>移动电话</li>
-                                                <li>身份证</li>
-                                                <li>任意格式</li>
-                                                <li>电子邮件</li>
-                                                <li>移动电话</li>
-                                                <li>身份证</li>
-                                            </ul>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <span class="radio marl10"><i class="Icon ico-check marr5"></i>选择</span>
-                                    <span class="radio marl10 marr15"><i class="Icon ico-check marr5"></i>填写</span>
-                                </div>
+                                <p class="mart15">
+                                    <textarea class="int"></textarea>
+                                    <a href="javascript:;" title="删除此项"><i class="Icon ico-p-minus"></i></a>
+                                </p>
                             </td>
                         </tr>
                         <tr>
@@ -468,35 +444,7 @@
                             </td>
                         </tr>
                     </table>
-                    <table style="width:100%;">
-                        <tr>
-                            <th class="font14 strong aligntop p-top20">A</th>
-                            <td>
-                                <p class="mart15"><textarea class="int"></textarea></p>
-                                <div class="mart10 alignright marr30">
-                                    <div id="select" class="search ie-css3 select width-100 floatleft"><!--加 current，显示下拉列表框-->
-                                      <span class="Choosed">归属类别</span>
-                                      <span class="ico-select"><i class="Icon ico-upd"></i></span>
-                                      <div class="ser_Results ie-css3 groupList">
-                                        <div class="jscroll" style="height: 100px; overflow: hidden;">
-                                            <ul>
-                                                <li>任意格式</li>
-                                                <li>电子邮件</li>
-                                                <li>移动电话</li>
-                                                <li>身份证</li>
-                                                <li>任意格式</li>
-                                                <li>电子邮件</li>
-                                                <li>移动电话</li>
-                                                <li>身份证</li>
-                                            </ul>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <span class="marr15">分数 <input class="int width-60" type="text"></span>
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
+                    <p class="aligncenter mart10"><a href="#"  class="add">添加指标类别</a></p>
                 </div>
             </div>
             <!--编辑组件over-->

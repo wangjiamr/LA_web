@@ -211,14 +211,14 @@
         <p class="title">第一步：填写表单</p>
         <span class="off">×</span>
         <div class="popIn nopadding">
-            <div class="form-main">
+            <div class="form-main" style="overflow-y: auto;">
                 <p class="font18 aligncenter">报销申请</p>
                 <div class="form-edit mart30">
                     <table class="form-top">
                         <tr>
                             <th>申请人</th>
-                            <td class="width-300">
-                                <div class="has-general">
+                            <td class="width-200">
+                                <div class="has-general has-error">
                                     <input type="text" class="int" placeholder="请输入角色名称...">
                                     <label class="tips">每月</label>
                                     <label class="control-label">提示信息</label>
@@ -237,7 +237,7 @@
                     <table class="form-top">
                         <tr>
                             <th>申请部门</th>
-                            <td class="width-300">
+                            <td class="width-200">
                                 <div class="search ie-css3"><!--此处加current 展开搜索提示框-->
                                     <input type="text" placeholder="搜索">
                                     <button><i class="Icon ico-ser"></i></button>
@@ -278,7 +278,7 @@
                     <table class="form-top">
                         <tr>
                             <th>人物性别</th>
-                            <td class="width-300">
+                            <td class="width-200">
                                 <label><input type="radio" name="qb" value=""/>男</label>
                                 <label><input type="radio" name="qb" value=""/>女</label>
                             </td>
@@ -293,7 +293,7 @@
                     <table class="form-top">
                         <tr>
                             <th>加班时间</th>
-                            <td class="width-300">
+                            <td class="width-200">
                                <select class="int width-80">
                                     <option>1</option>
                                     <option>2</option>
@@ -319,7 +319,7 @@
                     <table class="form-top">
                         <tr>
                             <th>报销金额</th>
-                            <td class="width-300"><span>1000,000</span></td>
+                            <td class="width-200"><span>1000,000</span></td>
                             <th>金额大写</th>
                             <td><span>壹仟元</span></td>
                         </tr>
@@ -474,124 +474,124 @@
         </div>
     </div>
     <!--第一步over-->
-    <!--第二步begin-->
-    <div class="pop before noborder" style="display:none;width:700px;margin-left:-350px;">
-        <p class="title">第一步：填写表单</p>
-        <span class="off">×</span>
-        <div class="popIn nopadding">
-            <div class="form-main">
-                <div class="process_choose  p-top10 clearfix">
-                    <div class="process_left p-top20 floatleft">
-                        <div class="search ie-css3 select width-auto marr10"><!--加 current，显示下拉列表框-->
-                            <span class="Choosed txt_hidden">选择报销申请标准流程选择报销申请标准流程选择报销申请标准流程选择报销申请标准流程选择报销申请标准流程</span>
-                            <span class="ico-select"><i class="Icon ico-upd"></i></span>
-                            <!--搜索结果begin-->
-                            <div class="ser_Results ie-css3">
-                                <ul>
-                                    <li>选择报销申请标准流程择报销申请标准流程择报销申请标准流程择报销申请标准流程择报销申请标准流程</li>
-                                    <li>选择报销申请标准流程</li>
-                                    <li>选择报销申请标准流程</li>
-                                </ul>
-                            </div>
-                            <!--搜索结果over-->
-                        </div>
-                        <p class="alignright marr10 p-top10">
-                            <a href="javascript:;" class="add marr10">自定义流程</a>
-                            <a href="javascript:;" class="add">删除选中流程</a>
-                        </p>
-                        <p class="font14 color-3 mart30">自定义流程明细 :</p>
-                        <div class="mart20" style="width:300px;">
-                            <ul class="process_li" style="width:300px;">
-                                <li class="clearfix">
-                                    <span class="floatleft">1.</span>
-                                    <div class="has-general has-error floatleft width-140">
-                                        <input type="text" class="int" readonly placeholder="请输入角色名称...">
-                                    </div>
-                                    <a href="javascript:;" title="替换审批人"><i class="Icon ico-refresh"></i></a>
-                                    <a href="javascript:;" title="删除审批人"><i class="Icon ico-delete"></i></a>
-                                </li>
-                                <li class="clearfix">
-                                    <span class="floatleft">2.</span>
-                                    <div class="has-general floatleft width-140">
-                                        <input type="text" class="int" readonly placeholder="请输入角色名称...">
-                                    </div>
-                                    <a href="javascript:;" title="替换审批人"><i class="Icon ico-refresh"></i></a>
-                                    <a href="javascript:;" title="删除审批人"><i class="Icon ico-delete"></i></a>
-                                </li>
-                                <li class="clearfix">
-                                    <span class="floatleft">3.</span>
-                                    <div class="has-general floatleft width-140">
-                                        <input type="text" class="int" readonly placeholder="请输入角色名称...">
-                                    </div>
-                                    <a href="javascript:;" title="添加审批人"><i class="Icon ico-p-add"></i></a>
-                                </li>
-                                <li class="clearfix">
-                                    <span class="floatleft">2.</span>
-                                    <div class="has-general floatleft width-140">
-                                        <input type="text" class="int" readonly placeholder="请输入角色名称...">
-                                    </div>
-                                    <a href="javascript:;" title="替换审批人"><i class="Icon ico-refresh"></i></a>
-                                    <a href="javascript:;" title="删除审批人"><i class="Icon ico-delete"></i></a>
-                                </li>
-                                <li class="clearfix">
-                                    <span class="floatleft">3.</span>
-                                    <div class="has-general floatleft width-140">
-                                        <input type="text" class="int" readonly placeholder="请输入角色名称...">
-                                    </div>
-                                    <a href="javascript:;" title="添加审批人"><i class="Icon ico-p-add"></i></a>
-                                </li>
-                                <li class="clearfix">
-                                    <span class="floatleft">2.</span>
-                                    <div class="has-general floatleft width-140">
-                                        <input type="text" class="int" readonly placeholder="请输入角色名称...">
-                                    </div>
-                                    <a href="javascript:;" title="替换审批人"><i class="Icon ico-refresh"></i></a>
-                                    <a href="javascript:;" title="删除审批人"><i class="Icon ico-delete"></i></a>
-                                </li>
-                                <li class="clearfix">
-                                    <span class="floatleft">3.</span>
-                                    <div class="has-general floatleft width-140">
-                                        <input type="text" class="int" readonly placeholder="请输入角色名称...">
-                                    </div>
-                                    <a href="javascript:;" title="添加审批人"><i class="Icon ico-p-add"></i></a>
-                                </li>
-                                <li class="clearfix">
-                                    <span class="floatleft">4.</span>
-                                    <span class="floatleft">刘德华</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="font14 color-3 mart30">添加执行人 :</div>
-                        <ul class="process_li mart20">
-                            <li class="clearfix">
-                                <div class="has-general has-error floatleft width-140">
-                                    <input type="text" class="int" placeholder="请输入角色名称...">
-                                    <label class="control-label">审批角色名称不能为空</label>
-                                </div>
-                                <a href="javascript:;" title="替换执行人"><i class="Icon ico-refresh"></i></a>
-                            </li>
-                        </ul>
-                        <p class="aligncenter mart30"><a href="#" class="Btn step_btn ie-css3 No_click">保存自定义流程</a></p>
-                    </div>
-                    <div class="process_right p-top20 floatleft marl30">
-                        <p class="font14 color-3 p-bt20">推送设置</p>
-                        <p class="mart10"><span class="check checked"><i class="Icon ico-check marr10"></i>置顶在TA的待审列表中</span></p>
-                        <p class="mart10"><span class="check"><i class="Icon ico-check marr10"></i>经办完成后请通知我确认</span></p>
-                        <!--<p class="mart10"><span class="check"><i class="Icon ico-check marr10"></i>超过24小时开启提醒</span></p>-->
-                        <p class="mart10 marl25">
-                            <span class="radio checked"><i class="Icon ico-check"></i>自动</span>
-                            <span class="radio marl10"><i class="Icon ico-check"></i>手动</span>
-                        </p>
-                        <p class="alignleft mart50">
-                            <a href="#" class="Btn step_btn ie-css3">上一步</a>
-                            <a href="#" class="Btn step_btn ie-css3 marl20">完成提交</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--第二步over-->
+    <!--&lt;!&ndash;第二步begin&ndash;&gt;-->
+    <!--<div class="pop before noborder" style="display:none;width:700px;margin-left:-350px;">-->
+        <!--<p class="title">第一步：填写表单</p>-->
+        <!--<span class="off">×</span>-->
+        <!--<div class="popIn nopadding">-->
+            <!--<div class="form-main">-->
+                <!--<div class="process_choose  p-top10 clearfix">-->
+                    <!--<div class="process_left p-top20 floatleft">-->
+                        <!--<div class="search ie-css3 select width-auto marr10">&lt;!&ndash;加 current，显示下拉列表框&ndash;&gt;-->
+                            <!--<span class="Choosed txt_hidden">选择报销申请标准流程选择报销申请标准流程选择报销申请标准流程选择报销申请标准流程选择报销申请标准流程</span>-->
+                            <!--<span class="ico-select"><i class="Icon ico-upd"></i></span>-->
+                            <!--&lt;!&ndash;搜索结果begin&ndash;&gt;-->
+                            <!--<div class="ser_Results ie-css3">-->
+                                <!--<ul>-->
+                                    <!--<li>选择报销申请标准流程择报销申请标准流程择报销申请标准流程择报销申请标准流程择报销申请标准流程</li>-->
+                                    <!--<li>选择报销申请标准流程</li>-->
+                                    <!--<li>选择报销申请标准流程</li>-->
+                                <!--</ul>-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash;搜索结果over&ndash;&gt;-->
+                        <!--</div>-->
+                        <!--<p class="alignright marr10 p-top10">-->
+                            <!--<a href="javascript:;" class="add marr10">自定义流程</a>-->
+                            <!--<a href="javascript:;" class="add">删除选中流程</a>-->
+                        <!--</p>-->
+                        <!--<p class="font14 color-3 mart30">自定义流程明细 :</p>-->
+                        <!--<div class="mart20" style="width:300px;">-->
+                            <!--<ul class="process_li" style="width:300px;">-->
+                                <!--<li class="clearfix">-->
+                                    <!--<span class="floatleft">1.</span>-->
+                                    <!--<div class="has-general has-error floatleft width-140">-->
+                                        <!--<input type="text" class="int" readonly placeholder="请输入角色名称...">-->
+                                    <!--</div>-->
+                                    <!--<a href="javascript:;" title="替换审批人"><i class="Icon ico-refresh"></i></a>-->
+                                    <!--<a href="javascript:;" title="删除审批人"><i class="Icon ico-delete"></i></a>-->
+                                <!--</li>-->
+                                <!--<li class="clearfix">-->
+                                    <!--<span class="floatleft">2.</span>-->
+                                    <!--<div class="has-general floatleft width-140">-->
+                                        <!--<input type="text" class="int" readonly placeholder="请输入角色名称...">-->
+                                    <!--</div>-->
+                                    <!--<a href="javascript:;" title="替换审批人"><i class="Icon ico-refresh"></i></a>-->
+                                    <!--<a href="javascript:;" title="删除审批人"><i class="Icon ico-delete"></i></a>-->
+                                <!--</li>-->
+                                <!--<li class="clearfix">-->
+                                    <!--<span class="floatleft">3.</span>-->
+                                    <!--<div class="has-general floatleft width-140">-->
+                                        <!--<input type="text" class="int" readonly placeholder="请输入角色名称...">-->
+                                    <!--</div>-->
+                                    <!--<a href="javascript:;" title="添加审批人"><i class="Icon ico-p-add"></i></a>-->
+                                <!--</li>-->
+                                <!--<li class="clearfix">-->
+                                    <!--<span class="floatleft">2.</span>-->
+                                    <!--<div class="has-general floatleft width-140">-->
+                                        <!--<input type="text" class="int" readonly placeholder="请输入角色名称...">-->
+                                    <!--</div>-->
+                                    <!--<a href="javascript:;" title="替换审批人"><i class="Icon ico-refresh"></i></a>-->
+                                    <!--<a href="javascript:;" title="删除审批人"><i class="Icon ico-delete"></i></a>-->
+                                <!--</li>-->
+                                <!--<li class="clearfix">-->
+                                    <!--<span class="floatleft">3.</span>-->
+                                    <!--<div class="has-general floatleft width-140">-->
+                                        <!--<input type="text" class="int" readonly placeholder="请输入角色名称...">-->
+                                    <!--</div>-->
+                                    <!--<a href="javascript:;" title="添加审批人"><i class="Icon ico-p-add"></i></a>-->
+                                <!--</li>-->
+                                <!--<li class="clearfix">-->
+                                    <!--<span class="floatleft">2.</span>-->
+                                    <!--<div class="has-general floatleft width-140">-->
+                                        <!--<input type="text" class="int" readonly placeholder="请输入角色名称...">-->
+                                    <!--</div>-->
+                                    <!--<a href="javascript:;" title="替换审批人"><i class="Icon ico-refresh"></i></a>-->
+                                    <!--<a href="javascript:;" title="删除审批人"><i class="Icon ico-delete"></i></a>-->
+                                <!--</li>-->
+                                <!--<li class="clearfix">-->
+                                    <!--<span class="floatleft">3.</span>-->
+                                    <!--<div class="has-general floatleft width-140">-->
+                                        <!--<input type="text" class="int" readonly placeholder="请输入角色名称...">-->
+                                    <!--</div>-->
+                                    <!--<a href="javascript:;" title="添加审批人"><i class="Icon ico-p-add"></i></a>-->
+                                <!--</li>-->
+                                <!--<li class="clearfix">-->
+                                    <!--<span class="floatleft">4.</span>-->
+                                    <!--<span class="floatleft">刘德华</span>-->
+                                <!--</li>-->
+                            <!--</ul>-->
+                        <!--</div>-->
+                        <!--<div class="font14 color-3 mart30">添加执行人 :</div>-->
+                        <!--<ul class="process_li mart20">-->
+                            <!--<li class="clearfix">-->
+                                <!--<div class="has-general has-error floatleft width-140">-->
+                                    <!--<input type="text" class="int" placeholder="请输入角色名称...">-->
+                                    <!--<label class="control-label">审批角色名称不能为空</label>-->
+                                <!--</div>-->
+                                <!--<a href="javascript:;" title="替换执行人"><i class="Icon ico-refresh"></i></a>-->
+                            <!--</li>-->
+                        <!--</ul>-->
+                        <!--<p class="aligncenter mart30"><a href="#" class="Btn step_btn ie-css3 No_click">保存自定义流程</a></p>-->
+                    <!--</div>-->
+                    <!--<div class="process_right p-top20 floatleft marl30">-->
+                        <!--<p class="font14 color-3 p-bt20">推送设置</p>-->
+                        <!--<p class="mart10"><span class="check checked"><i class="Icon ico-check marr10"></i>置顶在TA的待审列表中</span></p>-->
+                        <!--<p class="mart10"><span class="check"><i class="Icon ico-check marr10"></i>经办完成后请通知我确认</span></p>-->
+                        <!--&lt;!&ndash;<p class="mart10"><span class="check"><i class="Icon ico-check marr10"></i>超过24小时开启提醒</span></p>&ndash;&gt;-->
+                        <!--<p class="mart10 marl25">-->
+                            <!--<span class="radio checked"><i class="Icon ico-check"></i>自动</span>-->
+                            <!--<span class="radio marl10"><i class="Icon ico-check"></i>手动</span>-->
+                        <!--</p>-->
+                        <!--<p class="alignleft mart50">-->
+                            <!--<a href="#" class="Btn step_btn ie-css3">上一步</a>-->
+                            <!--<a href="#" class="Btn step_btn ie-css3 marl20">完成提交</a>-->
+                        <!--</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash;第二步over&ndash;&gt;-->
 <!--填写表单over-->
 </body>
 </html>
