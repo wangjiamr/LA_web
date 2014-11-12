@@ -307,6 +307,9 @@
 .form_tab td .td_inner .Column td input.int{height:18px;}
 .form_tab td .td_inner .Column th,.form_tab td .td_inner .Column td{line-height:35px;height:35px;}
 .form_tab td .td_inner .Column thead th{color:#333;}
+.form_tab td .td_inner .Column thead td,.form_tab td .td_inner thead th{border-top:0;}
+.form_tab td .td_inner .Column tbody td:last-child{border-right:0;}
+.form_tab td .td_inner .Column tbody td:first-child,.form_tab td .td_inner .Column tbody th:first-child{border-left:0;}
 .Column th .Icon{vertical-align: -3px;}
 .form_tab td .td_inner .Column td textarea{margin-left:19px;}
 .form_tab_last{border:1px dashed #ccc;}
@@ -391,8 +394,8 @@
 .control_box label.tips{right:-35px;}
 .control_int{width:95%;height:70px;}
 .control_int em.current{background:#ccc;color:#333;padding:0 5px;margin:0 2px;display: inline-block;}
-.module table.score-tab {border-bottom:1px solid #ccc;}
 .module table.score-tab td{padding-bottom:20px;}
+.module table.score-tab td .int{border-width:0 0 1px 0;}
 /*弹出的表单申请*/
 .popIn .form-main{background:#fff;padding:20px 40px;border-radius:4px;}
 .before{top:100%;margin-top:0;margin-bottom:40px;}
