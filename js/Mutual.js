@@ -294,6 +294,23 @@ $(function(){
             });
         }
     });
+//    切换订购试用和订购
+    var $choose_li = $('.choose_main ul li');
+    var $choose_one= $('.choose_one');
+    var $choose_two= $('.choose_two');
+    $choose_li.click(function(){
+        var $this = $(this);
+        var $Num = $this.attr('name');
+        if($Num == 1){
+            $this.addClass('add').siblings().removeClass('add');
+            $choose_two.hide();
+            $choose_one.show();
+        }else{
+            $this.addClass('add').siblings().removeClass('add');
+            $choose_one.hide();
+            $choose_two.show();
+        }
+    });
   });
 
 

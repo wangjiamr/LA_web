@@ -396,6 +396,7 @@
 .control_int em.current{background:#ccc;color:#333;padding:0 5px;margin:0 2px;display: inline-block;}
 .module table.score-tab td{padding-bottom:20px;}
 .module table.score-tab td .int{border-width:0 0 1px 0;}
+.module table.score-tab td span.color-6{display: inline-block;width:14px;text-align:left;}
 /*弹出的表单申请*/
 .popIn .form-main{background:#fff;padding:20px 40px;border-radius:4px;}
 .before{top:100%;margin-top:0;margin-bottom:40px;}
@@ -419,15 +420,15 @@
 .account_de td font{color:#53a000;}
 .account_de tbody tr:nth-child(2n) td{background-color:#f9fbfe;}
 .account_de .select{background:none;}
-.choose_main ul li{display: inline-block;color:#888;padding: 10px 40px;margin:0 30px;cursor: pointer;}
+.choose_main ul li{display: inline-block;padding: 10px 40px;margin:0 30px;cursor: pointer;}
 .choose_one,.choose_two{width:614px;height:245px;padding-top:40px;background:url("../img/choose_one.png");margin:0 auto;display: none;position: relative;right:-20px;}
-.choose_two{background:url("../img/choose_two.png");}
-.de_table{width:360px;margin: 0 auto;}
+.choose_two{background:url("../img/choose_two.png");margin-top:2px;}
+.de_table{width:400px;margin: 0 auto;}
 .de_table th,.de_table td{font-size:14px;color:#333;}
-.de_table th{width:80px;color:#888;height:35px;}
-
-
-
+.de_table th{width:150px;color:#888;height:35px;text-align: right;}
+.time_choose{width:100px;height:25px;border:1px solid #aaa;}
+.time_choose *{display:inline-block;width:25px;color:#888;height:25px;line-height:25px;float: left;background:#edf5ff;font-weight: bold;}
+.time_choose input{border:1px solid #aaa;border-width:0 1px;background:#fff;width:48px;line-height:normal;text-align: center;}
 
 
 
