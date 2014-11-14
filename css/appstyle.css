@@ -396,6 +396,7 @@
 .control_int em.current{background:#ccc;color:#333;padding:0 5px;margin:0 2px;display: inline-block;}
 .module table.score-tab td{padding-bottom:20px;}
 .module table.score-tab td .int{border-width:0 0 1px 0;}
+.module table.score-tab td .int.mart5{border-width:1px;}
 .module table.score-tab td span.color-6{display: inline-block;width:14px;text-align:left;}
 /*弹出的表单申请*/
 .popIn .form-main{background:#fff;padding:20px 40px;border-radius:4px;}
