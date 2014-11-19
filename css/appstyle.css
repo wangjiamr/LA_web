@@ -405,7 +405,7 @@
 .go_mid{top:10%;transition:0.4s;-webkit-transition:0.4s;}
 .go_down{top:150%;transition:0.8s;-webkit-transition:0.8s;}
 /*订购信息*/
-.order_main{padding:40px 0 0 40px;}
+.order_main{padding:7px 0 0 40px;}
 .account_tab{width:98%;background: #f6f6f6;}
 .account_tab th{width:60px;}
 .account_tab th,.account_tab td{padding:10px 0 10px 30px;color:#666;height:10px;}
