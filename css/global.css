@@ -47,6 +47,7 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .mart10{margin-top:10px!important;}
 .mart15{margin-top:15px!important;}
 .mart20{margin-top:20px!important;}
+.mart25{margin-top:25px!important;}
 .mart30{margin-top:30px!important;}
 .mart45{margin-top:45px!important;}
 .mart50{margin-top:50px!important;}
@@ -114,6 +115,7 @@ a.add:hover{text-decoration: underline;}
 .font18{font-size:18px!important;}
 .font20{font-size:20px!important;}
 .font25{font-size:25px!important;}
+.font26{font-size:26px!important;}
 .font30{font-size:30px!important;}
 .l_th{text-decoration:line-through!important;}
 .txt_hidden,.ser_Results li,.UserName{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}

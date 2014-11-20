@@ -430,15 +430,17 @@
 .time_choose{width:100px;height:25px;border:1px solid #aaa;}
 .time_choose *{display:inline-block;width:25px;color:#888;height:25px;line-height:25px;float: left;background:#edf5ff;font-weight: bold;}
 .time_choose input{border:1px solid #aaa;border-width:0 1px;background:#fff;width:48px;line-height:normal;text-align: center;}
-
-
-
-
-
-
-
-
-
+/*400 500*/
+.error_box{width:650px;height:420px;position: absolute;top:50%;left:50%;margin:-250px 0 0 -325px;}
+.error_box a{font-size:20px;color:#666;display: inline-block;margin:0 20px;}
+.error_box a .ico-back,.error_box a .ico-index{width:16px;height:16px;margin-right:5px;}
+.error_box a .ico-back{background-position:-173px -22px;}
+.error_box a .ico-index{background-position:-194px -22px;}
+.error_box a:hover .ico-back{background-position:-173px -1px;}
+.error_box a:hover .ico-index{background-position:-194px -1px;}
+.error_box a:hover{color:#347cdc;}
+.Extension{border-bottom:1px solid #ccc;padding:35px 10px;}
+.Ex_item{width:460px;height:100%;border-right:1px solid #eee;line-height:24px;}
 
 
 
