@@ -105,7 +105,8 @@
 .AppTable tr td.Solid,.AppTable tr th.Solid{border-bottom:1px solid #6b6b6b;}
 /*.AppTable tr:nth-of-type(2n-1).Solid td:nth-child(3),.AppTable tr:nth-of-type(2n-1).Solid td:nth-child(4),.AppTable tr:nth-of-type(2n-1).Solid td:nth-child(5){border-bottom:1px dotted #6b6b6b;}*/
 .AppMakeBtn{height:50px;margin-left:5px;margin-right:-5px;width:802px;position:absolute;right:0;left:0;top:0;background:#002463;}
-.print{display:block;width:70px;text-align: center;line-height: 50px;background:url("../img/mask3.png") repeat;}
+.print{display:block;width:70px;text-align: center;height: 50px;line-height: 50px;background:url("../img/mask3.png") repeat;}
+.print .Icon{vertical-align: middle;}
 .AppMakeBtn a{opacity: 1;}
 .AppList-over  .ListTitle .Li_span2{width:100px;}
 .AppList-over  .ListTitle .Li_span4{width:110px;}
