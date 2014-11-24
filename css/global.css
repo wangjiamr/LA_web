@@ -63,6 +63,7 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .marl25{margin-left:25px!important;}
 .marl_20{margin-left:-20px!important;}
 .marl30{margin-left:30px!important;}
+.marl50{margin-left:50px!important;}
 .color-black{color:#000;}
 .color-white{color:#fff;}
 .color-3{color:#333;}
@@ -243,6 +244,8 @@ li.current .ico-06,.NewBar ul li:hover .ico-06{background-position:-128px -303px
 .ico-set:hover{background-position: -155px -30px;}
 .ico-up,.ico-down2{width:12px;height:11px;background-position:-155px -180px;}
 .ico-down2{background-position:-155px -198px;}
+.ico-down3,.ico-look{width:50px;height:50px;background-position:-160px -378px;}
+.ico-look{background-position:-110px -378px;}
 /*.ico-up:hover{background-position:-155px -211px;}*/
 /*.ico-down2:hover{background-position:-155px -225px;}*/
 .ico-Started{background-position:-155px -120px;}
@@ -277,6 +280,10 @@ li.current .ico-06,.NewBar ul li:hover .ico-06{background-position:-128px -303px
 .Column .ico-clander{top:4px;}
 .ico-edit,.ico-delete5{width:14px;height:14px;background-position:-155px -240px;}
 .ico-delete5{background-position:-155px -268px;}
+.ico-e1,.ico-link,.ico-code{width:17px;height:17px;background-position:-170px -60px;margin-right:10px;}
+.ico-link{background-position:-170px -80px;}
+.ico-code{background-position:-170px -101px;}
+
 /*表单图标背景和ico*/
 .bg{display: inline-block;width:48px;height:48px;text-align: center;line-height: 48px;position: relative;border-radius:50em;behavior: url(../css/PIE.htc);}
 .ico{width: 22px;height:22px;vertical-align: -6px;position:absolute;top: 50%;left:50%;margin:-11px 0 0 -11px;}
