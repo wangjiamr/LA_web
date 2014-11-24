@@ -64,7 +64,7 @@
 </div>
 <!--header over-->
 <!--主体begin-->
-<div class="content">
+<div class="content hidden">
     <div class="main clearfix">
         <!--左侧菜单 begin-->
         <div class="LeftBar floatleft">
@@ -293,22 +293,23 @@
         <!--右侧over-->
     </div>
     <!--表单详情begin-->
-    <div class="AppDetail scroll" style="display:block;right:274px;">
+    <div class="AppDetail scroll" style="display:block;right:292px;"><!--292-->
         <div class="AppDetailIn">
             <!--操作按钮begin-->
             <div class="AppMakeBtn clearfix alignleft">
-                <a href="javascript:;" class="Btn current btn-cross"><i class="Icon ico-cross"></i>通 过</a>
+                <a href="javascript:;" class="Btn btn-cross"><i class="Icon ico-cross"></i>通 过</a>
                 <a href="javascript:;" class="Btn btn-veto"><i class="Icon ico-veto"></i>否 决</a>
                 <a href="javascript:;" class="Btn btn-turn2"><i class="Icon ico-turn2"></i>转 审</a>
                 <a href="javascript:;" class="Btn btn-invite"><i class="Icon ico-invite"></i>邀 请</a>
                 <a href="javascript:;" class="Btn btn-notice"><i class="Icon ico-notice"></i>通 知</a>
-                <a href="javascript:;" class="Btn btn-notice"><i class="Icon ico-done"></i>处 理</a>
+                <a href="javascript:;" class="Btn btn-notice"><i class="Icon ico-share"></i>处 理</a>
+                <!--<a href="javascript:;" class="Btn btn-notice"><i class="Icon ico-done"></i>处 理</a>-->
                 <!--<a href="#" class="print floatright" title="打印"><i class="Icon ico-print2"></i></a>-->
-                <a href="#" class="print nobg floatright mart3" title="收起"><i class="Icon ico-cut"></i></a>
+                <a href="#" class="Btn floatright btn-acc marr10"><i class="Icon ico-acc"></i>查看附件</a>
             </div>
             <!--操作按钮over-->
             <!--审批意见 附件 begin-->
-            <div class="Approval">
+            <div class="Approval" style="display:none;">
                 <table>
                     <tr>
                         <th class="font14 p-top5">选择转审人员：</th>
