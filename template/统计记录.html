@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>统计记录</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/appstyle.css">
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/Mutual.js"></script>
+</head>
+<body>
+<!--header begin-->
+<div class="header">
+    <div class="headerInner clearfix">
+        <span class="inlineblock company_logo"><img src="https://img.mingdao.com/ProjectLogo/default.gif"/></span>
+        <span class="inlineblock company_name font16 marl20 color-3">梅花与明道</span>
+        <!--右侧头像和发起按钮 begin-->
+        <div class="headerRight floatright clearfix">
+            <!--头像 begin-->
+            <div class="DropDown clearfix floatleft marr20">
+                <span class="UserImg block floatleft ie-css3"><img src="../img/1.png"></span>
+                <div class="floatleft marl10 color-3">
+                    <p>欢迎回来</p>
+                    <p>刘德华</p>
+                </div>
+                <div class="DropList">
+                    <i class="Icon ico-arrow"></i>
+                    <ul class="border-33619f bg-347cdc">
+                        <li><a href="#"><i class="Icon ico-change"></i>切换账号</a></li>
+                        <li><a href="#"><i class="Icon ico-out"></i>退出明道</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--头像 over-->
+            <!--plus btn begin-->
+            <div class="DropDown clearfix noborder floatright" style="width:auto;">
+                <span class="UserImg block"><i class="Icon ico-plus"></i></span>
+                <div class="DropList">
+                    <i class="Icon ico-arrow"></i>
+                    <ul>
+                        <li><a href="#">发起申请</a></li>
+                        <li><a href="#">创建表单</a></li>
+                        <li><a href="#">新建角色</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--plus btn over-->
+            <!--切换网络 begin-->
+            <div class="DropDown clearfix noborder floatright" style="width:auto;">
+                <span class="UserImg block"><i class="Icon ico-home"></i></span>
+                <div class="DropList">
+                    <i class="Icon ico-arrow"></i>
+                    <ul>
+                        <li><a href="#">切换网络</a></li>
+                        <li><a href="#">安全退出</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--切换网络 over-->
+        </div>
+        <!--右侧头像和发起按钮 over-->
+        <span class="back_md marl20 color-8">快捷审批</span>
+    </div>
+</div>
+<!--header over-->
+<!--主体begin-->
+<div class="content hidden">
+    <div class="main clearfix">
+        <!--左侧菜单 begin-->
+        <div class="LeftBar floatleft">
+            <ul class="font16 color-8 mart20">
+                <li class="current"><a href="#"><i class="Icon ico-01"></i>申 请<em class="prompt ie-css3">3</em></a></li>
+                <li><a href="#"><i class="Icon ico-02"></i>审 批<em class="prompt ie-css3">3</em></a></li>
+                <li><a href="#"><i class="Icon ico-03"></i>经 办<em class="prompt ie-css3">3</em></a></li>
+                <li><a href="#"><i class="Icon ico-04"></i>设 置<em class="prompt ie-css3">13</em></a></li>
+                <li><a href="#"><i class="Icon ico-05"></i>管 理<em class="prompt ie-css3">13</em></a></li>
+                <li class="current">
+                    <a href="#"><i class="Icon ico-07"></i>分 析<em class="prompt ie-css3">13</em></a>
+                    <dl class="navT alignright">
+                        <dd><a href="#">- 统计分析</a></dd>
+                        <dd class="current"><a href="#">- 统计记录</a></dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+        <!--左侧菜单 over-->
+        <!--右侧begin-->
+        <div class="rightBar floatleft">
+            <div class="rightIn">
+                <table class="account_tab mart20">
+                    <tr>
+                        <th>起止日期：</th>
+                        <td>
+                            <div class="floatleft">
+                                <div class="has-general width-100 inlineblock">
+                                  <input type="text" class="int" placeholder="请输入日期...">
+                                  <label class="control-label">提示信息</label>
+                                  <a href="javascript:;" class="Icon ico-clander"></a>
+                                </div>
+                                <em>&nbsp;-&nbsp;</em>
+                                <div class="has-general width-100 inlineblock">
+                                  <input type="text" class="int" placeholder="请输入日期...">
+                                  <label class="control-label">提示信息</label>
+                                  <a href="javascript:;" class="Icon ico-clander"></a>
+                                </div>
+                            </div>
+                            <ul class="tab_nav floatleft marl20 mart3 clearfix">
+                                <li class="current"><a href="javascript:;">今天</a></li>
+                                <li><a href="javascript:;">最近一个月</a></li>
+                                <li><a href="javascript:;">最近三个月</a></li>
+                                <li><a href="javascript:;">最近一年</a></li>
+                                <li><a href="javascript:;">一年一前</a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>统计类型：</th>
+                        <td>
+                            <div class="search ie-css3 select width-160"><!--加 current，显示下拉列表框-->
+                              <span class="Choosed">报销申请</span>
+                              <span class="ico-select"><i class="Icon ico-upd"></i></span>
+                              <!--搜索结果begin-->
+                              <div class="ser_Results ie-css3">
+                                <ul>
+                                  <li>报销申请</li>
+                                  <li>报销申请</li>
+                                  <li>报销申请</li>
+                                </ul>
+                              </div>
+                              <!--搜索结果over-->
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="aligntop">统计项目：</th>
+                        <td class="p-bt20">
+                            <p>
+                                <span class="check checked"><i class="Icon ico-check"></i>部门</span>
+                                <span class="check"><i class="Icon ico-check"></i>姓名</span>
+                                <span class="check"><i class="Icon ico-check"></i>日期</span>
+                                <span class="check"><i class="Icon ico-check"></i>时间</span>
+                                <span class="check"><i class="Icon ico-check"></i>时间报销金额</span>
+                                <span class="check"><i class="Icon ico-check"></i>支付方式</span>
+                                <span class="check"><i class="Icon ico-check"></i>报销金额</span>
+                            </p>
+                            <p class="mart15">
+                                <span class="check checked"><i class="Icon ico-check"></i>部门</span>
+                                <span class="check"><i class="Icon ico-check"></i>姓名</span>
+                                <span class="check"><i class="Icon ico-check"></i>日期</span>
+                                <span class="check"><i class="Icon ico-check"></i>时间</span>
+                                <span class="check"><i class="Icon ico-check"></i>时间报销金额</span>
+                                <span class="check"><i class="Icon ico-check"></i>支付方式</span>
+                                <span class="check"><i class="Icon ico-check"></i>报销金额</span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+                <!--申请列表 begin-->
+                <div class="AppList AppList-over mart20">
+                    <div class="ListMain">
+                        <div class="table_box">
+                            <a href="javascript:;" class="arrow-l"><i class="Icon ico-arrow-l"></i></a>
+                            <a href="javascript:;" class="arrow-r"><i class="Icon ico-arrow-r"></i></a>
+                            <table class="table_list" style="margin-left:;"><!--每次控制table margin-left 值  -150px-->
+                                <thead>
+                                    <tr>
+                                        <th>姓名</th>
+                                        <th>部门</th>
+                                        <th>报销金额</th>
+                                        <th>支付方式</th>
+                                        <th>费用类别</th>
+                                        <th>金额</th>
+                                        <th>支方式</th>
+                                        <th>费别</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><div>刘德华</div></td>
+                                        <td><div>北京研发</div></td>
+                                        <td><div>1000</div></td>
+                                        <td><div>现金支付</div></td>
+                                        <td><div>行政费用</div></td>
+                                        <td><div>1000</div></td>
+                                        <td><div>现金支付</div></td>
+                                        <td><div>行政费用</div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div>刘德华</div></td>
+                                        <td><div>北京研发</div></td>
+                                        <td><div>1000</div></td>
+                                        <td><div>现金支付</div></td>
+                                        <td><div>行政费用</div></td>
+                                        <td><div>1000</div></td>
+                                        <td><div>现金支付</div></td>
+                                        <td><div>行政费用</div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div>刘德华</div></td>
+                                        <td><div>北京研发</div></td>
+                                        <td><div>1000</div></td>
+                                        <td><div>现金支付</div></td>
+                                        <td><div>行政费用</div></td>
+                                        <td><div>1000</div></td>
+                                        <td><div>现金支付</div></td>
+                                        <td><div>行政费用</div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div>刘德华</div></td>
+                                        <td><div>北京研发</div></td>
+                                        <td><div>1000</div></td>
+                                        <td><div>现金支付</div></td>
+                                        <td><div>行政费用</div></td>
+                                        <td><div>1000</div></td>
+                                        <td><div>现金支付</div></td>
+                                        <td><div>行政费用</div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div>刘德华</div></td>
+                                        <td><div>北京研发</div></td>
+                                        <td><div>1000</div></td>
+                                        <td><div>现金支付</div></td>
+                                        <td><div>行政费用</div></td>
+                                        <td><div>1000</div></td>
+                                        <td><div>现金支付</div></td>
+                                        <td><div>行政费用</div></td>
+                                    </tr>
+                                    <tr>
+                                        <td><div>刘德华</div></td>
+                                        <td><div>北京研发</div></td>
+                                        <td><div>1000</div></td>
+                                        <td><div>现金支付</div></td>
+                                        <td><div>行政费用</div></td>
+                                        <td><div>1000</div></td>
+                                        <td><div>现金支付</div></td>
+                                        <td><div>行政费用</div></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!--分页器begin-->
+                    <div class="pagenation aligncenter mart30 p-bt20">
+                        <a href="javascript:;" class="page prev">&lt;</a>
+                        <a href="#" class="current">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a href="#">7</a>
+                        <a href="#">8</a>
+                        <a href="#">9</a>
+                        <a href="#">100</a>
+                        <a href="javascript:;" class="page next">&gt;</a>
+                    </div>
+                    <!--分页器over-->
+                </div>
+                <!--申请列表 over-->
+            </div>
+        </div><!--右侧滑出详情的时候加 rightMove-->
+        <!--右侧over-->
+    </div>
+</div>
+<!--主体over-->
+</body>
+</html>
