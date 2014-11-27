@@ -311,6 +311,28 @@ $(function(){
             $choose_two.show();
         }
     });
+//    切换table
+    $arrow_l = $('.arrow-l');
+    $arrow_r = $('.arrow-r');
+    $table_list = $('.table_list');
+    $arrow_l.click(function(){
+        var tab_left = parseInt($table_list.css('margin-left'));
+        var tab_width = $table_list.width();
+        if(tab_left != (-tab_width+750)){
+            $table_list.stop().animate({
+                marginLeft:tab_left-150
+            },500);
+        }
+    });
+    $arrow_r.click(function(){
+        var tab_left = parseInt($table_list.css('margin-left'));
+        var tab_width = -$table_list.width();
+        if(tab_left != 0){
+            $table_list.stop().animate({
+                marginLeft:tab_left+150
+            },500);
+        }
+    });
   });
 
 

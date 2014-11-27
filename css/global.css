@@ -103,6 +103,7 @@ a.add:hover{text-decoration: underline;}
 .p-top10{padding-top:10px!important;}
 .p-top20{padding-top:20px!important;}
 .p-top40{padding-top:40px!important;}
+.p-bt5{padding-bottom:5px!important;}
 .p-bt10{padding-bottom:10px!important;}
 .p-bt20{padding-bottom:20px!important;}
 .p-left20{padding-left:20px!important;}
@@ -146,7 +147,7 @@ a.add:hover{text-decoration: underline;}
 .btn-cross,.btn-veto,.btn-turn2,.btn-invite,.btn-notice,.btn-acc{width:90px;height:30px;margin:10px 0 0 17px;line-height:30px;border-radius: 4px;text-align: center;font-size:14px;border: 1px solid transparent;}
 /*.Btn:hover,.AppMakeBtn .Btn.current{background-color:#002059;border: 1px solid #2e5cac;height:29px;line-height: 29px;}*/
 .AppDetailIn .AppMakeBtn .Btn:hover{border:1px solid #2e5cac;background:#002059;}
-.btn-quit,.btn-sure,.Btn-normal{color:#666;width:88px;height:23px;line-height:23px;border-radius:4px;border:1px solid #aaa;text-align: center;}
+.btn-quit,.btn-sure,.Btn-normal{color:#666;min-width:60px;height:23px;line-height:23px;border-radius:4px;border:1px solid #aaa;text-align: center;}
 .btn-make:hover,.Btn-normal:hover{color:#fff;}
 .btn_right{position:absolute;right:10px;top:13px;}
 .step_btn{width:100px;height:30px;line-height:30px;text-align: center;background-color:#3478d3;color:#fff;border-radius:3px;}
@@ -180,18 +181,20 @@ a.add:hover{text-decoration: underline;}
 .ico-creatU{background-position:-48px -136px;}
 .ico-plus,.ico-home{width:40px;height:40px;background-position:0 0;}
 .ico-home{background-position:-48px -338px;}
-.ico-01,.ico-02,.ico-03,.ico-04,.ico-05,.ico-06{width:24px;height:24px;background-position:0 -40px;vertical-align: -7px;margin:0 10px 0 20px;}
+.ico-01,.ico-02,.ico-03,.ico-04,.ico-05,.ico-06,.ico-07{width:24px;height:24px;background-position:0 -40px;vertical-align: -7px;margin:0 10px 0 20px;}
 .ico-02{background-position:0 -64px;}
 .ico-03{background-position:0 -88px;}
 .ico-04{background-position:0 -112px;}
 .ico-05{background-position:0 -136px;}
 .ico-06{background-position:-128px -338px;}
+.ico-07{background-position:-170px -120px;}
 li.current .ico-01,.NewBar ul li:hover .ico-01{background-position:-24px -40px;}
 li.current .ico-02,.NewBar ul li:hover .ico-02{background-position:-24px -64px;}
 li.current .ico-03,.NewBar ul li:hover .ico-03{background-position:-24px -88px;}
 li.current .ico-04,.NewBar ul li:hover .ico-04{background-position:-24px -112px;}
 li.current .ico-05,.NewBar ul li:hover .ico-05{background-position:-24px -136px;}
 li.current .ico-06,.NewBar ul li:hover .ico-06{background-position:-128px -303px;}
+li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px;}
 .NewBar ul li .Icon{transition:0.3s;}
 .ico-ser{width:25px;height:16px;background-position:-66px -136px;}
 .ico-upd{width:6px;height:11px;background: url("../img/upd1.png") no-repeat;margin-left: 10px;vertical-align:-0.5px;display: none;}
@@ -249,6 +252,7 @@ li.current .ico-06,.NewBar ul li:hover .ico-06{background-position:-128px -303px
 .ico-down2{background-position:-155px -198px;}
 .ico-down3,.ico-look{width:50px;height:50px;background-position:-160px -378px;}
 .ico-look{background-position:-110px -378px;}
+.MakeBtn .ico-down3{width:25px;height:25px;background-position:-174px -391px;}
 /*.ico-up:hover{background-position:-155px -211px;}*/
 /*.ico-down2:hover{background-position:-155px -225px;}*/
 .ico-Started{background-position:-155px -120px;}
@@ -269,8 +273,11 @@ li.current .ico-06,.NewBar ul li:hover .ico-06{background-position:-128px -303px
 /*.Item tbody tr.current .ico-arrow2{background-position:-98px -180px;}*/
 .ico-check,.ico-lock{width:16px;height:16px;background-position: -94px -198px;cursor: pointer;vertical-align:-3px;margin-right:5px;}
 .checked .ico-check{background-position: -94px -214px;}
+.check{cursor: pointer;}
 .check .ico-check{background-position: -111px -198px;}
 .check.checked .ico-check{background-position: -111px -214px;}
+.account_tab .ico-check{width:14px;height:13px;background-position: -170px -180px}
+.account_tab .check.checked .ico-check{background-position: -170px -198px;}
 .ico-lock,.ico-unlock{width:16px;height:16px;background-position: -131px -16px;margin-left:3px;}
 .ico-unlock{background-position: -131px 0;top:6px;}
 .ico-down{width:24px;height:18px;background-position:-131px -32px;right:-6px;}
@@ -286,7 +293,10 @@ li.current .ico-06,.NewBar ul li:hover .ico-06{background-position:-128px -303px
 .ico-e1,.ico-link,.ico-code{width:17px;height:17px;background-position:-170px -60px;margin-right:10px;}
 .ico-link{background-position:-170px -80px;}
 .ico-code{background-position:-170px -101px;}
-
+.ico-arrow-l,.ico-arrow-r{width:9px;height:12px;background-position:-172px -216px;}
+.ico-arrow-r{width:9px;height:12px;background-position:-175px -232px;}
+.no .ico-arrow-l{background-position:-185px -216px;}
+.no .ico-arrow-r{background-position:-185px -232px;}
 /*表单图标背景和ico*/
 .bg{display: inline-block;width:48px;height:48px;text-align: center;line-height: 48px;position: relative;border-radius:50em;behavior: url(../css/PIE.htc);}
 .ico{width: 22px;height:22px;vertical-align: -6px;position:absolute;top: 50%;left:50%;margin:-11px 0 0 -11px;}

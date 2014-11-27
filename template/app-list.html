@@ -293,337 +293,425 @@
         <!--右侧over-->
     </div>
     <!--表单详情begin-->
-    <div class="AppDetail scroll" style="display:block;right:292px;"><!--292-->
-        <div class="AppDetailIn">
-            <!--操作按钮begin-->
-            <div class="AppMakeBtn clearfix alignleft">
-                <a href="javascript:;" class="Btn btn-cross"><i class="Icon ico-cross"></i>通 过</a>
-                <a href="javascript:;" class="Btn btn-veto"><i class="Icon ico-veto"></i>否 决</a>
-                <a href="javascript:;" class="Btn btn-turn2"><i class="Icon ico-turn2"></i>转 审</a>
-                <a href="javascript:;" class="Btn btn-invite"><i class="Icon ico-invite"></i>邀 请</a>
-                <a href="javascript:;" class="Btn btn-notice"><i class="Icon ico-notice"></i>通 知</a>
-                <a href="javascript:;" class="Btn btn-notice"><i class="Icon ico-share"></i>处 理</a>
-                <!--<a href="javascript:;" class="Btn btn-notice"><i class="Icon ico-done"></i>处 理</a>-->
-                <!--<a href="#" class="print floatright" title="打印"><i class="Icon ico-print2"></i></a>-->
-                <a href="#" class="Btn floatright btn-acc marr10"><i class="Icon ico-acc"></i>查看附件</a>
-            </div>
-            <!--操作按钮over-->
-            <!--审批意见 附件 begin-->
-            <div class="Approval" style="display:none;">
-                <table>
-                    <tr>
-                        <th class="font14 p-top5">选择转审人员：</th>
-                        <td>
-                            <div class="popIn font14 nopadding">
-                                <p>
-                                    <!--<a href="javascript:;" class="add block mart3" title="添加">添加转审人</a>-->
-                                    <span class="Li_span4 ie-css3">
-                                        <img src="../img/1.png">
-                                        <i class="add">刘德华</i>
-                                    </span>
-                                    <a href="javascript:;" title="替换" class="marl10"><i class="Icon ico-refresh"></i></a>
-                                </p>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th class="font14">
-                            <p class="mart10">填写通过意见：</p>
-                        </th>
-                        <td>
-                            <div class="Approval_inner ie-css3 mart10">
-                                <textarea class="mart10"></textarea>
-                                <div class="mart10 marl20" style="display: block;">
-                                    <ul class="acc_list clearfix">
-                                        <li>
-                                            <a href="javascript:;" class="Icon ico-delete4"></a>
-                                            <div class="block ie-css3"><p><img src="../img/fu_bmp.gif"/></p></div>
-                                            <p class="txt_hidden" contenteditable="true">第一季度报表</p>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:;" class="Icon ico-delete4"></a>
-                                            <div class="block ie-css3">
-                                                <p><img src="../img/ico.png"/></p>
-                                                <span class="mask" style="height:50%"><em>20%</em></span>
-                                            </div>
-                                            <p class="txt_hidden" contenteditable="true">第一季度报表</p>
-                                        </li>
-                                    </ul>
+    <div class="AppDetail scroll clearfix" style="display:block;right:0;">
+        <div class="clearfix">
+            <div class="AppDetailIn floatleft">
+                <!--操作按钮begin-->
+                <div class="AppMakeBtn clearfix alignleft">
+                    <a href="javascript:;" class="Btn btn-cross"><i class="Icon ico-cross"></i>通 过</a>
+                    <a href="javascript:;" class="Btn btn-veto"><i class="Icon ico-veto"></i>否 决</a>
+                    <a href="javascript:;" class="Btn btn-turn2"><i class="Icon ico-turn2"></i>转 审</a>
+                    <a href="javascript:;" class="Btn btn-invite"><i class="Icon ico-invite"></i>邀 请</a>
+                    <a href="javascript:;" class="Btn btn-notice"><i class="Icon ico-notice"></i>通 知</a>
+                    <!--<a href="javascript:;" class="Btn btn-notice"><i class="Icon ico-share"></i>处 理</a>-->
+                    <!--<a href="javascript:;" class="Btn btn-notice"><i class="Icon ico-done"></i>处 理</a>-->
+                    <a href="#" class="print floatright" title="打印"><i class="Icon ico-print2"></i></a>
+                    <a href="#" class="Btn floatright btn-acc marr10"><i class="Icon ico-acc"></i>查看附件</a>
+                </div>
+                <!--操作按钮over-->
+                <!--审批意见 附件 begin-->
+                <div class="Approval" style="display:;">
+                    <table>
+                        <tr>
+                            <th class="font14 p-top5">选择转审人员：</th>
+                            <td>
+                                <div class="popIn font14 nopadding">
+                                    <p>
+                                        <!--<a href="javascript:;" class="add block mart3" title="添加">添加转审人</a>-->
+                                        <span class="Li_span4 ie-css3">
+                                            <img src="../img/1.png">
+                                            <i class="add">刘德华</i>
+                                        </span>
+                                        <a href="javascript:;" title="替换" class="marl10"><i class="Icon ico-refresh"></i></a>
+                                    </p>
                                 </div>
-                                <p class="mart10 clearfix alignright marr10 marl10">
-                                    <a href="#" class="floatleft add"><i class="Icon ico-acc"></i> 添加附件</a>
-                                    <label class="marr10"><input type="checkbox"> 是否关注审批动态</label>
-                                    <a href="#" class="Btn btn-make btn-quit">取 消</a>
-                                    <a href="#" class="Btn btn-make btn-sure marl10">确 定</a>
-                                </p>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="font14">
+                                <p class="mart10">填写通过意见：</p>
+                            </th>
+                            <td>
+                                <div class="Approval_inner ie-css3 mart10">
+                                    <textarea class="mart10"></textarea>
+                                    <div class="mart10 marl20" style="display: block;">
+                                        <ul class="acc_list clearfix">
+                                            <li>
+                                                <a href="javascript:;" class="Icon ico-delete4"></a>
+                                                <div class="block ie-css3"><p><img src="../img/fu_bmp.gif"/></p></div>
+                                                <p class="txt_hidden" contenteditable="true">第一季度报表</p>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;" class="Icon ico-delete4"></a>
+                                                <div class="block ie-css3">
+                                                    <p><img src="../img/ico.png"/></p>
+                                                    <span class="mask" style="height:50%"><em>20%</em></span>
+                                                </div>
+                                                <p class="txt_hidden" contenteditable="true">第一季度报表</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <p class="mart10 clearfix alignright marr10 marl10">
+                                        <a href="#" class="floatleft add"><i class="Icon ico-acc"></i> 添加附件</a>
+                                        <label class="marr10"><input type="checkbox"> 是否关注审批动态</label>
+                                        <a href="#" class="Btn btn-make btn-quit">取 消</a>
+                                        <a href="#" class="Btn btn-make btn-sure marl10">确 定</a>
+                                    </p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!--审批意见 附件 over-->
+                <p class="font20 alignleft">采购申请</p>
+                <p class="font14 mart20 alignleft">单据编号：<span>SB-2014-29038478</span></p>
+                <div class="mart30">
+                    <table class="AppTable">
+                        <tbody>
+                            <tr>
+                                <th>申请人</th>
+                                <td>孙悟空</td>
+                                <th>申请日期</th>
+                                <td>2014-07-21 18:28:39</td>
+                            </tr>
+                            <tr>
+                                <th>部门</th>
+                                <td>天宫动物园</td>
+                                <th>金额</th>
+                                <td>1,000,00（元）</td>
+                            </tr>
+                            <tr>
+                                <th>备注</th>
+                                <td colspan="3">天宫动物园工作规范忙</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="mart30">
+                    <p class="font14">单据明细：</p>
+                    <table class="AppTable mart10">
+                        <thead>
+                            <tr>
+                                <th>编号</th>
+                                <th>日期</th>
+                                <th>类型</th>
+                                <th>型号</th>
+                                <th style="width:100px;">金额</th>
+                                <th style="width:30%">备注</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>2014-07-21</td>
+                                <td>办公用品</td>
+                                <td>fjnfdjk00</td>
+                                <td>1,000,00<em class="RMB floatright">（元）</em></td>
+                                <td>无</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>2014-07-21</td>
+                                <td>办公用品</td>
+                                <td>fjnfdjk00</td>
+                                <td>1,000,00<em class="RMB floatright">（元）</em></td>
+                                <td>无</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="line"></p>
+                <!--审批详情begin-->
+                <div class="mart30">
+                    <p class="font14 alignright clearfix">
+                        <span class="floatleft">审批详情：</span>
+                        <span class="font12 color-6">总共用时：1小时12分35秒</span>
+                    </p>
+                    <table class="AppTable mart10">
+                        <thead>
+                            <tr>
+                                <th>编号</th>
+                                <th>操作人</th>
+                                <th>操作</th>
+                                <th>操作时间</th>
+                                <th style="width:60px;">用时</th>
+                                <th style="width:30%">审批意见</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="2" style="vertical-align: top;" class="Solid">1</td>
+                                <td rowspan="2" style="vertical-align: top;" class="Solid">赵阳</td>
+                                <td>查看申请</td>
+                                <td>2014-07-21 18:28:39</td>
+                                <td>12<em class="RMB floatright">秒</em></td>
+                                <td rowspan="2" style="vertical-align: top;" class="Solid">无</td>
+                            </tr>
+                            <tr>
+                                <td class="Solid">通过申请</td>
+                                <td class="Solid">2014-07-21 18:28:39</td>
+                                <td class="Solid">12<em class="RMB floatright">秒</em></td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2" style="vertical-align: top;">2</td>
+                                <td rowspan="2" style="vertical-align: top;">王佳</td>
+                                <td>查看申请</td>
+                                <td>2014-07-21 18:28:39</td>
+                                <td>12<em class="RMB floatright">秒</em></td>
+                                <td rowspan="2" style="vertical-align: top;">无</td>
+                            </tr>
+                            <tr>
+                                <td>通过申请</td>
+                                <td>2014-07-21 18:28:39</td>
+                                <td>12<em class="RMB floatright">秒</em></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>张睿</td>
+                                <td>查看申请</td>
+                                <td>2014-07-21 18:28:39</td>
+                                <td>12<em class="RMB floatright">秒</em></td>
+                                <td>无</td>
+                            </tr>
+                            <tr class="wait">
+                                <td>4</td>
+                                <td>张睿</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--审批详情over-->
+                <!--邀请详情begin-->
+                <div class="mart30">
+                    <p class="font14 alignright clearfix">
+                        <span class="floatleft">邀请详情：</span>
+                    </p>
+                    <table class="AppTable mart10">
+                        <thead>
+                            <tr>
+                                <th>操作人</th>
+                                <th>操作</th>
+                                <th>操作时间</th>
+                                <th>用时</th>
+                                <th style="width:30%">审批意见</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>张睿</td>
+                                <td>邀请<em>王佳</em></td>
+                                <td>2014-07-21 18:28:39</td>
+                                <td></td>
+                                <td>无</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2" style="vertical-align: top;">王佳</td>
+                                <td>查看申请</td>
+                                <td>2014-07-21 18:28:39</td>
+                                <td>12<em class="RMB floatright">秒</em></td>
+                                <td rowspan="2" style="vertical-align: top;">无</td>
+                            </tr>
+                            <tr>
+                                <td>通过申请</td>
+                                <td>2014-07-21 18:28:39</td>
+                                <td>12<em class="RMB floatright">秒</em></td>
+                            </tr>
+                            <tr>
+                                <td>张睿</td>
+                                <td>邀请<em>王佳</em></td>
+                                <td>2014-07-21 18:28:39</td>
+                                <td></td>
+                                <td>无</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2" style="vertical-align: top;">王佳</td>
+                                <td>查看申请</td>
+                                <td>2014-07-21 18:28:39</td>
+                                <td>12<em class="RMB floatright">秒</em></td>
+                                <td rowspan="2" style="vertical-align: top;">无</td>
+                            </tr>
+                            <tr>
+                                <td>通过申请</td>
+                                <td>2014-07-21 18:28:39</td>
+                                <td>12<em class="RMB floatright">秒</em></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--邀请详情over-->
+                <!--执行详情begin-->
+                <div class="mart30">
+                    <p class="font14 alignright clearfix">
+                        <span class="floatleft">执行详情：</span>
+                        <span class="font12 color-6">总共用时：1小时12分35秒</span>
+                    </p>
+                    <table class="AppTable mart10">
+                        <thead>
+                            <tr>
+                                <th>操作人</th>
+                                <th>操作</th>
+                                <th>操作时间</th>
+                                <th style="width:60px;">用时</th>
+                                <th style="width:30%">审批意见</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="3" style="vertical-align: top;">赵阳</td>
+                                <td>接收申请</td>
+                                <td>2014-07-21 18:28:39</td>
+                                <td>12<em class="RMB floatright">秒</em></td>
+                                <td rowspan="2" style="vertical-align: top;">无</td>
+                            </tr>
+                            <tr>
+                                <td>查看申请</td>
+                                <td>2014-07-21 18:28:39</td>
+                                <td>12<em class="RMB floatright">秒</em></td>
+                            </tr>
+                            <tr>
+                                <td>通过申请</td>
+                                <td>2014-07-21 18:28:39</td>
+                                <td>12<em class="RMB floatright">秒</em></td>
+                            </tr>
+                            <tr class="Solid"><td colspan="5"></td></tr>
+                            <tr>
+                                <td>王佳</td>
+                                <td>执行完成</td>
+                                <td>2014-07-21 18:28:39</td>
+                                <td>12<em class="RMB floatright">秒</em></td>
+                                <td>无条件给予通过</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--执行详情over-->
             </div>
-            <!--审批意见 附件 over-->
-            <p class="font20 alignleft">采购申请</p>
-            <p class="font14 mart20 alignleft">单据编号：<span>SB-2014-29038478</span></p>
-            <div class="mart30">
-                <table class="AppTable">
-                    <tbody>
-                        <tr>
-                            <th>申请人</th>
-                            <td>孙悟空</td>
-                            <th>申请日期</th>
-                            <td>2014-07-21 18:28:39</td>
-                        </tr>
-                        <tr>
-                            <th>部门</th>
-                            <td>天宫动物园</td>
-                            <th>金额</th>
-                            <td>1,000,00（元）</td>
-                        </tr>
-                        <tr>
-                            <th>备注</th>
-                            <td colspan="3">天宫动物园工作规范忙</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <!--附件列表begin-->
+            <div class="Annex_list floatright" style="display:none">
+                <ul class="p-top10">
+                    <li class="clearfix">
+                        <span class="an_logo floatleft marr10 inlineblock"><img src="../img/fu_docx.gif"/></span>
+                        <p class="color-3 mart5">2014年第一季度产品规划.xls</p>
+                        <p class="color-8">34M</p>
+                        <div class="btn-make clearfix">
+                            <a href="#" title="查看" class="floatleft"><i class="Icon ico-look"></i></a>
+                            <a href="#" title="下载" class="floatleft"><i class="Icon ico-down3"></i></a>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <span class="an_logo floatleft marr10 inlineblock"><img src="../img/fu_rar.gif"/></span>
+                        <p class="color-3 mart5">2014年第一季度产品规划.xls</p>
+                        <p class="color-8">34M</p>
+                        <div class="btn-make clearfix">
+                            <a href="#" title="查看" class="floatleft"><i class="Icon ico-look"></i></a>
+                            <a href="#" title="下载" class="floatleft"><i class="Icon ico-down3"></i></a>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <span class="an_logo floatleft marr10 inlineblock"><img src="../img/fu_html.gif"/></span>
+                        <p class="color-3 mart5">2014年第一季度产品规划.xls</p>
+                        <p class="color-8">34M</p>
+                        <div class="btn-make clearfix">
+                            <a href="#" title="查看" class="floatleft"><i class="Icon ico-look"></i></a>
+                            <a href="#" title="下载" class="floatleft"><i class="Icon ico-down3"></i></a>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <span class="an_logo floatleft marr10 inlineblock"><img src="../img/fu_docx.gif"/></span>
+                        <p class="color-3 mart5">2014年第一季度产品规划.xls</p>
+                        <p class="color-8">34M</p>
+                        <div class="btn-make clearfix">
+                            <a href="#" title="查看" class="floatleft"><i class="Icon ico-look"></i></a>
+                            <a href="#" title="下载" class="floatleft"><i class="Icon ico-down3"></i></a>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <span class="an_logo floatleft marr10 inlineblock"><img src="../img/fu_rar.gif"/></span>
+                        <p class="color-3 mart5">2014年第一季度产品规划.xls</p>
+                        <p class="color-8">34M</p>
+                        <div class="btn-make clearfix">
+                            <a href="#" title="查看" class="floatleft"><i class="Icon ico-look"></i></a>
+                            <a href="#" title="下载" class="floatleft"><i class="Icon ico-down3"></i></a>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <span class="an_logo floatleft marr10 inlineblock"><img src="../img/fu_html.gif"/></span>
+                        <p class="color-3 mart5">2014年第一季度产品规划.xls</p>
+                        <p class="color-8">34M</p>
+                        <div class="btn-make clearfix">
+                            <a href="#" title="查看" class="floatleft"><i class="Icon ico-look"></i></a>
+                            <a href="#" title="下载" class="floatleft"><i class="Icon ico-down3"></i></a>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <span class="an_logo floatleft marr10 inlineblock"><img src="../img/fu_docx.gif"/></span>
+                        <p class="color-3 mart5">2014年第一季度产品规划.xls</p>
+                        <p class="color-8">34M</p>
+                        <div class="btn-make clearfix">
+                            <a href="#" title="查看" class="floatleft"><i class="Icon ico-look"></i></a>
+                            <a href="#" title="下载" class="floatleft"><i class="Icon ico-down3"></i></a>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <span class="an_logo floatleft marr10 inlineblock"><img src="../img/fu_rar.gif"/></span>
+                        <p class="color-3 mart5">2014年第一季度产品规划.xls</p>
+                        <p class="color-8">34M</p>
+                        <div class="btn-make clearfix">
+                            <a href="#" title="查看" class="floatleft"><i class="Icon ico-look"></i></a>
+                            <a href="#" title="下载" class="floatleft"><i class="Icon ico-down3"></i></a>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <span class="an_logo floatleft marr10 inlineblock"><img src="../img/fu_html.gif"/></span>
+                        <p class="color-3 mart5">2014年第一季度产品规划.xls</p>
+                        <p class="color-8">34M</p>
+                        <div class="btn-make clearfix">
+                            <a href="#" title="查看" class="floatleft"><i class="Icon ico-look"></i></a>
+                            <a href="#" title="下载" class="floatleft"><i class="Icon ico-down3"></i></a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-            <div class="mart30">
-                <p class="font14">单据明细：</p>
-                <table class="AppTable mart10">
-                    <thead>
-                        <tr>
-                            <th>编号</th>
-                            <th>日期</th>
-                            <th>类型</th>
-                            <th>型号</th>
-                            <th style="width:100px;">金额</th>
-                            <th style="width:30%">备注</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>2014-07-21</td>
-                            <td>办公用品</td>
-                            <td>fjnfdjk00</td>
-                            <td>1,000,00<em class="RMB floatright">（元）</em></td>
-                            <td>无</td>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>2014-07-21</td>
-                            <td>办公用品</td>
-                            <td>fjnfdjk00</td>
-                            <td>1,000,00<em class="RMB floatright">（元）</em></td>
-                            <td>无</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <!--附件列表over-->
+            <!--通知人员begin-->
+            <div class="User_list">
+                <p class="font14 mart20">添加转阅人员</p>
+                <ul class="mart15">
+                    <li class="clearfix">
+                        <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                        <span class="UserName">刘德华</span>
+                        <a href="javascript:;" class="Icon ico-delete mart10 floatright" title="删除"></a>
+                    </li>
+                    <li class="clearfix">
+                        <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                        <span class="UserName">刘德华</span>
+                        <a href="javascript:;" class="Icon ico-delete mart10 floatright" title="删除"></a>
+                    </li>
+                    <li class="clearfix">
+                        <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                        <span class="UserName">刘德华</span>
+                        <a href="javascript:;" class="Icon ico-delete mart10 floatright" title="删除"></a>
+                    </li>
+                </ul>
+                <p class="aligncenter"><a href="javascript:;" class="add">＋添加审批成员</a></p>
+                <div class="Approval_txt mart20 p-top20">
+                    <div class="txt_in">
+                        <textarea></textarea>
+                        <p class="mart5 clearfix alignright marr10 p-bt5">
+                            <a href="#" class="Btn btn-make btn-quit">取 消</a>
+                            <a href="#" class="Btn btn-make btn-sure marl10">确 定</a>
+                        </p>
+                    </div>
+                </div>
             </div>
-            <p class="line"></p>
-            <!--审批详情begin-->
-            <div class="mart30">
-                <p class="font14 alignright clearfix">
-                    <span class="floatleft">审批详情：</span>
-                    <span class="font12 color-6">总共用时：1小时12分35秒</span>
-                </p>
-                <table class="AppTable mart10">
-                    <thead>
-                        <tr>
-                            <th>编号</th>
-                            <th>操作人</th>
-                            <th>操作</th>
-                            <th>操作时间</th>
-                            <th style="width:60px;">用时</th>
-                            <th style="width:30%">审批意见</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td rowspan="2" style="vertical-align: top;" class="Solid">1</td>
-                            <td rowspan="2" style="vertical-align: top;" class="Solid">赵阳</td>
-                            <td>查看申请</td>
-                            <td>2014-07-21 18:28:39</td>
-                            <td>12<em class="RMB floatright">秒</em></td>
-                            <td rowspan="2" style="vertical-align: top;" class="Solid">无</td>
-                        </tr>
-                        <tr>
-                            <td class="Solid">通过申请</td>
-                            <td class="Solid">2014-07-21 18:28:39</td>
-                            <td class="Solid">12<em class="RMB floatright">秒</em></td>
-                        </tr>
-                        <tr>
-                            <td rowspan="2" style="vertical-align: top;">2</td>
-                            <td rowspan="2" style="vertical-align: top;">王佳</td>
-                            <td>查看申请</td>
-                            <td>2014-07-21 18:28:39</td>
-                            <td>12<em class="RMB floatright">秒</em></td>
-                            <td rowspan="2" style="vertical-align: top;">无</td>
-                        </tr>
-                        <tr>
-                            <td>通过申请</td>
-                            <td>2014-07-21 18:28:39</td>
-                            <td>12<em class="RMB floatright">秒</em></td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>张睿</td>
-                            <td>查看申请</td>
-                            <td>2014-07-21 18:28:39</td>
-                            <td>12<em class="RMB floatright">秒</em></td>
-                            <td>无</td>
-                        </tr>
-                        <tr class="wait">
-                            <td>4</td>
-                            <td>张睿</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <!--审批详情over-->
-            <!--邀请详情begin-->
-            <div class="mart30">
-                <p class="font14 alignright clearfix">
-                    <span class="floatleft">邀请详情：</span>
-                </p>
-                <table class="AppTable mart10">
-                    <thead>
-                        <tr>
-                            <th>操作人</th>
-                            <th>操作</th>
-                            <th>操作时间</th>
-                            <th>用时</th>
-                            <th style="width:30%">审批意见</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>张睿</td>
-                            <td>邀请<em>王佳</em></td>
-                            <td>2014-07-21 18:28:39</td>
-                            <td></td>
-                            <td>无</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="2" style="vertical-align: top;">王佳</td>
-                            <td>查看申请</td>
-                            <td>2014-07-21 18:28:39</td>
-                            <td>12<em class="RMB floatright">秒</em></td>
-                            <td rowspan="2" style="vertical-align: top;">无</td>
-                        </tr>
-                        <tr>
-                            <td>通过申请</td>
-                            <td>2014-07-21 18:28:39</td>
-                            <td>12<em class="RMB floatright">秒</em></td>
-                        </tr>
-                        <tr>
-                            <td>张睿</td>
-                            <td>邀请<em>王佳</em></td>
-                            <td>2014-07-21 18:28:39</td>
-                            <td></td>
-                            <td>无</td>
-                        </tr>
-                        <tr>
-                            <td rowspan="2" style="vertical-align: top;">王佳</td>
-                            <td>查看申请</td>
-                            <td>2014-07-21 18:28:39</td>
-                            <td>12<em class="RMB floatright">秒</em></td>
-                            <td rowspan="2" style="vertical-align: top;">无</td>
-                        </tr>
-                        <tr>
-                            <td>通过申请</td>
-                            <td>2014-07-21 18:28:39</td>
-                            <td>12<em class="RMB floatright">秒</em></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <!--邀请详情over-->
-            <!--执行详情begin-->
-            <div class="mart30">
-                <p class="font14 alignright clearfix">
-                    <span class="floatleft">执行详情：</span>
-                    <span class="font12 color-6">总共用时：1小时12分35秒</span>
-                </p>
-                <table class="AppTable mart10">
-                    <thead>
-                        <tr>
-                            <th>操作人</th>
-                            <th>操作</th>
-                            <th>操作时间</th>
-                            <th style="width:60px;">用时</th>
-                            <th style="width:30%">审批意见</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td rowspan="3" style="vertical-align: top;">赵阳</td>
-                            <td>接收申请</td>
-                            <td>2014-07-21 18:28:39</td>
-                            <td>12<em class="RMB floatright">秒</em></td>
-                            <td rowspan="2" style="vertical-align: top;">无</td>
-                        </tr>
-                        <tr>
-                            <td>查看申请</td>
-                            <td>2014-07-21 18:28:39</td>
-                            <td>12<em class="RMB floatright">秒</em></td>
-                        </tr>
-                        <tr>
-                            <td>通过申请</td>
-                            <td>2014-07-21 18:28:39</td>
-                            <td>12<em class="RMB floatright">秒</em></td>
-                        </tr>
-                        <tr class="Solid"><td colspan="5"></td></tr>
-                        <tr>
-                            <td>王佳</td>
-                            <td>执行完成</td>
-                            <td>2014-07-21 18:28:39</td>
-                            <td>12<em class="RMB floatright">秒</em></td>
-                            <td>无条件给予通过</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <!--执行详情over-->
+            <!--通知人员over-->
         </div>
     </div>
     <!--表单详情over-->
-    <!--附件列表begin-->
-    <div class="Annex_list">
-        <ul class="p-top10">
-            <li class="clearfix">
-                <span class="an_logo floatleft marr10 inlineblock"><img src="../img/fu_docx.gif"/></span>
-                <p class="color-3 mart5">2014年第一季度产品规划.xls</p>
-                <p class="color-8">34M</p>
-                <div class="btn-make clearfix">
-                    <a href="#" title="查看" class="floatleft"><i class="Icon ico-look"></i></a>
-                    <a href="#" title="下载" class="floatleft"><i class="Icon ico-down3"></i></a>
-                </div>
-            </li>
-            <li class="clearfix">
-                <span class="an_logo floatleft marr10 inlineblock"><img src="../img/fu_rar.gif"/></span>
-                <p class="color-3 mart5">2014年第一季度产品规划.xls</p>
-                <p class="color-8">34M</p>
-                <div class="btn-make clearfix">
-                    <a href="#" title="查看" class="floatleft"><i class="Icon ico-look"></i></a>
-                    <a href="#" title="下载" class="floatleft"><i class="Icon ico-down3"></i></a>
-                </div>
-            </li>
-            <li class="clearfix">
-                <span class="an_logo floatleft marr10 inlineblock"><img src="../img/fu_html.gif"/></span>
-                <p class="color-3 mart5">2014年第一季度产品规划.xls</p>
-                <p class="color-8">34M</p>
-                <div class="btn-make clearfix">
-                    <a href="#" title="查看" class="floatleft"><i class="Icon ico-look"></i></a>
-                    <a href="#" title="下载" class="floatleft"><i class="Icon ico-down3"></i></a>
-                </div>
-            </li>
-        </ul>
-    </div>
-    <!--附件列表over-->
 </div>
 <!--主体over-->
 <!--footer begin-->
