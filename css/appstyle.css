@@ -93,7 +93,7 @@
 .Li_span4 em{padding-right:10px;display: inline-block;width:60px;}
 .MakeBtn{height:38px;padding:0 15px;border-radius:0 5px 5px 0;position: absolute;top:-1px;right:-200px;}
 .MakeBtn a{margin:7px 5px;}
-.AppDetail{width:805px;background: url("../img/r-bg.png") repeat-y;position:absolute;top:0;right:-805px;bottom:0;z-index: 20;}
+.AppDetail{width:805px;background: url("img/r-bg.png") repeat-y;position:absolute;top:0;right:-805px;bottom:0;z-index: 20;}
 .AppDetailIn{padding:80px 40px 0 10px;color: #333;width:787px;overflow: hidden;overflow-y:scroll!important;}
 .AppTable{width: 100%;border: 1px solid #666;border-width:1px 0;}
 .AppTable th{background: #f2f2f2;}
