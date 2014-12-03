@@ -7,6 +7,7 @@
     <list default="true" id="4fcf22ec-5d9d-4e7e-a211-69c6a5f68411" name="Default" comment="" />
     <ignored path="LAweb.iws" />
     <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +27,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="app-list.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/app-list.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -36,11 +38,21 @@
                 <element signature="tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="tag#div#2;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+=======
+      <file leaf-file-name="appstyle.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/appstyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.6346968" vertical-offset="660" max-vertical-offset="7800">
+              <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+              <folding>
+                <marker date="1417091233000" expanded="true" signature="10028:10050" placeholder="{...}" />
+>>>>>>> d8f8cf38f00165dcb1cdd83b403729f6f9d65585
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="appstyle.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/appstyle.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -48,6 +60,14 @@
               <folding>
                 <marker date="1417165028664" expanded="true" signature="10022:10044" placeholder="{...}" />
               </folding>
+=======
+      <file leaf-file-name="global.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/global.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1890" max-vertical-offset="6030">
+              <caret line="155" column="95" selection-start-line="155" selection-start-column="88" selection-end-line="155" selection-end-column="95" />
+              <folding />
+>>>>>>> d8f8cf38f00165dcb1cdd83b403729f6f9d65585
             </state>
           </provider>
         </entry>
@@ -63,8 +83,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/js/domjs.js" />
         <option value="$USER_HOME$/Desktop/蓝色jQuery滑动导航栏/js/jquery.nicenav.js" />
         <option value="$PROJECT_DIR$/js/jquery.mousewheel.js" />
@@ -95,16 +116,20 @@
         <option value="$PROJECT_DIR$/template/error.html" />
         <option value="$PROJECT_DIR$/template/推广.html" />
         <option value="$PROJECT_DIR$/css/global.css" />
+=======
+>>>>>>> d8f8cf38f00165dcb1cdd83b403729f6f9d65585
         <option value="$PROJECT_DIR$/css/appstyle.css" />
         <option value="$PROJECT_DIR$/template/app-list.html" />
       </list>
     </option>
   </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="806" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -120,7 +145,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -187,8 +212,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="E:/kuanpan/标致/2014-11/11-07/给赵洋/Thanksgiving" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistory" value="&#10;：&#10;=&#10;z" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -196,19 +222,16 @@
       <recent name="E:\work\GitHub\LAweb\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
       <recent name="E:\work\GitHub\LAweb\css" />
     </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+<<<<<<< HEAD
       <option name="VMOptions" />
       <option name="arguments" />
       <option name="filePath" />
@@ -216,24 +239,42 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
+=======
+>>>>>>> d8f8cf38f00165dcb1cdd83b403729f6f9d65585
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
-      <setting name="preferredDebugBrowser" value="CHROME" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
       <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+=======
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+>>>>>>> d8f8cf38f00165dcb1cdd83b403729f6f9d65585
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <method />
     </configuration>
     <list size="0" />
@@ -260,35 +301,40 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="4fcf22ec-5d9d-4e7e-a211-69c6a5f68411" name="Default" comment="" />
       <created>1405397087450</created>
+      <option name="number" value="Default" />
       <updated>1405397087450</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="806" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12796208" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15138888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USERS">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
@@ -302,76 +348,178 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/js/Mutual.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="38" selection-start="1237" selection-end="1237" vertical-scroll-proportion="0.0" vertical-offset="603" max-vertical-offset="1863" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/app-list.html">
+=======
+    <entry file="file://$PROJECT_DIR$/template/app-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="24" selection-start="4617" selection-end="4617" vertical-scroll-proportion="0.0" vertical-offset="2174" max-vertical-offset="3267" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6435">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/global.css">
+>>>>>>> d8f8cf38f00165dcb1cdd83b403729f6f9d65585
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3270" max-vertical-offset="6030">
+          <caret line="218" column="43" selection-start-line="218" selection-start-column="43" selection-end-line="218" selection-end-column="43" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Mutual.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="38" selection-start="1237" selection-end="1237" vertical-scroll-proportion="0.0" vertical-offset="927" max-vertical-offset="1863" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="603" max-vertical-offset="1863">
+          <caret line="40" column="38" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="3564">
+          <caret line="5" column="112" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> d8f8cf38f00165dcb1cdd83b403729f6f9d65585
     <entry file="file://$PROJECT_DIR$/template/app-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="24" selection-start="4617" selection-end="4617" vertical-scroll-proportion="0.0" vertical-offset="2174" max-vertical-offset="3267" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2174" max-vertical-offset="3267">
+          <caret line="99" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Mutual.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="38" selection-start="1237" selection-end="1237" vertical-scroll-proportion="0.0" vertical-offset="927" max-vertical-offset="1863" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="927" max-vertical-offset="1863">
+          <caret line="40" column="38" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2430" max-vertical-offset="3564">
+          <caret line="108" column="114" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> d8f8cf38f00165dcb1cdd83b403729f6f9d65585
     <entry file="file://$PROJECT_DIR$/template/app-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="54" selection-start="3453" selection-end="3460" vertical-scroll-proportion="0.0" vertical-offset="2079" max-vertical-offset="2700" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2174" max-vertical-offset="3267">
+          <caret line="99" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Mutual.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="54" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="891" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="927" max-vertical-offset="1863">
+          <caret line="40" column="38" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/template/app-list.html">
+=======
+    <entry file="file://$PROJECT_DIR$/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2430" max-vertical-offset="3564">
+          <caret line="108" column="114" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/app-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="999" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2079" max-vertical-offset="2700">
+          <caret line="77" column="54" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/Mutual.js">
+>>>>>>> d8f8cf38f00165dcb1cdd83b403729f6f9d65585
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="891">
+          <caret line="15" column="54" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/tables.rnc">
+=======
+    <entry file="file://$PROJECT_DIR$/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="235" column="21" selection-start="4597" selection-end="4597" vertical-scroll-proportion="0.42307693" vertical-offset="5949" max-vertical-offset="6885" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2158" max-vertical-offset="3537">
+          <caret line="94" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/app-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="999">
+          <caret line="21" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/global.css">
+>>>>>>> d8f8cf38f00165dcb1cdd83b403729f6f9d65585
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="3132">
+          <caret line="5" column="111" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/经办-已完毕.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="33" selection-start="7839" selection-end="7839" vertical-scroll-proportion="0.4385965" vertical-offset="4345" max-vertical-offset="6966" />
+        <state vertical-scroll-proportion="0.4385965" vertical-offset="4345" max-vertical-offset="6966">
+          <caret line="160" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/弹出-转审.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="24" selection-start="1200" selection-end="1200" vertical-scroll-proportion="-7.59375" vertical-offset="567" max-vertical-offset="4563" />
+        <state vertical-scroll-proportion="-7.59375" vertical-offset="567" max-vertical-offset="4563">
+          <caret line="30" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/弹出-创建角色.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="94" selection-start="0" selection-end="6081" vertical-scroll-proportion="-7.59375" vertical-offset="81" max-vertical-offset="4266" />
+        <state vertical-scroll-proportion="-7.59375" vertical-offset="81" max-vertical-offset="4266">
+          <caret line="12" column="94" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/添加角色.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="23" selection-start="1314" selection-end="1314" vertical-scroll-proportion="-16.4375" vertical-offset="311" max-vertical-offset="1215" />
+        <state vertical-scroll-proportion="-16.4375" vertical-offset="311" max-vertical-offset="1215">
+          <caret line="31" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/弹出-部门.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="32" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="351" max-vertical-offset="3591" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="351" max-vertical-offset="3591">
+          <caret line="13" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/pro-mid1.png">
@@ -381,124 +529,163 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template/弹出-姓名.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="97" selection-start="4064" selection-end="4064" vertical-scroll-proportion="0.0" vertical-offset="2079" max-vertical-offset="4482" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2079" max-vertical-offset="4482">
+          <caret line="100" column="97" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/管理-日志.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="23" selection-start="3389" selection-end="3389" vertical-scroll-proportion="0.0" vertical-offset="1755" max-vertical-offset="6345" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1755" max-vertical-offset="6345">
+          <caret line="75" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/管理-角色.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="41" selection-start="5842" selection-end="5842" vertical-scroll-proportion="0.0" vertical-offset="3240" max-vertical-offset="6669" />
-      </provider>
-    </entry>
-    <entry file="file://E:/工作文件/素材/插件/jscrollpane/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="454" selection-end="565" vertical-scroll-proportion="-0.0" vertical-offset="243" max-vertical-offset="2835" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3240" max-vertical-offset="6669">
+          <caret line="120" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.mousewheel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="731" selection-end="731" vertical-scroll-proportion="0.6245884" vertical-offset="25" max-vertical-offset="3321" />
+        <state vertical-scroll-proportion="0.6245884" vertical-offset="25" max-vertical-offset="3321">
+          <caret line="22" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.jscrollpane.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="678" selection-start="847" selection-end="847" vertical-scroll-proportion="0.21046771" vertical-offset="0" max-vertical-offset="898" />
+        <state vertical-scroll-proportion="0.21046771" vertical-offset="0" max-vertical-offset="898">
+          <caret line="7" column="678" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/经办-待执行.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="40" selection-start="8181" selection-end="8181" vertical-scroll-proportion="-6.8125" vertical-offset="4318" max-vertical-offset="6939" />
+        <state vertical-scroll-proportion="-6.8125" vertical-offset="4318" max-vertical-offset="6939">
+          <caret line="168" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/管理-流程.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="44" selection-start="3532" selection-end="3532" vertical-scroll-proportion="0.0" vertical-offset="2065" max-vertical-offset="9450" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2065" max-vertical-offset="9450">
+          <caret line="77" column="44" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Mutual.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="24" selection-start="4485" selection-end="4485" vertical-scroll-proportion="0.0" vertical-offset="3834" max-vertical-offset="9099" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3834" max-vertical-offset="9099">
+          <caret line="142" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/弹出-条件配置.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="54" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="2187" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="2187">
+          <caret line="26" column="54" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/jscrollpane.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="0" selection-start="1430" selection-end="1445" vertical-scroll-proportion="0.30769232" vertical-offset="2952" max-vertical-offset="3888" />
+        <state vertical-scroll-proportion="0.30769232" vertical-offset="2952" max-vertical-offset="3888">
+          <caret line="120" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/新建流程.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="274" column="10" selection-start="16857" selection-end="16857" vertical-scroll-proportion="0.7311947" vertical-offset="6737" max-vertical-offset="7641" />
+        <state vertical-scroll-proportion="0.7311947" vertical-offset="6737" max-vertical-offset="7641">
+          <caret line="274" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/选择流程.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="31" selection-start="725" selection-end="725" vertical-scroll-proportion="0.44800884" vertical-offset="0" max-vertical-offset="4455" />
+        <state vertical-scroll-proportion="0.44800884" vertical-offset="0" max-vertical-offset="4455">
+          <caret line="15" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/试用订购.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3969" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3969">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/订购信息.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="369" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3780" />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3780">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/400.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="36" selection-start="0" selection-end="761" vertical-scroll-proportion="-15.1875" vertical-offset="0" max-vertical-offset="729" />
+        <state vertical-scroll-proportion="-15.1875" vertical-offset="0" max-vertical-offset="729">
+          <caret line="18" column="36" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/500.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="0" selection-end="761" vertical-scroll-proportion="-8.4375" vertical-offset="0" max-vertical-offset="729" />
+        <state vertical-scroll-proportion="-8.4375" vertical-offset="0" max-vertical-offset="729">
+          <caret line="10" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/error.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="19" selection-start="473" selection-end="474" vertical-scroll-proportion="-10.96875" vertical-offset="0" max-vertical-offset="702" />
+        <state vertical-scroll-proportion="-10.96875" vertical-offset="0" max-vertical-offset="702">
+          <caret line="13" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/form-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="19" selection-start="411" selection-end="411" vertical-scroll-proportion="0.35840708" vertical-offset="0" max-vertical-offset="3942" />
+        <state vertical-scroll-proportion="0.35840708" vertical-offset="0" max-vertical-offset="3942">
+          <caret line="12" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/审批列表-进行中.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="192" column="22" selection-start="9021" selection-end="9021" vertical-scroll-proportion="27.4375" vertical-offset="5711" max-vertical-offset="6615" />
+        <state vertical-scroll-proportion="27.4375" vertical-offset="5711" max-vertical-offset="6615">
+          <caret line="192" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/审批列表-已完成.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="21" selection-start="2207" selection-end="2207" vertical-scroll-proportion="-21.5" vertical-offset="635" max-vertical-offset="2349" />
+        <state vertical-scroll-proportion="-21.5" vertical-offset="635" max-vertical-offset="2349">
+          <caret line="49" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="41" selection-start="2563" selection-end="2563" vertical-scroll-proportion="0.40486726" vertical-offset="1281" max-vertical-offset="2187" />
+        <state vertical-scroll-proportion="0.40486726" vertical-offset="1281" max-vertical-offset="2187">
+          <caret line="61" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/推广.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="68" selection-start="3774" selection-end="3774" vertical-scroll-proportion="-14.34375" vertical-offset="351" max-vertical-offset="1593">
+        <state vertical-scroll-proportion="-14.34375" vertical-offset="351" max-vertical-offset="1593">
+          <caret line="81" column="68" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/app-list.html">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state line="295" column="58" selection-start="15242" selection-end="15242" vertical-scroll-proportion="-7.15625" vertical-offset="257" max-vertical-offset="1161">
           <folding>
@@ -508,18 +695,44 @@
             <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="tag#div#2;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
           </folding>
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6423358" vertical-offset="0" max-vertical-offset="6435">
+          <caret line="352" column="23" selection-start-line="352" selection-start-column="23" selection-end-line="352" selection-end-column="23" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1890" max-vertical-offset="6030">
+          <caret line="155" column="95" selection-start-line="155" selection-start-column="88" selection-end-line="155" selection-end-column="95" />
+          <folding />
+>>>>>>> d8f8cf38f00165dcb1cdd83b403729f6f9d65585
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/appstyle.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="10" column="39" selection-start="735" selection-end="735" vertical-scroll-proportion="0.29252437" vertical-offset="0" max-vertical-offset="14067">
           <folding>
             <marker date="1417165028664" expanded="true" signature="10022:10044" placeholder="{...}" />
+=======
+        <state vertical-scroll-proportion="-0.6346968" vertical-offset="660" max-vertical-offset="7800">
+          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+          <folding>
+            <marker date="1417091233000" expanded="true" signature="10028:10050" placeholder="{...}" />
+>>>>>>> d8f8cf38f00165dcb1cdd83b403729f6f9d65585
           </folding>
         </state>
       </provider>
     </entry>
   </component>
 </project>
-
