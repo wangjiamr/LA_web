@@ -333,6 +333,30 @@ $(function(){
             },500);
         }
     });
+//    home页唤出搜索框
+    var $ico_search = $('.ico-search');
+    var $new_search = $('.new_search');
+    $ico_search.click(function(){
+        $new_search.animate({top:40},300)
+    });
+//    home底部按钮划过展开
+    var $bottom_nav_a = $('.bottom_nav a');
+    var $bottom_nav_s = $('.bottom_nav a span');
+    $bottom_nav_a.hover(function(){
+        var $this = $(this);
+        $this.stop().animate({bottom:-3},200);
+        $this.find($bottom_nav_s).stop().show().animate({
+            opacity:1,
+            top:-45
+        },350);
+    },function(){
+        var $this = $(this);
+        $this.stop().animate({bottom:0},200);
+        $this.find($bottom_nav_s).stop().animate({
+            top:-35,
+            opacity:0
+        },300);
+    });
   });
 
 
