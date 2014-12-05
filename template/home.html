@@ -90,9 +90,11 @@
             </div>
             <!--卡片组begin-->
             <div class="card_out p-top40">
+                <a href="javascript:;" class="Icon ico-prev"></a>
+                <a href="javascript:;" class="Icon ico-next"></a>
                 <div class="card_box">
-                    <ul class="card_list clearfix">
-                        <li class=" card_theme2">
+                    <ul class="card_list" id="masonry">
+                        <li class="box card_theme2" style="">
                             <div class="card_in">
                                 <p class="card_title alignright">
                                     <span class="floatleft">考勤申请</span>
@@ -101,7 +103,7 @@
                                 <p class="card_time"><span>申请日期：</span>2014-12-01 13:34</p>
                             </div>
                         </li>
-                        <li class="card_theme1">
+                        <li class="box card_theme1">
                             <div class="card_in">
                                 <p class="card_title alignright">
                                     <span class="floatleft">考勤申请</span>
@@ -110,19 +112,19 @@
                                 <p class="card_time"><span>申请日期：</span>2014-12-01 13:34</p>
                             </div>
                         </li>
-                        <li>3</li>
-                        <li>4</li>
-                        <li>5</li>
-                        <li>6</li>
-                        <li>7</li>
-                        <li>8</li>
-                        <li>9</li>
-                        <li>10</li>
-                        <li>13</li>
-                        <li>14</li>
-                        <li>15</li>
-                        <li>16</li>
-                        <li>17</li>
+                        <li class="box">3</li>
+                        <li class="box">4</li>
+                        <li class="box">5</li>
+                        <li class="box">6</li>
+                        <li class="box">7</li>
+                        <li class="box">8</li>
+                        <li class="box">9</li>
+                        <li class="box">10</li>
+                        <li class="box">13</li>
+                        <li class="box">14</li>
+                        <li class="box">15</li>
+                        <li class="box">16</li>
+                        <li class="box">17</li>
                     </ul>
                 </div>
             </div>
@@ -134,5 +136,28 @@
 <script type="text/javascript" src="../js/jquery.js"></script>
 <script type="text/javascript" src="../js/imgauto.js"></script>
 <script type="text/javascript" src="../js/Mutual.js"></script>
+<script type="text/javascript" src="../js/masonry-docs.min.js"></script>
+<script type="text/javascript">
+    $(function() {
+        var $container = $('#masonry');
+        $container.imagesLoaded(function() {
+            $container.masonry({
+                itemSelector: '.box',
+                gutterWidth: 20,
+                isAnimated: true
+            });
+        });
+        var msnry = new Masonry( container, {
+          columnWidth: 60
+        });
+        eventie.bind( $container, 'click', function( event ) {
+          if ( !classie.has( event.target, 'box' ) ) {
+            return;
+          }
+          classie.toggle( event.target, 'current' );
+          msnry.layout();
+        });
+    });
+</script>
 </body>
 </html>

@@ -13,6 +13,9 @@
 .ico-bg,.ico-home2,.ico-search{width:22px;height:22px;background-position:-155px -428px;margin-left:20px;}
 .ico-home2{background-position:-177px -428px;}
 .ico-search{background-position:-199px -427px;}
+.ico-prev,.ico-next{width:30px;height:45px;background-position:0 -650px;position: absolute;top:45%;}
+.ico-prev{left:10px;}
+.ico-next{background-position:-30px -650px;right:10px;}
 .top_header .UserImg{position: relative;top:8px;margin-right:10px;}
 .top_header .UserImg,.top_header .UserImg img{width:24px;height:24px;}
 .autoImg{position:absolute;overflow: hidden;top: 0;left:0;}
@@ -37,10 +40,11 @@
 .top_board li em{font-family: arial;font-size:36px;}
 .top_board a,.top_board li em{color:#fff;display:block;}
 .top_board li.nodate a,.top_board li.nodate em{color:#b8b9bd;}
-.card_out{width:100%;}
-.card_box{width:810px;margin-left:90px;}
-.card_list li{float: left;width:150px;margin:10px 0 0 10px;height:100px;position:relative;border:1px solid #fff;background:#fff;border-radius:5px;transition:0.5s;color:#333;overflow: hidden;}
-.card_list li:hover,.card_list li.current{width:310px;height:210px;transition:0.5s;}
+.card_out{width:100%;position: relative;}
+.card_box{width:810px;margin-left:90px;overflow: hidden;}
+.card_list{position: relative;width:810px;height:400px;}
+.card_list li{width:150px;height:100px;float:left;margin:0 0 10px 10px;border:1px solid #fff;background:#fff;border-radius:5px;transition:0.5s;color:#333;overflow: hidden;}
+.card_list li:hover,.card_list li.current{width:310px;height:210px;transition:0.5s;z-index:20;}
 .card_time{position: absolute;right:-1px;left:-1px;bottom:0;height:20px;line-height:20px;border-radius:0 0 5px 5px;padding-left:10px;border-top:1px solid #ccc;}
 .card_list li .card_time span{margin:0 5px 0 -65px;transition:0.5s;}
 .card_title{height:22px;line-height:22px;padding:0 10px;color:#fff;font-size:12px;border-radius:5px 5px 0 0;transition:0.5s;}
@@ -57,26 +61,6 @@
 .mini .new_search{width:280px;padding-right:5px;}
 .mini .new_search input{width:67%;}
 
-.redius{
-	 border-left:10em solid red;
-	 border-top:10em solid;
-	-webkit-border-top-left-radius:10em;
-	-webkit-border-top-right-radius:0px;
-	-webkit-border-bottom-right-radius:0px;
-	-webkit-border-bottom-left-radius:0px;
-	-moz-border-radius-topleft:10em;
-	-moz-border-radius-topright:0px;
-	-moz-border-radius-bottomright:0px;
-	-moz-border-radius-bottomleft:0px;
-	border-top-left-radius:10em;
-	border-top-right-radius:0px;
-	border-bottom-right-radius:0px;
-	border-bottom-left-radius:0px;
-	width:0em;
-	height:0em;
-	padding:0;
-	background:#666;
-}
 
 
 
