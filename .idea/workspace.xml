@@ -26,18 +26,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="151" column="58" selection-start="7731" selection-end="7731" vertical-scroll-proportion="-15.59375" vertical-offset="2903" max-vertical-offset="9099">
+            <state line="425" column="29" selection-start="23685" selection-end="23685" vertical-scroll-proportion="0.9402655" vertical-offset="3848" max-vertical-offset="7290">
               <folding>
                 <element signature="tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#div#0;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#div#0;tag#div#1;tag#div#1;tag#div#0;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#li#3;tag#ul#0;tag#div#0;tag#div#1;tag#div#1;tag#div#0;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#1;tag#div#1;tag#div#1;tag#div#0;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="tag#td#0;tag#tr#0;tag#tbody#0;tag#table#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#div#0;tag#div#0;tag#div#0;tag#td#2;tag#tr#0;tag#tbody#0;tag#table#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#tr#4;tag#tbody#0;tag#table#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#td#0;tag#tr#4;tag#tbody#0;tag#table#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#tr#5;tag#tbody#0;tag#table#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#tr#6;tag#tbody#0;tag#table#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -52,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="215" selection-start="4506" selection-end="4506" vertical-scroll-proportion="0.33261105" vertical-offset="1367" max-vertical-offset="4050">
+            <state line="100" column="42" selection-start="7311" selection-end="7311" vertical-scroll-proportion="0.0" vertical-offset="2339" max-vertical-offset="4077">
               <folding />
             </state>
           </provider>
@@ -120,8 +127,8 @@
         <option value="$PROJECT_DIR$/template/n_list.html" />
         <option value="$PROJECT_DIR$/js/Mutual.js" />
         <option value="$PROJECT_DIR$/css/global.css" />
-        <option value="$PROJECT_DIR$/template/home.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/template/home.html" />
       </list>
     </option>
   </component>
@@ -616,25 +623,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/home.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="58" selection-start="7731" selection-end="7731" vertical-scroll-proportion="-15.59375" vertical-offset="2903" max-vertical-offset="9099">
-          <folding>
-            <element signature="tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#div#1;tag#div#1;tag#div#1;tag#div#0;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#td#0;tag#tr#0;tag#tbody#0;tag#table#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="100" column="42" selection-start="7311" selection-end="7311" vertical-scroll-proportion="0.0" vertical-offset="2339" max-vertical-offset="4077">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/template/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="215" selection-start="4506" selection-end="4506" vertical-scroll-proportion="0.33261105" vertical-offset="1367" max-vertical-offset="4050">
-          <folding />
+        <state line="425" column="29" selection-start="23685" selection-end="23685" vertical-scroll-proportion="0.9402655" vertical-offset="3848" max-vertical-offset="7290">
+          <folding>
+            <element signature="tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#div#0;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#div#0;tag#div#1;tag#div#1;tag#div#0;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#li#3;tag#ul#0;tag#div#0;tag#div#1;tag#div#1;tag#div#0;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#1;tag#div#1;tag#div#0;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#td#2;tag#tr#0;tag#tbody#0;tag#table#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#tr#4;tag#tbody#0;tag#table#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#td#0;tag#tr#4;tag#tbody#0;tag#table#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#tr#5;tag#tbody#0;tag#table#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#tr#6;tag#tbody#0;tag#table#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

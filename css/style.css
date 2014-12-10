@@ -98,8 +98,9 @@
 .prompt_main p{line-height:20px;display: block;}
 .user_li{width:100%;}
 .user_li li{height:50px;border-bottom:1px solid #eee;border-left:2px solid #fff;padding:0 8px;}
+.user_li li p{position: relative;bottom:-7px;}
 .list_table tbody div.inner_td .user_li li .UserImg,.list_table tbody div.inner_td .user_li li .UserImg img{width:32px;height:32px;}
-.user_li li:hover{border-left-color:#347cdc;}
+.user_li li:hover{border-left-color:#347cdc;transition:0.3s;}
 /*适配1024屏幕*/
 .mini .top_nav a{margin:0 2px;padding:0 5px;}
 .mini .ico-bg,.mini .ico-home2,.mini .ico-search{margin-left:10px;}
