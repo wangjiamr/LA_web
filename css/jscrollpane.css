@@ -120,8 +120,8 @@
 }
 .jspVerticalBar,.module_box .jspVerticalBar{width:3px;display: none;transition:0.4s;}
 .drag-box .jspVerticalBar{display:none!important;}
-
-
+.AppDetailIn .jspVerticalBar{width:8px;display: block;}
+.AppDetailIn .jspDrag{background:#999;border-radius:10px;}
 
 
 
