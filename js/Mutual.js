@@ -339,6 +339,16 @@ $(function(){
     $ico_search.click(function(){
         $new_search.animate({top:40},300)
     });
+//    二级菜单
+    var $top_nav_a = $('.top_nav a');
+    var $second_header = $('.second_header');
+    $top_nav_a.click(function(){
+        var $this = $(this);
+        $this.addClass('current').siblings().removeClass('current');
+        $second_header.stop().animate({
+            top:40
+        },300);
+    });
 //    home底部按钮划过展开
     var $bottom_nav_a = $('.bottom_nav a');
     var $bottom_nav_s = $('.bottom_nav a span');

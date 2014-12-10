@@ -126,7 +126,7 @@ a.add:hover{text-decoration: underline;}
 .font26{font-size:26px!important;}
 .font30{font-size:30px!important;}
 .l_th{text-decoration:line-through!important;}
-.txt_hidden,.ser_Results li,.UserName{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}
+.txt_hidden,.ser_Results li,.UserName,.prompt_main p{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}
 /*clear*/
 .clear{clear:both;line-height:0;height:0;font-size:0;}
 .clearfix{zoom:1;}
