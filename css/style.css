@@ -67,7 +67,7 @@
 .card_list li .card_time span{margin:0 5px 0 -65px;transition:0.5s;}
 .card_in_main{margin:15px 0 10px 10px;color:#888;}
 .card_in_main p{line-height:20px;position:relative;top:-5px;}
-.card_list li .UserImg,.card_list li .UserImg img{width:30px;height:30px;}
+.card_list li .UserImg,.card_list li .UserImg img,.Approval .UserImg,.Approval .UserImg img{width:30px;height:30px;}
 .card_list li .UserImg{margin-right:5px;}
 .card_title{height:22px;line-height:22px;padding:0 10px;color:#fff;font-size:12px;border-radius:5px 5px 0 0;transition:0.5s;}
 /*.card_list li:hover .card_title,.card_list li.current .card_title,.card_list li:hover .card_time,.card_list li.current .card_time{height:30px;line-height:30px;font-size:16px;transition:0.5s;}*/
@@ -88,7 +88,8 @@
 .list_table tbody td{border-bottom:1px solid #c7c7c7;background:#fff;color:#444;}
 .list_table tbody tr:last-child td{border-bottom:0;}
 .list_table tbody div.inner_td{height:40px;line-height:40px;padding-left:20px;position: relative;}
-.list_table tbody div.inner_td .UserImg{vertical-align:-10px;margin-right:5px;}
+.list_table tbody div.inner_td .UserImg,.Approval .UserImg{vertical-align:-10px;margin-right:5px;}
+.Approval .UserImg{background:url("../img/ico.png") -195px -60px;cursor: pointer;}
 .list_table tbody div.inner_td .UserImg,.list_table tbody div.inner_td .UserImg img{width:30px;height:30px;}
 .prompt_box{width:200px;position: absolute;padding:11px 0 4px 0;z-index: 20;left:-50px;top:30px;}
 .prompt_top,.prompt_bt{display:block;width:200px;height:11px;background-position:0 -690px;position: absolute;left:0;}
@@ -111,7 +112,7 @@
 .jscroll:hover .jspVerticalBar{width:8px;}
 .jspDrag{background:#333;}
 .app_p{border-top:1px solid #ddd;height:29px;line-height:29px;padding:0 0 0 10px;}
-
+.app_p .Btn{height:29px;line-height:29px;border-radius:0;}
 
 
 /*适配1024屏幕*/

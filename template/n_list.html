@@ -488,7 +488,7 @@
         <div class="right_main AppDetail">
             <!--操作按钮begin-->
             <div class="AppMakeBtn clearfix alignright">
-                <a href="javascript:;" class="Btn floatleft"><i class="Icon ico-cross"></i>通 过</a>
+                <a href="javascript:;" class="Btn floatleft current"><i class="Icon ico-cross"></i>通 过</a>
                 <a href="javascript:;" class="Btn floatleft"><i class="Icon ico-veto"></i>否 决</a>
                 <a href="javascript:;" class="Btn floatleft"><i class="Icon ico-turn2"></i>转 审</a>
                 <a href="javascript:;" class="Btn floatleft"><i class="Icon ico-invite"></i>邀 请</a>
@@ -500,20 +500,78 @@
             <!--操作按钮over-->
             <div class="AppDetailIn jscroll"  style="height:955px;">
                 <!--审批意见 附件 begin-->
-                <div class="Approval" style="display:;">
+                <div class="Approval" style="display: none">
                     <table>
                         <tr>
-                            <th class="font14 p-top5">选择转审人员：</th>
+                            <th class="font14">
+                                <p class="mart10">填写通过意见：</p>
+                            </th>
                             <td>
-                                <div class="popIn font14 nopadding">
-                                    <p>
-                                        <!--<a href="javascript:;" class="add block mart3" title="添加">添加转审人</a>-->
-                                        <span class="Li_span4 ie-css3">
-                                            <img src="../img/1.png">
-                                            <i class="add">刘德华</i>
-                                        </span>
-                                        <a href="javascript:;" title="替换" class="marl10"><i class="Icon ico-refresh"></i></a>
+                                <div class="Approval_inner ie-css3 mart10">
+                                    <textarea class="mart10"></textarea>
+                                    <div class="mart10 marl20" style="display: block;">
+                                        <ul class="acc_list clearfix">
+                                            <li>
+                                                <a href="javascript:;" class="Icon ico-delete4"></a>
+                                                <div class="block ie-css3"><p><img src="../img/fu_bmp.gif"/></p></div>
+                                                <p class="txt_hidden" contenteditable="true">第一季度报表</p>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;" class="Icon ico-delete4"></a>
+                                                <div class="block ie-css3">
+                                                    <p><img src="../img/ico.png"/></p>
+                                                    <span class="mask" style="height:50%"><em>20%</em></span>
+                                                </div>
+                                                <p class="txt_hidden" contenteditable="true">第一季度报表</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <p class="mart10 clearfix app_p alignright">
+                                        <a href="#" class="floatleft add"><i class="Icon ico-acc"></i> 添加附件</a>
+                                        <label class="marr10"><input type="checkbox"> 是否关注审批动态</label>
+                                        <a href="#" class="Btn floatright">确 定</a>
+                                        <a href="#" class="Btn floatright">取 消</a>
                                     </p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!--审批意见 附件 over-->
+                <!--转阅begin-->
+                <div class="Approval">
+                    <table>
+                        <tr>
+                            <th class="font14 p-top5">转阅成员：</th>
+                            <td>
+                                <div class="relative inlineblock">
+                                    <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                    <!--提示框begin-->
+                                    <div class="prompt_box" style="left:-85px;">
+                                        <span class="Icon prompt_top"></span>
+                                        <div class="prompt_main">
+                                            <div class="prompt_title clearfix alignright">
+                                                <div class="floatleft">
+                                                     <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                                     <span>张睿</span>
+                                                </div>
+                                            </div>
+                                            <div class="marl10 color-6 mart10">
+                                                <p>上海万企明道软件有限公司上海万企明道软件有限公司</p>
+                                                <p>北京研发中心</p>
+                                                <p>产品经理</p>
+                                            </div>
+                                            <p><a href="#" class="Btn current marl10 mart5 btn-make">从列表中移除</a></p>
+                                        </div>
+                                        <span class="Icon prompt_bt"></span>
+                                    </div>
+                                    <!--提示框over-->
+                                </div>
+                                <div class="relative inlineblock">
+                                    <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
+                                </div>
+                                <div class="relative inlineblock">
+                                    <span class="UserImg inlineblock ie-css3"></span>
                                 </div>
                             </td>
                         </tr>
@@ -552,7 +610,7 @@
                         </tr>
                     </table>
                 </div>
-                <!--审批意见 附件 over-->
+                <!--转阅over-->
                 <div class="AppDetailmain">
                     <p class="font20 alignleft">采购申请</p>
                     <p class="font14 mart20 alignleft">单据编号：<span>SB-2014-29038478</span></p>

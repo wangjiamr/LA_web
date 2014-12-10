@@ -36,6 +36,7 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 .visible{overflow:visible!important;}
 .visible-y{overflow-y:auto!important;}
 .hidden{overflow:hidden!important;}
+.relative{position: relative;}
 /*margin*/
 .nomar{margin:0!important;}
 .mar-auto{margin:0 auto!important;}
@@ -149,10 +150,10 @@ a.add:hover{text-decoration: underline;}
 .go_right{background-position:0 -80px;right:0;}
 .go_right:hover{background-position:-30px -80px;}
 /*按钮*/
-.Btn{display:inline-block;color:#fff;}
-.AppDetail .AppMakeBtn .Btn{border:0;border-right:1px solid #2b2b2e;width:90px;height:40px;line-height:40px;text-align: center;font-size:14px;}
+.Btn{display:inline-block;color:#fff;height:24px;line-height:24px;padding:0 15px;border-radius:2px;}
+.AppDetail .AppMakeBtn .Btn{border:0;border-right:1px solid #2b2b2e;width:90px;height:40px;line-height:40px;text-align: center;font-size:14px;padding:0;border-radius:0;}
 /*.Btn:hover,.AppMakeBtn .Btn.current{background-color:#002059;border: 1px solid #2e5cac;height:29px;line-height: 29px;}*/
-.AppDetail .AppMakeBtn .Btn:hover{background:#347cdc;}
+.AppDetail .AppMakeBtn .Btn:hover,.AppDetail .AppMakeBtn .Btn.current,.Btn.current{background:#347cdc;color: #fff;}
 .AppDetail .AppMakeBtn .btn-acc{width:45px;margin-left:-1px;border-left:1px solid #2b2b2e;}
 .AppDetail .AppMakeBtn .btn-acc .Icon{left:0;}
 .btn-quit,.btn-sure,.Btn-normal{color:#666;min-width:60px;border-left:1px solid #ccc;border-right:1px solid #ccc;text-align: center;}
