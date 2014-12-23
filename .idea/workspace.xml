@@ -26,31 +26,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="管理-角色.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/管理-角色.html">
+      <file leaf-file-name="form-creat.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/template/form-creat.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="46" selection-start="4985" selection-end="4991" vertical-scroll-proportion="12.65625" vertical-offset="2835" max-vertical-offset="6264">
+            <state line="247" column="110" selection-start="13952" selection-end="13952" vertical-scroll-proportion="0.65707964" vertical-offset="6075" max-vertical-offset="19872">
               <folding>
-                <element signature="tag#div#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="n#style#0;n#img#0;n#td#3;n#tr#1;n#table#0;n#span#0;n#div#0;n#td#0;n#tr#0;n#table#4;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mutual.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/Mutual.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="0" selection-start="3107" selection-end="3382" vertical-scroll-proportion="0.0" vertical-offset="2646" max-vertical-offset="10611">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="订购信息.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/订购信息.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="38" selection-start="3712" selection-end="3722" vertical-scroll-proportion="0.0" vertical-offset="2241" max-vertical-offset="5400">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -107,6 +89,7 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/appstyle.css" />
         <option value="$PROJECT_DIR$/template/管理-流程.html" />
+        <option value="$PROJECT_DIR$/template/form-creat.html" />
       </list>
     </option>
   </component>
@@ -198,14 +181,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -216,15 +191,23 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -263,8 +246,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="1358" y="-8" width="1936" height="1096" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -528,13 +511,6 @@
         <state line="73" column="21" selection-start="3009" selection-end="3009" vertical-scroll-proportion="1.0154867" vertical-offset="0" max-vertical-offset="1269" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/form-creat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="59" selection-start="8680" selection-end="9248" vertical-scroll-proportion="0.0" vertical-offset="4212" max-vertical-offset="19872">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/appstyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="291" column="0" selection-start="19148" selection-end="19148" vertical-scroll-proportion="0.0" vertical-offset="7533" max-vertical-offset="14175">
@@ -554,6 +530,20 @@
         <state line="81" column="68" selection-start="3774" selection-end="3774" vertical-scroll-proportion="0.15712683" vertical-offset="2047" max-vertical-offset="2970" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/Mutual.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="0" selection-start="3107" selection-end="3382" vertical-scroll-proportion="0.0" vertical-offset="2646" max-vertical-offset="10611">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/管理-角色.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="46" selection-start="4985" selection-end="4991" vertical-scroll-proportion="0.0" vertical-offset="2835" max-vertical-offset="6669">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/template/订购信息.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="83" column="38" selection-start="3712" selection-end="3722" vertical-scroll-proportion="0.0" vertical-offset="2241" max-vertical-offset="5400">
@@ -561,19 +551,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/管理-角色.html">
+    <entry file="file://$PROJECT_DIR$/template/form-creat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="46" selection-start="4985" selection-end="4991" vertical-scroll-proportion="12.65625" vertical-offset="2835" max-vertical-offset="6264">
+        <state line="247" column="110" selection-start="13952" selection-end="13952" vertical-scroll-proportion="0.65707964" vertical-offset="6075" max-vertical-offset="19872">
           <folding>
-            <element signature="tag#div#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#td#3;n#tr#1;n#table#0;n#span#0;n#div#0;n#td#0;n#tr#0;n#table#4;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/Mutual.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="0" selection-start="3107" selection-end="3382" vertical-scroll-proportion="0.0" vertical-offset="2646" max-vertical-offset="10611">
-          <folding />
         </state>
       </provider>
     </entry>
