@@ -86,15 +86,15 @@
 .ListMain .ListTitle{border-radius:0.4em;border-style:solid;border-width:1px;border-right-width:0;height:36px;position:relative;margin-top:12px;}
 .ListMain .ListTitle span{border-width:0 1px 0 0;border-right-style: solid;height:36px;line-height:36px;}
 .ListMain .ListTitle span:last-child{float:right;}
-.ListMain .ListTitle .Li_span3{width:105px;}
-.ListMain .ListTitle .Li_span4 img,.popIn .Li_span4 img{width:30px;height: 30px;border-radius:50em;vertical-align:-10px;margin:0 5px 0 0;}
-.ListMain .ListTitle .Li_span5{width:159px;}
+.ListMain .ListTitle .Li_span3{width:155px;}
+.ListMain .ListTitle  img,.popIn .Li_span4 img{width:30px;height: 30px;border-radius:50em;vertical-align:-10px;margin:0 5px 0 0;}
+.ListMain .ListTitle .Li_span5{width:108px;}
 .Li_span4 font{color:#888;padding-left: 5px;}
 .Li_span4 em{padding-right:10px;display: inline-block;width:60px;}
 .MakeBtn{height:38px;padding:0 15px;border-radius:0 5px 5px 0;position: absolute;top:-1px;right:-200px;}
 .MakeBtn a{margin:7px 5px;}
-.AppDetail{width:1095px;background: url("../img/r-bg.png") repeat-y;position:absolute;top:0;right:-805px;bottom:0;z-index: 20;overflow: hidden;overflow-y: auto;}
-.AppDetailIn{padding:80px 10px 0 18px;color: #333;width:769px;}
+.AppDetail{width:805px;background: url("../img/r-bg.png") repeat-y;position:fixed;top:72px;right:-805px;bottom:0;z-index: 20;}
+.AppDetailIn{color: #333;overflow: hidden; margin-top:40px;}
 .AppTable{width: 100%;border: 1px solid #666;border-width:1px 0;}
 .AppTable th{background: #f2f2f2;}
 .AppTable  tr{border:1px dashed #c8c8c8;border-width:0 1px;}
@@ -104,8 +104,8 @@
 .wait td,.wait th{color:#aaa;}
 .AppTable tr td.Solid,.AppTable tr th.Solid{border-bottom:1px solid #6b6b6b;}
 /*.AppTable tr:nth-of-type(2n-1).Solid td:nth-child(3),.AppTable tr:nth-of-type(2n-1).Solid td:nth-child(4),.AppTable tr:nth-of-type(2n-1).Solid td:nth-child(5){border-bottom:1px dotted #6b6b6b;}*/
-.AppMakeBtn{height:50px;margin-left:5px;margin-right:-5px;width:802px;position:absolute;right:0;left:0;top:0;background:#002463;}
-.print{display:block;width:70px;text-align: center;height: 50px;line-height: 50px;background:url("../img/mask3.png") repeat;}
+.AppMakeBtn{height:40px;width:100%;position:absolute;right:-1px;left:-1px;top:0;background:#002463;}
+.print{display:block;width:70px;text-align: center;height:40px;line-height:40px;background:url("../img/mask3.png") repeat;}
 .print .Icon{vertical-align: middle;}
 .AppMakeBtn a{opacity: 1;}
 .AppList-over  .ListTitle .Li_span2{width:100px;}
@@ -133,14 +133,14 @@
 .form-mini-in table{margin:0 5px;}
 .form-mini-in table th{line-height:25px;color:#333;padding-left:4px;}
 .form-mini-in table td{color:#8396b2;padding-right:4px;}
-.Approval{padding-bottom:10px;border-bottom:1px solid #0d2f6b;position: absolute;top:50px;background: #fff;left:5px;width:800px;}
+.Approval{padding-bottom:10px;border-bottom:1px solid #0d2f6b;background: #fff;}
 .Approval table{height:210px;margin:20px 0 0 20px;}
-.Approval table th{width:120px;}
+.Approval table th{width:100px;padding-right:10px;text-align: right;}
 .Approval table th,.Approval table td{vertical-align: top;}
-.Approval_inner{width:550px;min-height:150px;border:1px solid #2b97df;border-radius:3px;padding-bottom:10px;}
-.Approval_inner textarea{width:525px;height:99px;display:block;border:0;border-bottom:1px solid #ddd;margin:0 auto;color:#888;}
+.Approval_inner{width:550px;min-height:150px;border:1px solid #2b97df;border-radius:3px;}
+.Approval_inner textarea{width:100%;height:99px;display:block;border:0;border-bottom:1px solid #ddd;margin:0 auto;color:#888;}
 .Approval table td div.mart10 a i{vertical-align:-2px;}
-.acc_list li{float: left;width:50px;min-height:50px;border-radius:3px;margin:0 20px 0 0;background-color:#fff;}
+.acc_list li{float: left;width:50px;min-height:50px;border-radius:3px;margin:0 20px 0 0;background-color:#fff;position: relative;}
 .acc_list li div.block{width:50px;height:50px;overflow:hidden; text-align: center;border:1px solid #c3c3c3;position: relative;}
 .acc_list li div.block p{width:50px;height:50px;line-height:50px;}
 .acc_list li div.block p:before{
@@ -289,7 +289,7 @@
 .form-edit .search button{padding:0;}
 /*编辑组件*/
 .form_left{width:628px;padding:0 10px;border:1px solid #aaa;border-width:0 1px;background:#eee;min-height:100%;position: relative;}
-.form_right{width:329px;padding:0 0 0 20px;border-right:1px solid #aaa;height:100%;min-height: auto;}
+.form_right{width:329px;padding:0 0 0 20px;border-right:1px solid #aaa;height:100%;min-height: auto;background:#fff;}
 .form_inner{position: absolute;top:60px;left:0;right:0;bottom:20px;padding:0 20px;overflow-y: auto;}
 .form_main{position:relative;border:1px solid #ccc;background:#fff;padding-bottom:30px;min-height:92%;}
 .form_tab{width:100.4%;position: relative;left:-1px;right:-1px;margin-top:-1px;}
@@ -447,16 +447,21 @@
 .Ex_item p{text-align:justify;}
 .E_input{width:300px;height:50px;line-height:50px;text-align:center;border:1px solid #d6d6d6;border-radius:3px;box-shadow:0 0 4px #ccc;}
 /*附件*/
-.Annex_list,.User_list{width:289px;border-left:1px solid #aaa;position:fixed;right:0;bottom:0;top:72px;background:#fff;z-index:100;overflow: hidden;overflow-y: auto;}
+.Annex_list,.User_list{width:232px;border-left:1px solid #aaa;position:fixed;right:-300px;bottom:0;top:0;background:#fff;z-index:100;overflow: hidden;overflow-y: auto;}
+<<<<<<< HEAD
+.Annex_list li{display:block;height:48px;border:1px solid #eee;margin:10px;position: relative;overflow: hidden;}
+=======
 .Annex_list li{display:block;width:268px;height:48px;border:1px solid #eee;margin:10px;position: relative;overflow: hidden;}
+>>>>>>> d8f8cf38f00165dcb1cdd83b403729f6f9d65585
 .an_logo{background:#eee;padding:9px;}
 .an_logo img{vertical-align: bottom;}
+.Annex_list{width:273px;}
 .Annex_list li p{line-height:18px;}
 .Annex_list li .btn-make{width:100px;height:50px;position:absolute;top:-1px;background:#5d5d5d;right:-100px;transition:0.3s;}
 .Annex_list li .btn-make a{display:inline-block;height:50px;}
 .Annex_list li .btn-make a:hover{background:#333;}
 .Annex_list li:hover .btn-make{right:-1px;transition:0.3s;}
-.User_list{padding:0 20px;width:249px;}
+.User_list{padding:0 20px;}
 .User_list .UserImg img,.User_list .UserImg{vertical-align:-5px;margin-right:10px;width:32px;height:32px;}
 .User_list li{padding:8px 0;}
 .Approval_txt{margin:0 auto;border-top:1px dashed #bbb;}
