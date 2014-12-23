@@ -24,6 +24,15 @@
 .color_1 .Icon{background-color:#bbb;}
 .color_2 .Icon{background-color:#8fc31f;}
 .color_2 em{color:#8fc31f;}
+@font-face {
+font-family:Titillium;
+src: url('TitilliumTitle01-Thin.eot'); /* IE9 Compat Modes */
+src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('TitilliumTitle01-Thin.woff') format('woff'), /* Modern Browsers */
+  url('TitilliumTitle01-Thin.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('TitilliumTitle01-Thin.svg') format('svg'); /* Legacy iOS */
+}
+.Titillium{font-family: Titillium;}
 /*状态*/
 .s_over{color:#8fc31f;}
 .s_no{color:#e65c5c;}/*否决*/
